@@ -19,7 +19,7 @@ Generally, I work with `Python` and `JavaScript`, but I’m also similar
 with `Erlang`, `Elixir` and `Rust`.
 
 I use MacBook Pro 13” and if you’re interested, you can reproduce my
-setup using [this project](https://github.com/lk-geimfari/macbook).
+setup using <a target="_blank" src="https://github.com/lk-geimfari/macbook">this project</a>.
 
 ## Contact me
 
