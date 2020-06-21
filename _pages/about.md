@@ -6,8 +6,7 @@ permalink: /about/
 
 My name is Isaak Uchakaev.
 
-I work as a Backend Engineer at
-[**@roskomsvoboda**](https://github.com/roskomsvoboda).
+I work as a Backend Engineer at <a target="_blank" href="https://github.com/roskomsvoboda"><b>@roskomsvoboda</b></a>
 
 Like any other programmer and professional, I love learning new things
 and technologies and sometimes, I write my thoughts about such things in
@@ -19,7 +18,7 @@ Generally, I work with `Python` and `JavaScript`, but I’m also similar
 with `Erlang`, `Elixir` and `Rust`.
 
 I use MacBook Pro 13” and if you’re interested, you can reproduce my
-setup using <a target="_blank" src="https://github.com/lk-geimfari/macbook">this project</a>.
+setup using <a target="_blank" href="https://github.com/lk-geimfari/macbook">this project</a>.
 
 ## Contact me
 
