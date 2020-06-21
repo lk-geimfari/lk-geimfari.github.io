@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subscribe
+title: Finds
 permalink: /finds/
 ---
 
