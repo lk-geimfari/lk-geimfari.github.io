@@ -23,7 +23,7 @@ setup using <a target="_blank" href="https://github.com/lk-geimfari/macbook">thi
 ## Contact me
 
 The most preferable way to contact me is emailing me, so there is my
-email: `likid.geimfari@gmail.com`
+email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b></a>
 
 This probably will not work, but please, don’t contact me if you’re a
 Nigerian prince who wants to share 1 million dollars with me.
