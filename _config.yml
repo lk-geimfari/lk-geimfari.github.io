@@ -1,0 +1,29 @@
+title: "Blog | isaak.dev"
+description: A few thoughts about software development etc.
+
+author: Isaak Uchakaev
+email: likid.geimfari@gmail.com
+username: likid_geimfari
+twitter_url: https://twitter.com/likid_geimfari
+github_url: https://github.com/lk-geimfari
+telegram_url: https://t.me/likid_geimfari
+
+baseurl: ""
+url: "https://isaak.dev"
+
+github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/blob/master"
+
+include: [_pages]
+markdown: kramdown
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+permalink: /:year/:month/:title
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main>
+    <header>
+        <a href="{{site.baseurl}}/">
+            <h1 id="layout_header_title">
+                isaak<span class="dot">.</span>dev
+            </h1>
+        </a>
+        <span style="font-size: 15px" class="mt-0">
+            {{ site.description }}
+        </span>
+        {% include navigation.html %}
+    </header>
+    <section class="posts">
+        {% for post in site.posts %}
+        <div class="post">
+            <a href="{{site.baseurl}}{{post.url}}">
+                <h3>{{ post.title }}</h3>
+            </a>
+            <div class="justify-content-between">
+                <small class="mr-1" style="display: inline">{{ post.date|date_to_string }}</small>
+                <small class="mr-2" style="display: inline">
+                    {% assign words = post.content | number_of_words %}
+                    {% if words < 360 %}
+                    1 min
+                    {% else %}
+                    {{ words | divided_by:180 }} mins
+                    {% endif %} read
+                </small>
+            </div>
+            <div class="mt-2">
+                {{ post.description }}
+            </div>
+        </div>
+        {% if forloop.last == false %}<hr>{% endif %}
+        {% endfor %}
+    </section>
+    {% include footer.html %}
+</main>
+</body>
+</html>
