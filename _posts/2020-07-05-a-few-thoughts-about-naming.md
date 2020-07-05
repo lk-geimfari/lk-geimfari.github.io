@@ -2,7 +2,7 @@
 layout: post
 title: Thoughts about naming variables and methods
 date: 2020-07-05
-description: Let's talk about the importance of naming the variables.
+description: Let's talk about the importance of the naming of the variables.
 ---
 
 ![]({{ "/assets/images/posts/variable_naming_image.png" | prepend: site.baseurl }})
