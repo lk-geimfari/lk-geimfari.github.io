@@ -112,11 +112,16 @@ a {
     color: rgba(0, 0, 0, 0.9);
 }
 
+.anchor, .anchor:hover {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
 article a {
     color: #2782cd;
 }
 
-a:not(.nav-link):hover {
+a:not(.nav-link, .anchor):hover {
     border-bottom: 1px solid #2782cd;
 }
 
