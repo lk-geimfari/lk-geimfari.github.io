@@ -14,7 +14,7 @@ above - about code that was written in a hurry, irresponsibly, and thoughtlessly
 This article is a small confession, because I, like any other programmer, have also written such code in the past. 
 This is nothing terrible as long as we understand that we need to work on it.
 
-This article is translate of my article from [harb.com](https://habr.com/ru/post/508238/), so, 
+This article is translate of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
 if you know Russian then you can read origin version.
 
 Let's start.
