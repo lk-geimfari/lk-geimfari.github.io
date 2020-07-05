@@ -234,8 +234,7 @@ then I have bad news for you.
 I'm leaving this  list of outstanding relevant literature written by well-known 
 professionals in the field for further study of the issue:
 
-1. [Robert Martin — Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-2. [Robert Martin — Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
-3. [Robert Martin — The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
-4. [Martin Fowler — Refactoring: Improving the Design of Existing Code](https://www.martinfowler.com/books/refactoring.html)
-5. [Colin J. Neill — Antipatterns: Managing Software Organizations and People](https://www.amazon.com/Antipatterns-Managing-Software-Organizations-Engineering/dp/1439861862)
+1. Robert Martin — [Clean Code](https://amzn.to/3e1K2iX)
+2. Robert Martin — [Clean Architecture](https://amzn.to/2VLWw7S)
+3. Robert Martin — [The Clean Coder: A Code of Conduct for Professional Programmers](https://amzn.to/3e2iSZg)
+4. Martin Fowler — [Refactoring: Improving the Design of Existing Code](https://bit.ly/2NTEaOa)
