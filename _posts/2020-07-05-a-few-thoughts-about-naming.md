@@ -86,9 +86,9 @@ If you really want to write exactly `_list`, then please take care that the list
 users_list = list(User.objects.all())
 ```
 
-Binding a variable name to the type of data it contains is often a bad idea, especially when you 
-work with dynamic languages. In cases when it is very necessary to note that the object is a container data type, 
-it is enough to simply indicate the name of the variable in the plural:
+Indicating a type of data that a variable contains is often a bad idea, especially when you deal with 
+dynamic languages, such as Python. In cases when it is very necessary to note that the object is a 
+container data type, it is enough to simply indicate the name of the variable in the plural:
 
 ```pyhon
 users = User.objects.all()
