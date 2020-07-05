@@ -4,9 +4,14 @@ title: Subscribe
 permalink: /subscribe/
 ---
 
-## Github
+## RSS
 
-You can [follow me on Github](https://github.com/lk-geimfari) and be
-notified about all my activities on Github.
+You can subscribe to my blog posts with [`RSS`](https://isaak.dev/feed.xml). 
 
-Or you can watch only [blog repository](https://github.com/lk-geimfari) for new changes.
+## GitHub
+
+If you don’t know what RSS is or prefer another way to follow my activity 
+then [Github subscription](https://github.com/lk-geimfari) is your choice.
+
+If you're interested only in activity related to this blog, 
+then you can [watch it on GitHub](https://github.com/lk-geimfari/lk-geimfari.github.io).
