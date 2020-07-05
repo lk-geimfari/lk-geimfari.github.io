@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beginning
-date: 2020-07-05
+date: 2020-07-04
 description: A few words about this blog and its purpose.
 ---
 
