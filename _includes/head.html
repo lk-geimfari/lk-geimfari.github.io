@@ -2,20 +2,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Meta information -->
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description"
-        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="canonical"
-        href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="https://isaak.dev/assets/images/other/preview.png" />
   <meta name="twitter:title" content="isaak.dev" />
-  <meta name="twitter:description" content="" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:image" content="https://isaak.dev/assets/images/other/preview.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.username }}" />
+
+  <!-- 'jekyll-seo' plugin -->
+  {% seo %}
 
   <!-- Custom fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,900|Roboto+Mono:400,400i|Montserrat:400,800" rel="stylesheet">
@@ -28,7 +26,5 @@
 
   {% include favicons.html %}
 
-  <!-- 'jekyll-seo' plugin -->
-  {% seo %}
 </head>
 
