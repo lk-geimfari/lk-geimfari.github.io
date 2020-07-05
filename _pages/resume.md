@@ -11,7 +11,7 @@ with Python/Django/DRF/Flask) and have been writing idiomatic code in compliance
 of the software development. I always take my work with great responsibility and expect the same from others. 
 
 I am an active contributor in Open Source also I maintain my own projects in various languages 
-(Python, JS, Erlang, Rust, and so on, just check out my profile on GitHub).
+(Python, JS, Erlang, Rust, and so on, just check out [my profile]({{ site.github_url }}) on GitHub).
 
 Just for the record, I note that I also know Russian, so you can write to me in Russian.
 
@@ -43,9 +43,9 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 #### Professional goals 
 
-* Python/Erlang Senior Developer
-* Lead Developer
-* Software Architect
+1. Python/Erlang Senior Developer
+2. Lead Developer
+3. Software Architect
 
 ### Contact me
 
