@@ -14,7 +14,9 @@ without assumptions about what was meant.
 
 In this article, we will talk about code that is the exact opposite of the one described 
 above - about code that was written in a hurry, irresponsibly, and thoughtlessly. 
-This article is a small confession, because I, like any other programmer, have also written such code in the past. 
+This article is a small confession, because I, like any other programmer, have also written such 
+code in the past (in fact, I still write the bad code sometimes, though refactoring makes it much better).
+
 This is nothing terrible as long as we understand that we need to work on it.
 
 This article is translate of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
