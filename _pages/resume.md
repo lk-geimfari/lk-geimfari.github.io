@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+title: Resume
+permalink: /resume/
 ---
 
 Hi, my name is Isaak.
