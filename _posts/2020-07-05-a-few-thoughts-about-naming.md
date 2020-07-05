@@ -5,6 +5,8 @@ date: 2020-07-05
 description: Let's talk about the importance of naming the variables.
 ---
 
+![]({{ "/assets/images/posts/variable_naming_image.png" | prepend: site.baseurl }})
+
 The proper naming of variables, functions, methods, and classes is one of the most important 
 attributes of elegant and clean code, that clearly reflects the intentions of the programmer, 
 without assumptions about what was meant.
