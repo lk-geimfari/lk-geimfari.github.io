@@ -6,7 +6,7 @@ permalink: /about/
 
 My name is Isaak Uchakaev.
 
-I work as a Backend Engineer at <a target="_blank" href="https://github.com/roskomsvoboda"><b>@roskomsvoboda</b></a>
+I work as a Backend Engineer at <a target="_blank" href="https://github.com/roskomsvoboda"><b>roskomsvoboda</b></a>.
 
 Like any other programmer and professional, I love learning new things
 and technologies and sometimes, I write my thoughts about such things in
