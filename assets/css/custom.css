@@ -53,12 +53,12 @@ html, body {
 }
 
 .content code.highlighter-rouge {
-    padding: 3px 5px;
+    padding: 2px 5px;
     margin: 0 2px;
     color: white;
     border-radius: 2px;
     white-space: pre;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.9);
     font-size: 14px;
     font-family: 'Fira Code', monospace !important;
 }
