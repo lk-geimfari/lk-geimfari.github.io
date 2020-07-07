@@ -33,7 +33,7 @@ That's right  `a` is not `b`, and here is why:
 False
 ```
 
-## Use case of `is`
+## Use case of «is»
 
 Using operator `is` makes sense when you deal with singleton objects, 
 like `None`, `Ellipsis` and so on:
@@ -74,7 +74,7 @@ if some_object is None:
 ```
 
 
-## Use case of `==`
+## Use case of «==»
 
 Using operator `==` makes sense when you deal with values of objects:
 
