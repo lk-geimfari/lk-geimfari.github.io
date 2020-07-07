@@ -5,10 +5,10 @@ date: 2020-07-08
 description: Comparing objects and values of objects.
 ---
 
-Some newbies in Python often improperly use the operators `is` and `==` without 
+Some newbies in Python often improperly use the operators «is» and «==» without 
 knowing how exactly they work and when to use each one.
 
-Spoiler: the main difference is that `is` compares IDs of objects and `is` cannot be overloaded, 
+Spoiler: the main difference is that `is` compares IDs of objects and cannot be overloaded, 
 when `==` compares values of objects and can be overloaded using the magic method `__eq__`.
 
 Have a look at this code:
