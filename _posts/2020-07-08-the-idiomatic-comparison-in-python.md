@@ -36,7 +36,7 @@ False
 
 ## Use case of «is»
 
-Using operator `is` makes sense when you deal with singleton objects, 
+Using operator `is` makes sense when you want to compare variable with a singleton-object, 
 like `None`, `Ellipsis` and so on:
 
 Good:
@@ -96,5 +96,5 @@ You can read more about `__eq__` [here](https://docs.python.org/3/reference/data
 
 ## Summary
 
-- Use `is` when you work with a singleton, like `None`, `Ellipsis`, and so on.
-- Use `==` when you want to compare the values of the objects
+- Use `is` when you compare variable with a singleton-object.
+- Use `==` when you want to compare the values of the objects.
