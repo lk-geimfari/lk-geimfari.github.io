@@ -1,8 +1,8 @@
 ---
 layout: post
-title: About useful and not so comments
+title: Note about comments and dead code
 date: 2020-07-05
-description: A teeny-tiny post about comments in the code.
+description: A teeny-tiny note about comments and dead code.
 ---
 
 Comments are something that can both: ruin your code and make it better. 
