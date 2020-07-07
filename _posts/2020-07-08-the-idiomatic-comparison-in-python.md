@@ -98,5 +98,5 @@ You can read more about `__eq__` [here](https://docs.python.org/3/reference/data
 
 ## Summary
 
-- Use `is` when you compare objects.
+- Use `is` when you compare variable with a singleton-object.
 - Use `==` when you want to compare the values of the objects.
