@@ -12,15 +12,14 @@ The proper naming of variables, functions, methods, and classes is one of the mo
 attributes of elegant and clean code, that clearly reflects the intentions of the programmer, 
 without assumptions about what was meant.
 
-In this article, we will talk about code that is the exact opposite of the one described 
-above - about code that was written in a hurry, irresponsibly, and thoughtlessly. 
+In this article, we will talk about code that is the exact opposite of the one described
+above - about code that was written carelessly or thoughtlessly.
 This article is a small confession, because I, like any other programmer, have also written such 
 code in the past (in fact, I still write the bad code sometimes, though refactoring makes it much better).
-
 This is nothing terrible as long as we understand that we need to work on it.
 
-This article is translate of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
-if you know Russian then you can read origin version.
+This article is a translated version of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
+if you know Russian then you can read the origin version.
 
 Let's start.
 
@@ -29,8 +28,8 @@ Let's start.
 One of the most annoying kinds of variables is variables that give a false impression 
 of the nature of the data they store.
 
-The `requests` library is extremely popular among Python developers, and if you have ever 
-been looking for something related to requests, you must have come across such code:
+The `requests` library is extremely popular among Python developers, and if you have ever been 
+looking for something related to `requests`, you must have come across with something like this:
 
 ```python
 import requests
@@ -75,15 +74,21 @@ Traceback (most recent call last):
 AttributeError: 'QuerySet' object has no attribute 'append'
 ```
 
-If it is very important for you to specify a suffix, then specify at least one that corresponds to reality:
-
+If it is very important for you to specify a suffix, then specify at least one that reflects the real situation:
 
 ```python
 users_queryset = User.objects.all()
 users_queryset.order_by('-age')
 ```
 
-If you really want to write exactly `_list`, then please take care that the list really gets into the variable:
+also okay, because such abbreviations (`_qs`) are usual for Django:
+
+```python
+users_qs = User.objects.all()
+```
+
+
+If you really want to write exactly `_list`, then take care that the `list` really gets into the variable:
 
 ```python
 users_list = list(User.objects.all())
@@ -115,15 +120,15 @@ for key, value in info_dict.items():
     print(key, value)
 ```
 
-But instead, get an exception, because you were misled, and you will understand this only 
+Instead, you'll get an exception, because you were misled, and you will understand this only 
 if you go to the definition of the variable and read the entire code from top to bottom,
-right down to the section from which you started the jump - this is the price of such variables.
+right down to the section from which you started the jump — this is the price of such variables.
  
-Thus, when you indicate in the variable name the type of data stored in it, you are essentially 
-a guarantee that this variable must contain the specified data type at any time during the 
-execution of the program. Why should we take this responsibility if it is the direct responsibility 
-of the interpreter or compiler? Better to spend time thinking of a good variable name than trying to 
-figure out why the variables do not behave as you expect.
+Thus, when you indicate in the variable name the type of data stored in it, you are essentially a 
+guarantee that this variable must contain the specified data type at any time during the execution of the program. 
+Why should you take this responsibility if it is the direct responsibility of the interpreter or compiler? 
+You shouldn't! Better to spend time thinking of a good variable name than trying to figure out why the 
+variables do not behave as you expect.
 
 In the example above, the choice of the name of a variable is rather bad, and you could give a 
 name that more accurately expresses the context (no need to be afraid to use names related to the subject area),
@@ -155,7 +160,7 @@ Let's go back to `requests` and consider this code:
 
 ```python
 s = requests.Session()
-# ... 
+# ...
 # ... 
 s.close()
 ```
