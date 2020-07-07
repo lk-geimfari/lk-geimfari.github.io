@@ -79,7 +79,7 @@ if some_object is None:
 
 Using operator `==` makes sense when you deal with values of objects:
 
-```
+```python
 >>> a = [1, 2, 3]
 >>> b = [1, 2, 3]
 >>> a == b # [1, 2, 3].__eq__([1, 2, 3])
