@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts about naming variables and methods
-date: 2020-07-05
+date: 2020-07-06
 description: Let's talk about the importance of the naming of the variables.
 web_preview_image: variable_naming_image.png
 ---
