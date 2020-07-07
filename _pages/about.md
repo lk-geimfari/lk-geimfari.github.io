@@ -14,12 +14,8 @@ this blog.
 
 ## Stack
 
-Generally, I work with <code class="code-tag">Python</code> and <code class="code-tag">JS</code>, 
-but I’m also similar with <code class="code-tag">Erlang/OTP</code>, <code class="code-tag">Elixir</code> 
-and <code class="code-tag">Rust</code>.
-
-I use MacBook Pro 13” and if you’re interested, you can reproduce my
-setup using <a target="_blank" href="https://github.com/lk-geimfari/macbook">this project</a>.
+Generally, I work with `Python` and `JS`, but I’m also similar 
+with `Erlang/OTP`, `Elixir`, `C#`, `Java` and `Rust`.
 
 ## Contact me
 

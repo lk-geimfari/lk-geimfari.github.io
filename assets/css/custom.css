@@ -43,7 +43,7 @@ html, body {
 
 .content code {
     margin: 0 2px;
-    padding: 3px 5px;
+    padding: 3px 0;
     color: #97e1ff;
     border-radius: 2px;
     white-space: pre;
@@ -52,9 +52,9 @@ html, body {
     font-family: 'Fira Code', monospace !important;
 }
 
-.content .code-tag {
-    margin: 0 2px;
+.content code.highlighter-rouge {
     padding: 3px 5px;
+    margin: 0 2px;
     color: white;
     border-radius: 2px;
     white-space: pre;
