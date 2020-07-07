@@ -227,8 +227,8 @@ or
 ```
 
 We often like to call programming a creative activity, and it really is. 
-However, if you write code that only you can read, and then justify it with “creativity”, 
-then I have bad news for you.
+However, if you write code that hard to read for others, and then justify it 
+with “creativity”, then I have bad news for you.
 
 
 ## Further reading
