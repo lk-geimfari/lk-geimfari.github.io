@@ -9,8 +9,10 @@ Some newbies in Python often improperly use the operators `is` and `==` without 
 exactly they work and when to use each one. In this article, I'll talk about the difference between them, 
 and about the use cases of each one.
 
-Spoiler: the main difference is that `is` compares IDs of objects and cannot be overloaded, 
-when `==` compares the values of objects and can be overloaded using the magic method `__eq__`.
+Spoiler: the main difference is that `is` compares IDs of objects to check if both the operands 
+refer to the same object and cannot be overloaded, when `==` compares the values of objects and 
+can be overloaded using the magic method `__eq__`.
+
 
 Have a look at this code:
 
@@ -96,5 +98,5 @@ You can read more about `__eq__` [here](https://docs.python.org/3/reference/data
 
 ## Summary
 
-- Use `is` when you compare variable with a singleton-object.
+- Use `is` when you compare objects.
 - Use `==` when you want to compare the values of the objects.
