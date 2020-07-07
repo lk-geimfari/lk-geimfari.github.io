@@ -17,8 +17,8 @@ can be overloaded using the magic method `__eq__`.
 Have a look at this code:
 
 ```python
->>> a = [1, 2, 3]
->>> b = [1, 2, 3]
+>>> a = []
+>>> b = []
 >>> a == b # a.__eq__(b)
 True
 >>> a is b
@@ -32,7 +32,7 @@ That's right  `a` is not `b`, and here is why:
 4464140992
 >>> b_id = id(b)
 4465176960
->>> a_id == b_id # 4464140992 is not equal to 4465176960
+>>> a_id == b_id
 False
 ```
 
@@ -79,12 +79,12 @@ if some_object is None:
 
 ## Use case of «==»
 
-Using operator `==` makes sense when you deal with values of objects:
+Using operator `==` makes sense when you interested in comparing the values of objects:
 
 ```python
->>> a = [1, 2, 3]
->>> b = [1, 2, 3]
->>> a == b # [1, 2, 3].__eq__([1, 2, 3])
+>>> a = []
+>>> b = []
+>>> a == b # [].__eq__([])
 True
 >>> c = 'isaak'
 >>> d = 'Isaak'
