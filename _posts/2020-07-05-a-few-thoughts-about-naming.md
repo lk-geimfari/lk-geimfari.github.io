@@ -185,6 +185,7 @@ with requests.Session() as session:
 
 You may argue that this is a more verbose option, but I will answer you that it pays off when 
 you read the code and immediately understand that `session` is a `Session`. 
+
 Will you understand it by variable `s` without looking at its definition?
 
 
@@ -202,7 +203,7 @@ Consider an example:
 ```
 
 We expressed a very clear-cut question in our code: “Does this person have publications?”, 
-but what kind of answer did we get? Did we ask what kind of publications a person has?
+but what kind of answer did we get? Did we ask for a list of publications of a person?
 
 The name of this method implies that the return value must be of Boolean type, namely `True` or `False`:
 
