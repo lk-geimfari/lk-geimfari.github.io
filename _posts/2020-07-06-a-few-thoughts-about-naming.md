@@ -98,7 +98,7 @@ Indicating a type of data that a variable contains is often a bad idea, especial
 dynamic languages, such as Python. In cases when it is very necessary to note that the object is a 
 container data type, it is enough to simply indicate the name of the variable in the plural:
 
-```pyhon
+```python
 users = User.objects.all()
 ```
 
