@@ -5,7 +5,7 @@
   <Tags>python javascript django erlang rust</Tags>
   <Contact>likid.geimfari@gmail.com</Contact>
   <Url type="application/atom+xml" template="https://isaak.dev/feed.xml"/>
-  <LongName>A few thoughts about software development etc.</LongName>
+  <LongName>Thoughts about software development</LongName>
   <Developer>Isaak Uchakaev</Developer>
   <Attribution>Copyright 2020, Isaak Uchakaev, All Rights Reserved</Attribution>
   <SyndicationRight>open</SyndicationRight>
