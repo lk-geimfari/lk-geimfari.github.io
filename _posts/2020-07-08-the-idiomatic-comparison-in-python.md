@@ -6,12 +6,12 @@ description: Comparing objects and values of objects.
 ---
 
 Some newbies in Python often improperly use the operators `is` and `==` without knowing how 
-exactly they work and when to use each one. In this article, I'll talk about the difference between them, 
-and about the use cases of each one.
+exactly they work and when to use each one. In this article, I'll talk about the difference between 
+them, and about the use cases of each one.
 
 Spoiler: the main difference is that `is` compares IDs of objects to check if both the operands 
-refer to the same object and cannot be overloaded, when `==` compares the values of objects and 
-can be overloaded using the magic method `__eq__`.
+refer to the same object and cannot be overloaded, when `==` compares the values of the objects 
+and can be overloaded using the magic method `__eq__`.
 
 
 Have a look at this code:
