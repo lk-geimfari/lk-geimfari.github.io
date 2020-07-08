@@ -38,7 +38,7 @@ req = requests.get('https://api.example.org/endpoint')
 req.json()
 ```
 
-Whenever I see this, I feel annoyed and event not because of the shortened name, but because 
+Whenever I see this, I feel annoyed and even not because of the shortened name, but because 
 the name of the variable does not match what is stored in this variable.
 
 When you make a request (`requests.Request`), you get a response (`requests.Response`), 
