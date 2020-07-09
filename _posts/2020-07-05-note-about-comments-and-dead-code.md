@@ -2,10 +2,11 @@
 layout: post
 title: Note about comments and dead code
 date: 2020-07-05
-description: A teeny-tiny note about comments and dead code.
+description: Comments are something that can both&colon; ruin your code and make it better.
 ---
 
 Comments are something that can both: ruin your code and make it better. 
+
 A good comment takes time to think and write, and therefore most often we all come across 
 disgusting comments that are nothing but a piece of visual garbage.
 

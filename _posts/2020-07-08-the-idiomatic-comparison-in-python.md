@@ -3,8 +3,8 @@ layout: post
 title: The idiomatic comparison in Python
 date: 2020-07-08
 description: Some beginners in Python often improperly use the comparison operators (is, ==) 
-    without knowing how exactly they work. In this article, I'll talk about the fundamental 
-    difference between these operators and about the use cases of each one.
+    without knowing how exactly they work. Let's talk about the fundamental 
+    difference between these operators.
 ---
 
 Some newbies in Python often improperly use the operators `is` and `==` without knowing how 
