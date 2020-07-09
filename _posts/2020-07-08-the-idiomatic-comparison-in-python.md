@@ -2,7 +2,9 @@
 layout: post
 title: The idiomatic comparison in Python
 date: 2020-07-08
-description: Comparing objects and values of objects.
+description: Some beginners in Python often improperly use the comparison operators (is, ==) 
+    without knowing how exactly they work. In this article, I'll talk about the fundamental 
+    difference between these operators and about the use cases of each one.
 ---
 
 Some newbies in Python often improperly use the operators `is` and `==` without knowing how 
