@@ -6,16 +6,18 @@ permalink: /about/
 
 My name is Isaak Uchakaev.
 
-I work as a Backend Engineer at <a target="_blank" href="https://github.com/roskomsvoboda"><b>roskomsvoboda</b></a>.
+I work as a Backend Engineer at [roskomsvoboda](https://github.com/roskomsvoboda).
 
 Like any other programmer and professional, I love learning new things
 and technologies and sometimes, I write my thoughts about such things in
 this blog.
 
-## Stack
+Generally, I work with `Python` and `JS`, but I’m also familiar with `Erlang`, `Elixir`, and `Rust`,
+so all my posts mainly will be related to those topics.
 
-Generally, I work with `Python` and `JS`, but I’m also similar 
-with `Erlang/OTP`, `Elixir`, `C#`, `Java` and `Rust`.
+## Resume
+
+You can find my resume [here]({{ "/resume/" | prepend: site.baseurl }}).
 
 ## Contact me
 
