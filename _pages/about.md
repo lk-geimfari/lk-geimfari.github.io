@@ -12,14 +12,14 @@ Like any other programmer and professional, I love learning new things
 and technologies and sometimes, I write my thoughts about such things in
 this blog.
 
-Generally, I work with `Python` and `JS`, but I’m also familiar with `Erlang`, `Elixir`, and `Rust`,
-so all my posts mainly will be related to those topics.
+Generally, I work with `Python` and `JavaScript`, but I’m also familiar with 
+`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.
 
-## Resume
+#### Resume
 
 You can find my resume [here]({{ "/resume/" | prepend: site.baseurl }}).
 
-## Contact me
+#### Contact me
 
 The most preferable way to contact me is emailing me, so there is my
 email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b></a>
@@ -29,6 +29,6 @@ Nigerian prince who wants to share 1 million dollars with me.
 
 Contact me, if you want to:
 
-1.  Offer me a good job
-2.  Ask something related to my activity on GitHub
-3.  Report about a typo in the post or something
+* Offer me a good job
+* Ask something related to my activity on GitHub
+* Report about a typo in the post or something
