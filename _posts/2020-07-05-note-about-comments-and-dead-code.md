@@ -3,6 +3,7 @@ layout: post
 title: Note about comments and dead code
 date: 2020-07-05
 description: Comments are something that can both&colon; ruin your code and make it better.
+web_preview_image: caspar-the-stages-of-life.jpg
 ---
 
 Comments are something that can both: ruin your code and make it better. 
