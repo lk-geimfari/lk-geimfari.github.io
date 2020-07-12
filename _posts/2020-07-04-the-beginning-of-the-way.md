@@ -3,6 +3,7 @@ layout: post
 title: The beginning of the way
 date: 2020-07-04
 description: A few words about this blog and its purpose.
+published: true
 ---
 
 As we all know, the best way to learn new things is by teaching others 
