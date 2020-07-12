@@ -186,6 +186,14 @@ article .title {
     color: rgba(0, 0, 0, 0.9);
 }
 
+#smalls a:hover {
+    color: #2782cd;
+}
+
+.grey {
+    color: grey;
+}
+
 .content p {
     padding: 0;
     margin: 0 0 0.85rem;
