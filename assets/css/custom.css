@@ -177,6 +177,11 @@ article .title {
     line-height: 1.1;
 }
 
+#smalls small {
+    display: inline;
+    margin-right:.5rem!important
+}
+
 .content p {
     padding: 0;
     margin: 0 0 0.85rem;

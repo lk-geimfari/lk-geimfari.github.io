@@ -20,9 +20,9 @@
             <a href="{{site.baseurl}}{{post.url}}">
                 <h3>{{ post.title }}</h3>
             </a>
-            <div class="justify-content-between">
-                <small class="mr-1" style="display: inline">{{ post.date|date_to_string }}</small>
-                <small class="mr-2" style="display: inline">
+            <div id="smalls" class="justify-content-between">
+                <small>{{ post.date|date_to_string }}</small>
+                <small>
                     {% assign words = post.content | number_of_words %}
                     {% if words < 360 %}
                     1 min
@@ -30,10 +30,9 @@
                     {{ words | divided_by:180 }} mins
                     {% endif %} read
                 </small>
-                <small class="mr-1" style="display: inline">
-                    <a href="{{ post.url | prepend: site.baseurl }}#discussion"
-                       data-disqus-identifier="{{ post.id }}">
-                        0 comments
+                <small>
+                    <a href="{{ post.url | prepend: site.baseurl }}#discussion">
+                        comments
                     </a>
                 </small>
             </div>
@@ -46,7 +45,5 @@
     </section>
     {% include footer.html %}
 </main>
-<script id="dsq-count-scr"
-        src="https://{{ site.disqus_id }}.disqus.com/count.js" async></script>
 </body>
 </html>
