@@ -1,3 +1,11 @@
+<p align="center">
+  <a target="_blank" href="https://isaak.dev">
+  <img src="https://raw.githubusercontent.com/lk-geimfari/lk-geimfari.github.io/master/assets/images/other/preview.png" width="900"/>
+  </a>
+</p>
+
+
+
 ## Development
 
 Make sure you have `ruby 2.5.1` installed, use `rbenv` in case you don't.
