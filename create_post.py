@@ -7,8 +7,8 @@ file_header = """
 layout: post
 title: {title}
 date: {date}
-web_preview_image: 
-description: 
+preview_img:
+description:
 published: false
 ---
 """
