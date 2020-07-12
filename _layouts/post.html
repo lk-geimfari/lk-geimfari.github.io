@@ -10,9 +10,9 @@
             <h1 class="title">
                 {{ page.title }}
             </h1>
-            <div class="justify-content-between mb-3">
-                <small class="mr-2" style="display: inline">{{ page.date|date_to_string }}</small>
-                <small class="mr-2" style="display: inline">
+            <div id="smalls" class="justify-content-between mb-3">
+                <small>{{ page.date|date_to_string }}</small>
+                <small>
                     {% assign words = content | number_of_words %}
                     {% if words < 360 %}
                     1 min
@@ -20,9 +20,11 @@
                     {{ words | divided_by:180 }} mins
                     {% endif %} read
                 </small>
-                <small style="display: inline;">
-                    <a target="_blank" style="color: rgba(0, 0, 0, 0.9);"
-                       href="{{ site.github_edit_url }}/{{ page.path }}">edit this page</a>
+                <small>
+                    <a href="#discussion">start a discussion</a>
+                </small>
+                <small>
+                    <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">edit this page</a>
                 </small>
             </div>
 

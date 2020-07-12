@@ -179,7 +179,11 @@ article .title {
 
 #smalls small {
     display: inline;
-    margin-right:.5rem!important
+    margin-right: .5rem !important
+}
+
+#smalls a {
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .content p {
