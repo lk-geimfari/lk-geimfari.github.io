@@ -8,8 +8,8 @@
   <meta property="og:image" content="https://isaak.dev/assets/images/posts/{{ page.preview_img }}" />
   <meta name="twitter:image" content="https://isaak.dev/assets/images/posts/{{ page.preview_img }}" />
   {% else %}
-  <meta property="og:image" content="https://isaak.dev/assets/images/other/preview.png" />
-  <meta name="twitter:image" content="https://isaak.dev/assets/images/other/preview.png" />
+  <meta property="og:image" content="{{ site.default_preview_image }}" />
+  <meta name="twitter:image" content="{{ site.default_preview_image }}" />
   {% endif %}
   <meta name="twitter:title" content="Blog isaak.dev" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />

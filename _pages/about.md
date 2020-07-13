@@ -28,6 +28,8 @@ email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b>
 This probably will not work, but please, don’t contact me if you’re a
 Nigerian prince who wants to share 1 million dollars with me.
 
+You can also contact me in Telegram: [@likid_geimfari]({{ site.telegram_url }})
+
 Contact me, if you want to:
 
 * Offer me a good job

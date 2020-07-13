@@ -22,9 +22,9 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 * Containerization (Docker, Swarm, Kubernetes)
 * SQL (PostgresSQL, SQLite)
 * NoSQL (MongoDB, Redis, Memcached)
-* VCS (Git, git-flow )
-* Testing (Selenium, py.test, mimesis, hypothesis)
-* Erlang/Elixir (Beginner, OTP/Mnesia)
+* VCS (Git, git-flow)
+* Testing (Selenium, py.test, mimesis)
+* Erlang/Elixir (Beginner)
 
 #### Professional
 
@@ -52,4 +52,4 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 The most preferable way to contact me is emailing me, so there is my
 email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b></a>
 
-You can also contact me using Telegram (see the footer of the website).
+You can also contact me in Telegram: [@likid_geimfari]({{ site.telegram_url }})

@@ -16,7 +16,7 @@ account, so [follow me](https://twitter.com/likid_geimfari).
 ## Telegram
 
 I have a Telegram channel where I cross-post articles from my blog and post all
-the open-source goodies I found: [@the_art_of_development](https://t.me/https://t.me/the_art_of_development).
+the open-source goodies I found: [@the_art_of_development](https://t.me/the_art_of_development).
 
 ## GitHub
 

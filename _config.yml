@@ -7,13 +7,15 @@ username: likid_geimfari
 twitter_url: https://twitter.com/likid_geimfari
 github_url: https://github.com/lk-geimfari
 telegram_url: https://t.me/likid_geimfari
+
 disqus_id: isaak-dev-1
 google_analytics_id: UA-170154050-1
 
 baseurl: ""
 url: "https://isaak.dev"
-
+rss_url: "https://isaak.dev/feed.xml"
 github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/blob/master"
+default_preview_image: https://isaak.dev/assets/images/other/preview.png
 
 include: [_pages]
 markdown: kramdown
