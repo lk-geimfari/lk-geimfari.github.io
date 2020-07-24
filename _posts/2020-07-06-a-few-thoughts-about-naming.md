@@ -219,7 +219,7 @@ The name of this method implies that the return value must be of Boolean type, n
 True
 ```
 
-We can you can use a more appropriate method name for getting publications:
+We can use a more appropriate method name for getting publications:
 
 ```python
 >>> person.get_publications()
