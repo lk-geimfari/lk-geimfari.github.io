@@ -19,8 +19,8 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 * Python (Django, DRF, Flask, Celery)
 * JavaScript (ES6, jQuery, Webpack, Chrome API, etc.)
-* Containerization (Docker, Swarm, k8s)
-* SQL/NoSQL (PostgresSQL, SQLite, MongoDB)
+* Containerization (Docker, Swarm)
+* SQL/NoSQL (PostgresSQL, SQLite)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
 * Testing (Selenium, TestCafe, unittest, py.test, mimesis, Jest)
