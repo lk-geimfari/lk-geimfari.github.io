@@ -119,11 +119,30 @@ a {
 }
 
 article a {
-    color: #2782cd;
+    color: rgb(225, 83, 67);
+}
+
+article a:not(.anchor):hover {
+    color: rgb(225, 83, 67);
+    text-decoration: underline !important;
 }
 
 a:not(.nav-link, .anchor):hover {
-    border-bottom: 1px solid #2782cd;
+    border-bottom: 1px solid rgb(225, 83, 67);
+}
+
+.nav .nav-link:hover {
+    color: rgb(225, 83, 67);
+}
+
+.nv-item:hover {
+    color: rgb(225, 83, 67);
+    text-decoration: none;
+}
+
+.post a:hover {
+    color: rgb(225, 83, 67);
+    text-decoration: none;
 }
 
 #post_header_title {
@@ -142,11 +161,11 @@ a:not(.nav-link, .anchor):hover {
 }
 
 #layout_header_title:hover .dot {
-    color: #2782cd;
+    color: rgb(225, 83, 67);
 }
 
 #post_header_title:hover .dot {
-    color: #2782cd;
+    color: rgb(225, 83, 67);
 }
 
 .posts h3 {
@@ -187,7 +206,7 @@ article .title {
 }
 
 #smalls a:hover {
-    color: #2782cd;
+    color: rgb(225, 83, 67);
 }
 
 .grey {
