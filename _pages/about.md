@@ -18,7 +18,7 @@ Generally, I work with `Python` and `JavaScript`, but I’m also familiar with
 #### Contact me
 
 The most preferable way to contact me is emailing me, so there is my
-email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b></a>
+email: <a href="mailto:likid.geimfari@gmail.com">likid.geimfari@gmail.com</a>
 
 This probably will not work, but please, don’t contact me if you’re a
 Nigerian prince who wants to share 1 million dollars with me.
