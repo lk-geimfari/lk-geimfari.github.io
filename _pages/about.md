@@ -13,12 +13,7 @@ and technologies and sometimes, I write my thoughts about such things in
 this blog.
 
 Generally, I work with `Python` and `JavaScript`, but I’m also familiar with 
-`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.
-
-
-#### Resume
-
-You can find my resume [here]({{ "/resume/" | prepend: site.baseurl }}).
+`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.__
 
 #### Contact me
 
@@ -32,6 +27,6 @@ You can also contact me in Telegram: [@likid_geimfari]({{ site.telegram_url }})
 
 Contact me, if you want to:
 
-* Offer me a good job
+* Offer me a good job ([you can find my resume here]({{ "/resume/" | prepend: site.baseurl }}))
 * Ask something related to my activity on GitHub
 * Report about a typo in the post or something

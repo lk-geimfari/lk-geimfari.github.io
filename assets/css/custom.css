@@ -145,6 +145,11 @@ a:not(.nav-link, .anchor):hover {
     text-decoration: none;
 }
 
+footer .username:hover {
+    color: rgb(225, 83, 67);
+    text-decoration: none;
+}
+
 #post_header_title {
     font-weight: 900;
     text-rendering: optimizeLegibility;
