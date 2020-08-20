@@ -17,14 +17,15 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 #### Stack I worked with
 
-* Python (Django, Django Rest Framework, Flask, Celery, Pandas)
+* Python (Django, DRF, Flask, Celery)
 * JavaScript (ES6, jQuery, Webpack, Chrome API, etc.)
-* Containerization (Docker, Swarm, Kubernetes)
-* SQL (PostgresSQL, SQLite)
-* NoSQL (MongoDB, Redis, Memcached)
+* Containerization (Docker, Swarm)
+* SQL/NoSQL (PostgresSQL, SQLite)
+* Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
-* Testing (Selenium, py.test, mimesis)
-* Erlang/Elixir (Beginner)
+* Testing (Selenium, TestCafe, unittest, py.test, mimesis, Jest)
+* Erlang/Elixir (Beginner)
+* *nix (Linix, macOS)
 
 #### Professional
 
@@ -43,7 +44,7 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 #### Professional goals 
 
-1. Python/Erlang Senior Developer
+1. Senior Developer
 2. Lead Developer
 3. Software Architect
 
