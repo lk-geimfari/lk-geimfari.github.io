@@ -23,9 +23,9 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 * SQL/NoSQL (PostgresSQL, SQLite)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
-* Testing (Selenium, TestCafe, unittest, py.test, mimesis, Jest)
-* Erlang/Elixir (Beginner)
-* *nix (Linix, macOS)
+* Testing (Selenium, TestCafe, unittest, py.test, mimesis, Jest)
+* Erlang/Elixir (Beginner)
+* *nix (Linux, macOS)
 
 #### Professional
 
@@ -51,6 +51,6 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 #### Contact me
 
 The most preferable way to contact me is emailing me, so there is my
-email: <a href="mailto:likid.geimfari@gmail.com"><b>likid.geimfari@gmail.com</b></a>
+email: <a href="mailto:likid.geimfari@gmail.com">likid.geimfari@gmail.com</a>
 
 You can also contact me in Telegram: [@likid_geimfari]({{ site.telegram_url }})
