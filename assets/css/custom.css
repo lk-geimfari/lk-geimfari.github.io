@@ -150,6 +150,11 @@ footer .username:hover {
     text-decoration: none;
 }
 
+#subscribe:hover {
+    color: rgb(225, 83, 67);
+    text-decoration: none;
+}
+
 #post_header_title {
     font-weight: 900;
     text-rendering: optimizeLegibility;
