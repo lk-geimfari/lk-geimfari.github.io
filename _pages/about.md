@@ -13,7 +13,7 @@ and technologies and sometimes, I write my thoughts about such things in
 this blog.
 
 Generally, I work with `Python` and `JavaScript`, but I’m also familiar with 
-`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.__
+`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.
 
 #### Contact me
 
