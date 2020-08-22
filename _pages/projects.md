@@ -92,20 +92,19 @@ This allows you to quickly and easily use randomized, dummy data as part of your
 [nebula] is a small library for colored ([ANSI]) output in `Erlang`/`Elixir`.  It's can be useful when you need 
 to create a user-friendly command-line application.
 
-
-  [mimesis_logo_img]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/media/readme-logo.png
-  [fastest]: https://mimesis.name/foreword.html#performance
-  [simplified]: https://mimesis.name/getting_started.html#generic-provider
-  [a lot of languages]: https://mimesis.name/getting_started.html#locales
-  [a lot of data providers]: https://mimesis.name/api.html
-  [some countries]: https://mimesis.name/api.html#builtin-data-providers
-  [Mimesis]: https://github.com/lk-geimfari/mimesis
-  [awesomo]: https://github.com/lk-geimfari/mimesis
-  [Open Source]: https://en.wikipedia.org/wiki/Open-source_software
-  [ANSI]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
-  [expynent]: https://github.com/lk-geimfari/expynent
-  [nebula]: https://github.com/lk-geimfari/nebula
-  [pytest-mimesis]: https://github.com/pytest-dev/pytest-mimesis
-  [Awesome Cryptography]: https://github.com/sobolevn/awesome-cryptography
-  [Censor Tracker]: https://github.com/roskomsvoboda/censortracker
-  [censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/master/.github/censortracker-popups.svg
+[mimesis_logo_img]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/media/readme-logo.png
+[fastest]: https://mimesis.name/foreword.html#performance
+[simplified]: https://mimesis.name/getting_started.html#generic-provider
+[a lot of languages]: https://mimesis.name/getting_started.html#locales
+[a lot of data providers]: https://mimesis.name/api.html
+[some countries]: https://mimesis.name/api.html#builtin-data-providers
+[Mimesis]: https://github.com/lk-geimfari/mimesis
+[awesomo]: https://github.com/lk-geimfari/awesomo
+[Open Source]: https://en.wikipedia.org/wiki/Open-source_software
+[ANSI]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+[expynent]: https://github.com/lk-geimfari/expynent
+[nebula]: https://github.com/lk-geimfari/nebula
+[pytest-mimesis]: https://github.com/pytest-dev/pytest-mimesis
+[Awesome Cryptography]: https://github.com/sobolevn/awesome-cryptography
+[Censor Tracker]: https://github.com/roskomsvoboda/censortracker
+[censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/master/.github/censortracker-popups.svg
