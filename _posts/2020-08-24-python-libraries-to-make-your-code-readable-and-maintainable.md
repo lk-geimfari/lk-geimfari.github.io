@@ -8,12 +8,12 @@ preview_img: rrm-post.png
 published: true
 ---
 
-An experienced programmer understands perfectly well that a developer spends most of his time reading code and 
-therefore treats the process of writing code with the deepest trepidation (and sometimes with fanaticism). 
-To write quality and maintainable code, you need to take the time to write tests and integrate QA tools. 
-There is a whole technique aimed at test-driven development ([TDD]) and I will not devote 
-this article to the topic of testing as such. Tests are absolutely necessary and there is nothing to discuss. 
-In this article, we are going to talk about tools that help you write quality Python code.
+Experienced programmers understand perfectly well that in development they spend most of the time reading code 
+and therefore they treat the process of writing code with the deepest trepidation (and sometimes with fanaticism). 
+To write quality and maintainable code, you need to take the time to write tests and integrate QA tools. There is a 
+whole technique aimed at test-driven development ([TDD]) and I will not devote this article to the topic of testing as 
+such. Tests are absolutely necessary and there is nothing to discuss. In this article, we are going to talk about tools 
+that help you write quality Python code.
 
 [TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 
