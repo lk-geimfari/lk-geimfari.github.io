@@ -140,7 +140,7 @@ Common use cases:
 
 Example of usage:
 
-```
+```python
 import responses
 import requests
 
