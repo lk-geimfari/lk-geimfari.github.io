@@ -97,8 +97,6 @@ fake data could be used to populate a testing database, create fake API
 endpoints, create JSON and XML files of arbitrary structure, anonymize
 data taken from production and etc.
 
-[![image][]][1]
-
 The key features are:
 
 -   **Performance**: The [fastest][] data generator available for Python.
@@ -109,8 +107,6 @@ The key features are:
 -   **Schema-based generators**: Provides an easy mechanism to generate data by the schema of any complexity.
 -   **Country-specific data providers**: Provides data specific only for [some countries][].
 
-  [image]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/media/readme-logo.png
-  [1]: https://github.com/lk-geimfari/mimesis
   [fastest]: https://mimesis.name/foreword.html#performance
   [simplified]: https://mimesis.name/getting_started.html#generic-provider
   [a lot of languages]: https://mimesis.name/getting_started.html#locales
