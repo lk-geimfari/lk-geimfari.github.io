@@ -1,14 +1,17 @@
 ---
 layout: post
-title: Python libraries to make your code readable, reliable, and maintainable.
+title: Python libraries to make your code readable, reliable, and maintainable
 date: 2020-08-24
 description: In this article, we are going to talk about tools to help you write quality Python code.
-published: false
+published: true
 ---
 
-An experienced programmer understands perfectly well that a developer spends most of his time reading code and therefore treats the process of writing code with the deepest trepidation (and sometimes with fanaticism). To write quality and maintainable code, you need to take the time to write tests. There is a whole technique aimed at test-driven development (TDD) and I will not devote this article to the topic of testing as such, since tests are absolutely necessary and there is nothing to discuss. In this article, we are going to talk about tools to help you write quality Python code.
-
-This article was originally posted on https://isaak.dev/
+An experienced programmer understands perfectly well that a developer spends most of his time reading code and 
+therefore treats the process of writing code with the deepest trepidation (and sometimes with fanaticism). 
+To write quality and maintainable code, you need to take the time to write tests. There is a whole technique 
+aimed at test-driven development ([TDD](https://en.wikipedia.org/wiki/Test-driven_development)) and I will not devote 
+this article to the topic of testing as such, since tests are absolutely necessary and there is nothing to discuss. 
+In this article, we are going to talk about tools to help you write quality Python code.
 
 ## Testing Frameworks
 
@@ -25,19 +28,21 @@ Features
 
 Repository: https://github.com/pytest-dev/pytest/
 
----
+<br>
 
-[**Hypothesis**](https://github.com/HypothesisWorks/hypothesis)  is a family of testing libraries that let you write tests parametrized by a source of examples. A Hypothesis implementation then generates simple and comprehensible examples that make your tests fail. This simplifies writing your tests and makes them more powerful at the same time, by letting software automate the boring bits and do them to a higher standard than a human would, freeing you to focus on the higher-level test logic.
+[**Hypothesis**](https://github.com/HypothesisWorks/hypothesis)  is a family of testing libraries that let you write 
+tests parametrized by a source of examples. A Hypothesis implementation then generates simple and comprehensible 
+examples that make your tests fail. This simplifies writing your tests and makes them more powerful at the same time, 
+by letting software automate the boring bits and do them to a higher standard than a human would, freeing you to focus 
+on the higher-level test logic.
 
-Repository: https://github.com/HypothesisWorks/hypothesis
+<br>
 
+[**Robot Framework**](https://github.com/robotframework/robotframework) is a generic open-source automation framework 
+for acceptance testing, acceptance test-driven development (ATDD), and robotic process automation (RPA). 
+It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
 
----
-
-[**Robot Framework**](https://github.com/robotframework/robotframework) is a generic open-source automation framework for acceptance testing, acceptance test-driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
-
-Repository: https://github.com/robotframework/robotframework
-
+<br>
 
 ## Test Runners
 
@@ -47,38 +52,38 @@ tox creates virtual environments for all configured so-called `testenvs`, it the
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598270513268/Q1-E6b6nw.png)
 
-Repository: https://github.com/tox-dev/tox
-
+<br>
 
 ## E2E Testing (GUI / Frontend)
 
-[**Selenium**](https://github.com/SeleniumHQ/selenium/) is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation. Selenium specifically provides an infrastructure for the W3C WebDriver specification — a platform and language-neutral coding interface compatible with all major web browsers.
+[**Selenium**](https://github.com/SeleniumHQ/selenium/) is an umbrella project encapsulating a variety of tools and 
+libraries enabling web browser automation. Selenium specifically provides an infrastructure for the W3C WebDriver 
+specification — a platform and language-neutral coding interface compatible with all major web browsers.
 
-Repository: https://github.com/SeleniumHQ/selenium
 
+[**Locust**](https://github.com/locustio/locust) is an easy to use, scriptable, and scalable performance testing tool.
+ You define the behavior of your users in regular Python code, instead of using a clunky UI or domain-specific 
+ language. This makes Locust infinitely expandable and very developer-friendly.
 
-[**Locust**](https://github.com/locustio/locust) is an easy to use, scriptable, and scalable performance testing tool. You define the behavior of your users in regular Python code, instead of using a clunky UI or domain-specific language. This makes Locust infinitely expandable and very developer-friendly.
+<br>
 
-Repository: https://github.com/locustio/locust
-
----
-
-[**TestCafe**](https://github.com/DevExpress/testcafe) is a Node.js tool to automate end-to-end web testing. Write tests in JS or TypeScript, run them, and view results.
-
-![Install TestCafe and Run a Test](https://raw.githubusercontent.com/DevExpress/testcafe/master/media/install-and-run-test.gif)
-
+[**TestCafe**](https://github.com/DevExpress/testcafe) is a Node.js tool to automate end-to-end web testing. Write 
+tests in JS or TypeScript, run them, and view results.
 
 * **Works on all popular environments**: TestCafe runs on Windows, MacOS, and Linux. It supports desktop, mobile, remote and cloud [browsers](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/browsers/browser-support.html) (UI or headless).
 * **1 minute to set up**: You [do not need WebDriver](https://devexpress.github.io/testcafe/faq/#i-have-heard-that-testcafe-does-not-use-selenium-how-does-it-operate) or any other testing software. Install TestCafe with one command, and you are ready to test: `npm install -g testcafe`
 * **Free and open source**: TestCafe is free to use under the [MIT license](https://github.com/DevExpress/testcafe/blob/master/LICENSE). [Plugins](#plugins) provide custom reports, integration with other tools, launching tests from IDE, etc. You can use the plugins made by the GitHub community or make your own.
 
-Repository: https://github.com/DevExpress/testcafe
+Usage example:
 
----
+![Install TestCafe and Run a Test](https://raw.githubusercontent.com/DevExpress/testcafe/master/media/install-and-run-test.gif)
 
-[**PyAutoGUI**](https://github.com/asweigart/pyautogui) is a cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.
+<br>
 
-Repository: https://github.com/asweigart/pyautogui
+[**PyAutoGUI**](https://github.com/asweigart/pyautogui) is a cross-platform GUI automation Python module for human beings. 
+Used to programmatically control the mouse & keyboard.
+
+<br>
 
 ## Fake Data
 
@@ -110,7 +115,7 @@ The key features are:
 
 Usage:
 
-```
+```python
 >>> from mimesis import Person
 >>> person = Person('en')
 
@@ -129,7 +134,7 @@ Usage:
 
 Generating data using schemas:
 
-```
+```python
 from mimesis.schema import Field, Schema
 from mimesis.enums import Gender
 
@@ -150,22 +155,28 @@ data = schema.create(iterations=1)
 
 The result:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598271962146/5fkZi3n4F.png)
+```python
+[   {   'id': 'bd69b0b1-ac7f-42a7-a6b7-0fe04e8847d3',
+        'name': 'certified',
+        'owner': {   'creator': 'Dorthey Ramsey',
+                     'email': 'birretta1894@test.com',
+                     'token': '9cddc4363819109adf4a3cc0065bfdb8c38c5ce8244af4da68e75a45cf5bdc12'},
+        'timestamp': '2005-04-18T13:09:37Z',
+        'version': '9.9.0-rc.7'}]
+```
 
-Official website: https://mimesis.name/
-
-Repository: https://github.com/lk-geimfari/mimesis
-
+<br>
 
 ## Mocking
 
-[**FreezeGun**](https://github.com/spulec/freezegun) is a library that allows your Python tests to travel through time by mocking the datetime module.
+[**FreezeGun**](https://github.com/spulec/freezegun) is a library that allows your Python tests to travel through time
+ by mocking the datetime module.
 
-Once the decorator or context manager have been invoked, all calls to datetime.datetime.now(), datetime.datetime.utcnow(), datetime.date.today(), time.time(), time.localtime(), time.gmtime(), and time.strftime() will return the time that has been frozen.
+Once the decorator or context manager have been invoked, all calls to `datetime.datetime.now()`, 
+`datetime.datetime.utcnow()`, `datetime.date.today()`, `time.time()`, `time.localtime()`, `time.gmtime()`, and `time.strftime()`
+will return the time that has been frozen.
 
-Repository: https://github.com/spulec/freezegun
-
----
+<br>
 
 [**HTTPretty**](https://github.com/patrys/httmock) is an HTTP client mocking tool for Python - inspired by Fakeweb for Ruby.
 
@@ -175,11 +186,11 @@ Common use cases:
 - Fake responses of external APIs
 - Record and playback HTTP requests
 
-Repository: https://github.com/gabrielfalcao/HTTPretty
-
----
+<br>
 
 [**responses**](https://github.com/getsentry/responses) is a utility library for mocking out the requests Python library.
+
+Example of usage:
 
 ```
 import responses
@@ -199,34 +210,34 @@ def test_simple():
     assert responses.calls[0].response.text == '{"error": "not found"}'
 ```
 
+<br>
 
 ## Code coverage
 
-[Coverage.py](https://github.com/nedbat/coveragepy) measures code coverage, typically during test execution. It uses the code analysis tools and tracing hooks provided in the Python standard library to determine which lines are executable, and which have been executed.
+[Coverage.py](https://github.com/nedbat/coveragepy) measures code coverage, typically during test execution. It uses 
+the code analysis tools and tracing hooks provided in the Python standard library to determine which lines are 
+executable, and which have been executed.
 
-Repository: https://github.com/nedbat/coveragepy
-
+<br>
 
 ## Object Factories
 
 [**factory_boy**](https://github.com/FactoryBoy/factory_boy) is a fixtures replacement based on thoughtbot's factory_bot.
 
-As a fixtures replacement tool, it aims to replace static, hard to maintain fixtures with easy-to-use factories for complex objects.
+As a fixtures replacement tool, it aims to replace static, hard to maintain fixtures with easy-to-use 
+factories for complex objects.
 
-Repository: https://github.com/FactoryBoy/factory_boy
-
+<br>
 
 ## Code Style
 
-[**wemake-python-styleguide**](https://github.com/wemake-services/wemake-python-styleguide) is actually a flake8 plugin with some other plugins as dependencies.
+[**wemake-python-styleguide**](https://github.com/wemake-services/wemake-python-styleguide) is actually a flake8 plugin 
+with some other plugins as dependencies.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598272267527/EHgdJJmdJ.png)
+<br>
 
-Repository: https://github.com/wemake-services/wemake-python-styleguide
-
----
-
-[**pycodestyle**](https://github.com/PyCQA/pycodestyle) is a tool to check your Python code against some of the style conventions in PEP 8.
+[**pycodestyle**](https://github.com/PyCQA/pycodestyle) is a tool to check your Python code against some of the style 
+conventions in PEP8.
 
 Features:
 
@@ -235,21 +246,20 @@ Features:
 - Small: Just one Python file, requires only `stdlib`. You can use just the `pycodestyle.py` file for this purpose.
 - Comes with a comprehensive test suite.
 
-Repository: https://github.com/PyCQA/pycodestyle
+<br>
 
----
 [**Black**](https://github.com/psf/black) is the uncompromising Python code formatter. By using it, you agree to cede
 control over minutiae of hand-formatting. In return, _Black_ gives you speed,
 determinism, and freedom from `pycodestyle` nagging about formatting. You will save time
 and mental energy for more important matters.
 
-Repository: https://github.com/psf/black
+<br>
 
 ## Typing 
 
-[**mypy**](https://github.com/python/mypy) is an optional static type checker for Python. You can add type hints (PEP 484) to your Python programs, and use `mypy` to type check them statically. Find bugs in your programs without even running them!
-
-You can mix dynamic and static typing in your programs. You can always fall back to dynamic typing when static typing is not convenient, such as for legacy code.
+[**mypy**](https://github.com/python/mypy) is an optional static type checker for Python. You can add type 
+hints (PEP 484) to your Python programs, and use `mypy` to type check them statically. Find bugs in your 
+programs without even running them!
 
 Here is a small example to whet your appetite (Python 3):
 
@@ -263,29 +273,30 @@ def fib(n: int) -> Iterator[int]:
         a, b = b, a + b
 ```
 
-Repository: https://github.com/python/mypy
+<br>
 
----
+[**Pyre**](https://github.com/facebook/pyre-check) is a performant type checker for Python compliant with PEP 484. 
+Pyre can analyze codebases with millions of lines of code incrementally – providing instantaneous feedback to 
+developers as they write code.
 
-[**Pyre**](https://github.com/facebook/pyre-check) is a performant type checker for Python compliant with PEP 484. Pyre can analyze codebases with millions of lines of code incrementally – providing instantaneous feedback to developers as they write code.
-
-Pyre ships with Pysa, a security-focused static analysis tool we've built on top of Pyre that reasons about data flows in Python applications. Please refer to our documentation to get started with our security analysis.
+Pyre ships with Pysa, a security-focused static analysis tool we've built on top of Pyre that reasons about data flows 
+in Python applications. Please refer to our documentation to get started with our security analysis.
 
 Repository: https://github.com/facebook/pyre-check
 
----
+<br>
 
-[**Typeshed**](https://github.com/python/typeshed) contains external type annotations for the Python standard library and Python builtins, as well as third party packages as contributed by people external to those projects.
+[**Typeshed**](https://github.com/python/typeshed) contains external type annotations for the Python standard library 
+and Python builtins, as well as third party packages as contributed by people external to those projects.
 
-Repository: https://github.com/python/typeshed
+<br>
 
----
+[**django-stubs**](https://github.com/typeddjango/django-stubs) contains type stubs and a custom `mypy` plugin to 
+provide more precise static types and type inference for `Django` framework. Django uses some Python "magic" 
+that makes having precise types for some code patterns problematic. This is why we need this project. The final goal 
+is to be able to get precise types for most common patterns.
 
-[**django-stubs**](https://github.com/typeddjango/django-stubs) contains type stubs and a custom `mypy` plugin to provide more precise static types and type inference for `Django` framework. Django uses some Python "magic" that makes having precise types for some code patterns problematic. This is why we need this project. The final goal is to be able to get precise types for most common patterns.
-
-Repository: https://github.com/typeddjango/django-stubs
-
----
+<br>
 
 [**returns**](https://github.com/dry-python/returns) gonna make your functions return something meaningful, typed, and safe!
 
@@ -301,11 +312,6 @@ Features:
 - Support functions and coroutines, framework agnostic
 - Easy to start: has lots of docs, tests, and tutorials
 
-
-Repository: https://github.com/dry-python/returns
-
-
----
+<br>
 
 That's it for now!
-
