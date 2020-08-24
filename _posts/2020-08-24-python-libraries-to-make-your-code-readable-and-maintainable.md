@@ -113,58 +113,6 @@ The key features are:
   [a lot of data providers]: https://mimesis.name/api.html
   [some countries]: https://mimesis.name/api.html#builtin-data-providers
 
-Usage:
-
-```python
->>> from mimesis import Person
->>> person = Person('en')
-
->>> person.full_name()
-'Brande Sears'
-
->>> person.email(domains=['mimesis.name'])
-'roccelline1878@mimesis.name'
-
->>> person.email(domains=['mimesis.name'], unique=True)
-'f272a05d39ec46fdac5be4ac7be45f3f@mimesis.name'
-
->>> person.telephone(mask='1-4##-8##-5##3')
-'1-436-896-5213'
-```
-
-Generating data using schemas:
-
-```python
-from mimesis.schema import Field, Schema
-from mimesis.enums import Gender
-
-_ = Field('en')
-
-schema = Schema(schema=lambda: {
-    'id': _('uuid'),
-    'name': _('text.word'),
-    'version': _('version', pre_release=True),
-    'timestamp': _('timestamp', posix=False),
-    'owner': {
-        'email': _('person.email', domains=['test.com'], key=str.lower),
-        'token': _('token_hex'),
-        'creator': _('full_name', gender=Gender.FEMALE)},
-})
-data = schema.create(iterations=1)
-```
-
-The result:
-
-```python
-[   {   'id': 'bd69b0b1-ac7f-42a7-a6b7-0fe04e8847d3',
-        'name': 'certified',
-        'owner': {   'creator': 'Dorthey Ramsey',
-                     'email': 'birretta1894@test.com',
-                     'token': '9cddc4363819109adf4a3cc0065bfdb8c38c5ce8244af4da68e75a45cf5bdc12'},
-        'timestamp': '2005-04-18T13:09:37Z',
-        'version': '9.9.0-rc.7'}]
-```
-
 <br>
 
 ## Mocking
