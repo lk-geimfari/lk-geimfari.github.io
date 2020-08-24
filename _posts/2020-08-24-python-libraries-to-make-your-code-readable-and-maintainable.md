@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python libraries to make your code readable, reliable, and maintainable
+title: Python libraries to make your code readable, reliable and maintainable
 date: 2020-08-24
 description: In this article, we are going to talk about tools to help you write quality Python code.
 published: true
@@ -8,10 +8,12 @@ published: true
 
 An experienced programmer understands perfectly well that a developer spends most of his time reading code and 
 therefore treats the process of writing code with the deepest trepidation (and sometimes with fanaticism). 
-To write quality and maintainable code, you need to take the time to write tests. There is a whole technique 
-aimed at test-driven development ([TDD](https://en.wikipedia.org/wiki/Test-driven_development)) and I will not devote 
-this article to the topic of testing as such, since tests are absolutely necessary and there is nothing to discuss. 
-In this article, we are going to talk about tools to help you write quality Python code.
+To write quality and maintainable code, you need to take the time to write tests and integrate QA tools. 
+There is a whole technique aimed to test-driven development ([TDD]) and I will not devote 
+this article to the topic of testing as such. Tests are absolutely necessary and there is nothing to discuss. 
+In this article, we are going to talk about tools that help you write quality Python code.
+
+[TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 
 ## Testing Frameworks
 
