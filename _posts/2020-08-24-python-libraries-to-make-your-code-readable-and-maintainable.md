@@ -2,7 +2,9 @@
 layout: post
 title: Python libraries to make your code readable, reliable and maintainable
 date: 2020-08-24
-description: In this article, we are going to talk about tools to help you write quality Python code.
+description: An experienced programmer understands perfectly well that a developer spends most of his time reading code and 
+             therefore treats the process of writing code with the deepest trepidation.
+preview_img: rrm-post.png
 published: true
 ---
 
