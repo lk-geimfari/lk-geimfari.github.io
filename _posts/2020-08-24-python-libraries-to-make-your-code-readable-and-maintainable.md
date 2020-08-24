@@ -30,8 +30,6 @@ Features
 - Python 3.5+ and PyPy 3;
 - Rich plugin architecture, with over 315+ external plugins and thriving community;
 
-Repository: https://github.com/pytest-dev/pytest/
-
 <br>
 
 [**Hypothesis**](https://github.com/HypothesisWorks/hypothesis)  is a family of testing libraries that let you write 
@@ -229,8 +227,6 @@ developers as they write code.
 
 Pyre ships with Pysa, a security-focused static analysis tool we've built on top of Pyre that reasons about data flows 
 in Python applications. Please refer to our documentation to get started with our security analysis.
-
-Repository: https://github.com/facebook/pyre-check
 
 <br>
 
