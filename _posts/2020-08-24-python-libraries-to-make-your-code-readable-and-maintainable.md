@@ -211,7 +211,7 @@ programs without even running them!
 
 Here is a small example to whet your appetite (Python 3):
 
-```
+```python
 from typing import Iterator
 
 def fib(n: int) -> Iterator[int]:
