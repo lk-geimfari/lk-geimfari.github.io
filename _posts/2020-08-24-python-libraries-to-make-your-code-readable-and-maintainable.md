@@ -17,6 +17,18 @@ that help you write quality Python code.
 
 [TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 
+Table of content:
+
+ - [Testing Frameworks](#testing-frameworks)
+ - [Test Runners](#test-runners)
+ - [E2E Testing](#e2e-testing-gui--frontend)
+ - [Fake Data](#fake-data)
+ - [Mocking](#mocking)
+ - [Code coverage](#code-coverage)
+ - [Object Factories](#object-factories)
+ - [Code Style](#code-style)
+ - [Typing](#typing)
+
 ## Testing Frameworks
 
 [**pytest**](https://github.com/pytest-dev/pytest/) is a framework that makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. 
@@ -206,6 +218,17 @@ Features:
 control over minutiae of hand-formatting. In return, _Black_ gives you speed,
 determinism, and freedom from `pycodestyle` nagging about formatting. You will save time
 and mental energy for more important matters.
+
+<br>
+
+[**yapf**](https://github.com/google/yapf) is a formatter for Python files.
+
+YAPF takes a different approach. It's based off of `clang-format`, developed by Daniel Jasper. In essence, 
+the algorithm takes the code and reformats it to the best formatting that conforms to the style guide, even if the 
+original code didn't violate the style guide. The idea is also similar to the 'gofmt' tool for the Go programming 
+language: end all holy wars about formatting - if the whole codebase of a project is simply piped through YAPF 
+whenever modifications are made, the style remains consistent throughout the project and there's no point 
+arguing about style in every code review.
 
 <br>
 
