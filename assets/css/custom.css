@@ -41,6 +41,10 @@ html, body {
     margin-bottom: -4px;
 }
 
+.post a {
+    text-transform: capitalize;
+}
+
 .content code {
     margin: 0 2px;
     padding: 3px 0;
