@@ -303,8 +303,12 @@ article .title {
 
 .content ul,
 .content ol {
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     margin-bottom: 10px;
+}
+
+.content li {
+    font-size: 18px;
 }
 
 .content table {
