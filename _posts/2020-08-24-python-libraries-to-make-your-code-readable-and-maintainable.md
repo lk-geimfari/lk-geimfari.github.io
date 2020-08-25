@@ -161,7 +161,7 @@ def test_simple():
 
 ## Code coverage
 
-[Coverage.py](https://github.com/nedbat/coveragepy) measures code coverage, typically during test execution. It uses 
+[**Coverage.py**](https://github.com/nedbat/coveragepy) measures code coverage, typically during test execution. It uses 
 the code analysis tools and tracing hooks provided in the Python standard library to determine which lines are 
 executable, and which have been executed.
 
