@@ -58,6 +58,13 @@ It has simple plain text syntax and it can be extended easily with libraries imp
 
 <br>
 
+[**unittest**](https://docs.python.org/3/library/unittest.html) is a unit testing framework from Python's stdlib, 
+which was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. 
+It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, 
+and independence of the tests from the reporting framework.
+
+<br>
+
 ## Test Runners
 
 [**tox**](https://github.com/tox-dev/tox) is a command-line driven CI frontend and development task automation tool.
@@ -127,6 +134,16 @@ The key features are:
 <br>
 
 ## Mocking
+
+[**unittest.mock**](https://docs.python.org/3/library/unittest.mock.html) is a library from Python's stdlib for mocking. 
+It allows you to replace parts of your system under test with mock objects and make assertions about how they have been used.
+
+`unittest.mock` provides a core `Mock` class removing the need to create a host of stubs throughout your test suite. 
+After performing an action, you can make assertions about which methods / attributes were used and arguments they
+were called with. You can also specify return values and set needed attributes in the normal way.
+
+
+<br>
 
 [**FreezeGun**](https://github.com/spulec/freezegun) is a library that allows your Python tests to travel through time
  by mocking the datetime module.
