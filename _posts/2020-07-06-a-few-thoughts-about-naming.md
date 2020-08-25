@@ -7,6 +7,7 @@ description: The proper naming of variables, functions, methods, and classes is 
     without assumptions about what was meant.
 preview_img: caspar-david-friedrich-der-einsame-baum.jpg
 published: true
+comments: true
 ---
 
 The proper naming of variables, functions, methods, and classes is one of the most important 

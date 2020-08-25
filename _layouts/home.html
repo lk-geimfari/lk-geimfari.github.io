@@ -32,9 +32,12 @@
                             {% endif %} read
                         </small>
                         <small>
-                            <a data-disqus-identifier="{{ post.id }}" href="{{ post.url | prepend: site.baseurl }}#discussion">
-                                0 comments
-                            </a>
+                            {% if post.comments != false %}
+                                <a data-disqus-identifier="{{ post.id }}"
+                                   href="{{ post.url | prepend: site.baseurl }}#discussion">
+                                    0 comments
+                                </a>
+                            {% endif %}
                         </small>
                     </div>
                     <div class="mt-2">

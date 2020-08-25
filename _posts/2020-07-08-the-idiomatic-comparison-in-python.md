@@ -7,6 +7,7 @@ description: Some beginners in Python often improperly use the comparison operat
     without knowing how exactly they work. Let's talk about the fundamental 
     difference between these operators.
 published: true
+comments: true
 ---
 
 Some newbies in Python often improperly use the operators `is` and `==` without knowing how 
