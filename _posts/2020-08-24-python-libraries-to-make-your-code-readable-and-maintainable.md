@@ -178,8 +178,15 @@ factories for complex objects.
 
 ## Code Style
 
-[**wemake-python-styleguide**](https://github.com/wemake-services/wemake-python-styleguide) is actually a flake8 plugin 
-with some other plugins as dependencies.
+[**wemake-python-styleguide**](https://github.com/wemake-services/wemake-python-styleguide) is is strictest and most 
+opinionated python linter ever.
+
+Goals of WPS:
+
+1. Enforce `Python 3.6+` usage
+2. Significantly reduce complexity of your code and make it more maintainable
+3. Enforce “There should be one– and preferably only one –obvious way to do it” rule
+4. Create consistent coding and naming style
 
 <br>
 
