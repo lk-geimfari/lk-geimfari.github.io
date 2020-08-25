@@ -62,6 +62,7 @@ tox creates virtual environments for all configured so-called `testenvs`, it the
 libraries enabling web browser automation. Selenium specifically provides an infrastructure for the W3C WebDriver 
 specification — a platform and language-neutral coding interface compatible with all major web browsers.
 
+<br>
 
 [**Locust**](https://github.com/locustio/locust) is an easy to use, scriptable, and scalable performance testing tool.
  You define the behavior of your users in regular Python code, instead of using a clunky UI or domain-specific 
