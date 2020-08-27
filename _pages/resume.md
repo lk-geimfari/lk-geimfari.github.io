@@ -17,13 +17,13 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 #### Stack I worked with
 
-* Python (Django, DRF, Flask, Celery)
+* Python (Django, DRF, Flask, Celery etc.)
 * JavaScript (ES6, jQuery, Webpack, Chrome API, etc.)
 * Containerization (Docker, Swarm)
 * SQL/NoSQL (PostgresSQL, SQLite)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
-* Testing (Selenium, TestCafe, unittest, py.test, mimesis, Jest)
+* Testing (Selenium, TestCafe, unittest, hypothesis, py.test, mimesis, Jest)
 * Erlang/Elixir (Beginner)
 * *nix (Linux, macOS)
 
