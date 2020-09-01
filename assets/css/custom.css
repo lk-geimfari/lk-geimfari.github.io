@@ -41,7 +41,7 @@ html, body {
     margin-bottom: -4px;
 }
 
-.post a {
+.posts .post-title {
     text-transform: capitalize;
 }
 
