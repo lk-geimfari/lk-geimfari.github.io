@@ -14,9 +14,7 @@ This post is not advertising and the only reason I'm leaving the links is to mak
 ## Python Cookbook: Recipes for Mastering Python 3
 
 <p align="center">
-  <a href="#">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/91TnJtD9RfL.jpg" width="350"/>
-  </a>
+  <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/91TnJtD9RfL.jpg" width="350"/></a>
 </p>
 
 **Link**: [Buy](https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/)<br>
@@ -27,9 +25,7 @@ I’m not a newbie in Python, but I found this book very useful anyway. It helpe
 ## Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 
 <p align="center">
-   <a href="#">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/91pzJip+jnL.jpg" width="350"/>
-  </a>
+   <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/91pzJip+jnL.jpg" width="350"/></a>
 </p>
 
 **Link**: [Buy](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)<br>
@@ -44,7 +40,7 @@ I'm highly recommending these books for developers who want to know more about d
 <p align="center">
    <a href="#">
       <img src="https://www.oreilly.com/library/view/clojure-for-the/9781457190018/graphics/9781593275914.jpg" width="350"/>
-    <a/>
+    </a>
 </p>
 
 **Link**: [Buy](https://www.braveclojure.com/clojure-for-the-brave-and-true/)<br>
