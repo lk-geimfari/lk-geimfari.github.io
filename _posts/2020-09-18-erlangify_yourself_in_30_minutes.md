@@ -2,7 +2,7 @@
 layout: post
 title: Erlangify Yourself: Part I. Primitives.
 published: false
-comments: true
+comments: false
 ---
 
 ![carbon](https://user-images.githubusercontent.com/15812620/91530751-556c4c80-e914-11ea-8b2d-17a2d11a22bb.png)
