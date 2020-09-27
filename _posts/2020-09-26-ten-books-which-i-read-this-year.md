@@ -11,7 +11,7 @@ No doubt this was a pretty strange year with a bunch of free time. Everyone trie
 
 This post is not advertising and the only reason I'm leaving the links is to make it easy to find books for ones who want to buy them.
 
-## Python Cookbook.
+## Python Cookbook: Recipes for Mastering Python 3
 
 <p align="center">
   <a href="#">
