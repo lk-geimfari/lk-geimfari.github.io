@@ -138,6 +138,6 @@ knowledge of Django's best practices.
 **Link**: [Buy](https://www.feldroy.com/products/two-scoops-of-django-3-x)<br>
 **Authors**: [Daniel Roy Greenfeld](https://twitter.com/pydanny), Audrey Roy Greenfeld
 
----
+<br>
 
 That's all! I would love to hear from you about books that impressed you and which you can recommend to others!
