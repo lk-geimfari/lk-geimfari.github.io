@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — watching TV shows and movies, playing video games, reading the books, etc. I’ve read a lot of interesting books in quarantine, and in this article, I’m going to tell you about these books!
+No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — watching TV shows and movies, playing video games, reading books, etc. I’ve read a lot of interesting books in quarantine, and in this article, I’m going to tell you about these books!
 
 This post is not advertising and the only reason I'm leaving the links is to make it easy to find books for ones who want to buy them.
 
