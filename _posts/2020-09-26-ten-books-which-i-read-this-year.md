@@ -81,7 +81,7 @@ developers from different kind of fields.
 **Link**: [Buy](https://www.oreilly.com/library/view/designing-for-scalability/9781449361556/)<br>
 **Authors**: [Francesco Cesarini](https://twitter.com/francescoc), [Steve Vinoski](https://twitter.com/stevevinoski)
 
-I love Erlang and that’s true. I’ve never used it in production direactly, but I’m still in love with this language. 
+I love Erlang and that’s true. I’ve never used it in production directly, but I’m still in love with this language. 
 I’ve read 2 books about Erlang before this one («Erlang Programming» by Francesco Cesarini and Simon Thompson 
 and «Learn You Some Erlang for Great Good!» by Fred Hebert), but I’ve still learned new things about Erlang in general 
 and OTP namely (there are few really interesting chapters about supervisors and applications).
