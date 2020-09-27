@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ten books which I read this year
-date: 2020-09-26
+date: 2020-09-27
 description: I have read many interesting books in quarantine 
              and in this article I will tell you about them.
 published: true
