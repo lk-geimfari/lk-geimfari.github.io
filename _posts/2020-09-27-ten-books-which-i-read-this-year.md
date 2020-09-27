@@ -3,14 +3,13 @@ layout: post
 title: Ten books which I read this year
 date: 2020-09-27
 description: I have read many interesting books in quarantine 
-             and in this article I will tell you about them.
+             and in this article, I will tell you about them.
 published: true
 comments: false
 ---
 
 No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — 
-watching TV shows and movies, playing video games, reading books, etc. I have read many interesting books in quarantine 
-and in this article I will tell you about them.
+watching TV shows and movies, playing video games, reading books, etc. I have read many interesting books during the quarantine and in this article, I will tell you about them.
 
 This post is not advertising and the only reason I'm leaving the links is to make it easy to find books for ones 
 who want to buy them.
@@ -25,8 +24,7 @@ who want to buy them.
 **Authors**: [David M. Beazley](https://twitter.com/dabeaz), [Brian K. Jones](http://twitter.com/bkjones)
 
 I’m not a newbie in Python, but I found this book very useful anyway. It helped me to refresh my knowledge. 
-I was happy to see how such a cool developer as David solves some problems the same way I would do. This book if for 
-ones for already know Python as well, but wants to learn new elegant hacks and recipes of cooking idiomatic Python.
+I was happy to see how such a cool developer as David solves some problems the same way I would do. This book is for ones who already know Python but wants to learn new elegant hacks and recipes of cooking idiomatic Python.
 
 ## Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 
@@ -37,7 +35,7 @@ ones for already know Python as well, but wants to learn new elegant hacks and r
 **Link**: [Buy](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)<br>
 **Author**: [Martin Kleppmann](https://twitter.com/martinkl)
 
-This book is one of the coolest books about high load applications and databases. From this book, I’ve learned how 
+This book is one of the coolest books about high-load applications and databases. From this book, I’ve learned how 
 works some of the most important mechanisms of nowadays highly available database systems (replication, partition, 
 sharding, constancy, clustering, etc.)
 
@@ -56,16 +54,15 @@ distributed systems.
 **Author**: [Daniel Higginbotham](https://twitter.com/nonrecursive)
 
 Once I’ve learned about Erlang and after that, I fall in love with functional programming. I like learning new 
-things and what can be newer than Lisp-like language when you always had a deal with Algol-like languages?
+things and what can be newer than Lisp-like language when you always had worked with Algol-like languages?
 
-I’ve learned a lot about Clojure and functional programming from this great book. I would recommend it to everyone 
-interested in learning new concepts. Thankfully to this book now I understand how the meta-programming mechanism (quoting/unquoting) 
+I’ve learned a lot about Clojure and functional programming from this great book. I would recommend it to everyone interested in learning new concepts. Thankfully to this book now I understand how the meta-programming mechanism (quoting/unquoting) 
 exactly works in Clojure and unexpectedly in Elixir.
 
 ## 97 Things Every Programmer Should Know: Collective Wisdom from the Experts.
 
 This book is just a compilation of great notes about software development in general written by different experienced 
-developers from different kind of fields.
+developers from different kinds of fields.
 
 **Link**: [Buy](https://www.oreilly.com/library/view/97-things-every/9780596809515/)<br>
 **Author**: [Kevlin Henney](https://twitter.com/KevlinHenney)
@@ -118,12 +115,11 @@ on his own damn rich experience of software development.
 **Link**: [Buy](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/)<br>
 **Authors**: [Bruce Tate](https://twitter.com/redrapids), [Chris McCord](https://twitter.com/chris_mccord), [Jose Valim](https://twitter.com/josevalim)
 
-I’m not gonna lie, I didn’t finished this book yet, but I have to nclude it to this article, because I’ve learned a lot 
-about the Phoenix Framework from this book. I’ve read about plugs, endpoints, request/response lifecycle, ecto, channels and so on.
+I’m not gonna lie, I didn’t finish this book yet, but I have to include it to this article because I’ve learned a lot about the Phoenix Framework from this book. I’ve read about plugs, endpoints, request/response lifecycle, ecto, channels, and so on.
 
 ## The Little Ecto Cookbook
 Well, since I learn Phoenix it makes sense for me to read about Ecto too. I’ve learned this book to know how to work 
-with databases trough the stateless language, where you can’t use habitual ORM.
+with databases through the stateless language, where you can’t use habitual ORM.
 
 **Link**: [Read](https://dashbit.co/ebooks/the-little-ecto-cookbook)<br>
 **Authors**: [Dashbit](https://dashbit.co/)
@@ -136,7 +132,7 @@ with databases trough the stateless language, where you can’t use habitual ORM
   </a>
 </p>
 
-I've learned some good concepts from this book too. I can recommend this book for developers who wants level up their 
+I've learned some good concepts from this book too. I can recommend this book for developers who wants to level up their 
 knowledge of Django's best practices. 
 
 **Link**: [Buy](https://www.feldroy.com/products/two-scoops-of-django-3-x)<br>
