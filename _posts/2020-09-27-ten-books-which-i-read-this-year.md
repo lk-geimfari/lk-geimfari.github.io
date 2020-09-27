@@ -39,8 +39,8 @@ This book is one of the coolest books about high-load applications and databases
 works some of the most important mechanisms of nowadays highly available database systems (replication, partition, 
 sharding, constancy, clustering, etc.)
 
-I'm highly recommending these books for developers who want to know more about databases in complex and 
-distributed systems.
+I’m highly recommending this book for developers who want to know more about databases in complex and distributed systems.
+
 
 ## Clojure for the Brave and True
 
