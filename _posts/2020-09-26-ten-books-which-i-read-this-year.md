@@ -56,7 +56,7 @@ distributed systems.
 **Author**: [Daniel Higginbotham](https://twitter.com/nonrecursive)
 
 Once I’ve learned about Erlang and after that, I fall in love with functional programming. I like learning new 
-things and what can be newer than Lisp-like language when you always had deal with Algol-like languages?
+things and what can be newer than Lisp-like language when you always had a deal with Algol-like languages?
 
 I’ve learned a lot about Clojure and functional programming from this great book. I would recommend it to everyone 
 interested in learning new concepts. Thankfully to this book now I understand how the meta-programming mechanism (quoting/unquoting) 
