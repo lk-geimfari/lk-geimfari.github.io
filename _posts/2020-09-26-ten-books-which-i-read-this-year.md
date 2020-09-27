@@ -39,7 +39,7 @@ This book is one of the coolest books about high load applications and databases
 
 I'm highly recommending these books for developers who want to know more about databases in complex and distributed systems.
 
-## Clojure for the Brave and True.
+## Clojure for the Brave and True
 
 <p align="center">
    <a href="#">
