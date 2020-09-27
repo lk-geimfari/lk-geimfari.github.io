@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Erlangify Yourself: Part I. Primitives
+title: Erlangify Yourself — Part I. Primitives.
 preview_img: comparison_preview.jpg
 description: Description here
 published: false
