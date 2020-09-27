@@ -5,7 +5,7 @@ date: 2020-09-27
 description: I have read many interesting books in quarantine 
              and in this article, I will tell you about them.
 published: true
-comments: false
+comments: true
 ---
 
 No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — 
@@ -137,3 +137,6 @@ knowledge of Django's best practices.
 
 **Link**: [Buy](https://www.feldroy.com/products/two-scoops-of-django-3-x)<br>
 **Authors**: [Daniel Roy Greenfeld](https://twitter.com/pydanny), Audrey Roy Greenfeld
+
+
+That's all! I would love to hear from you about books that impressed you and which you can recommend to others!
