@@ -3,8 +3,8 @@ layout: post
 title: Ten books which I read this year
 date: 2020-09-26
 description: In this article, I'm going to tell you about interesting books I read this year.
-published: false
-comments: true
+published: true
+comments: false
 ---
 
 No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — watching TV shows and movies, playing video games, reading books, etc. I’ve read a lot of interesting books in quarantine, and in this article, I’m going to tell you about these books!
