@@ -61,7 +61,7 @@ exactly works in Clojure and unexpectedly in Elixir.
 
 ## 97 Things Every Programmer Should Know: Collective Wisdom from the Experts.
 
-This book is just a compilation of great notes about software development in general written by different experienced 
+This book is just a compilation of common truths about software development written by different experienced 
 developers from different kinds of fields.
 
 **Link**: [Buy](https://www.oreilly.com/library/view/97-things-every/9780596809515/)<br>
