@@ -118,8 +118,9 @@ on his own damn rich experience of software development.
 I’m not gonna lie, I didn’t finish this book yet, but I have to include it to this article because I’ve learned a lot about the Phoenix Framework from this book. I’ve read about plugs, endpoints, request/response lifecycle, ecto, channels, and so on.
 
 ## The Little Ecto Cookbook
-Well, since I learn Phoenix it makes sense for me to read about Ecto too. I’ve learned this book to know how to work 
-with databases through the stateless language, where you can’t use habitual ORM.
+
+Well, since I learn Phoenix it makes sense for me to read about Ecto too. I've read this book to know how to work with 
+databases through the stateless language, where you can't use habitual ORM.
 
 **Link**: [Read](https://dashbit.co/ebooks/the-little-ecto-cookbook)<br>
 **Authors**: [Dashbit](https://dashbit.co/)
