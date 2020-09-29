@@ -83,6 +83,18 @@ This allows you to quickly and easily use randomized, dummy data as part of your
 
 <br>
 
+## secrets.clj
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lk-geimfari/secrets.clj/master/.github/logo.png">
+</p>
+
+[A Clojure library](https://github.com/lk-geimfari/secrets.clj) designed to generate secure random numbers for 
+managing secrets. This project is a Python's secret module implementation for Clojure, based on Java's standard library.
+              
+The secrets module is used for generating cryptographically strong random numbers suitable for managing data such as 
+passwords, account authentication, security tokens, and related secrets.
+
 ## Nebula
 
 <p align="center">
@@ -107,4 +119,5 @@ to create a user-friendly command-line application.
 [pytest-mimesis]: https://github.com/pytest-dev/pytest-mimesis
 [Awesome Cryptography]: https://github.com/sobolevn/awesome-cryptography
 [Censor Tracker]: https://github.com/roskomsvoboda/censortracker
+[secrets.clj]: https://github.com/lk-geimfari/secrets.clj
 [censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/master/.github/censortracker-popups.svg
