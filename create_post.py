@@ -10,6 +10,7 @@ date: {date}
 preview_img:
 description:
 published: false
+comments: false
 ---
 """
 
