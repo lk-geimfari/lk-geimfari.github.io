@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Isaak Uchakaev.
+My name is Isaak Uchakaev (Russian: Исаак Учакаев).
 
 Currently, I'm working as a Backend Engineer at [roskomsvoboda].
 
@@ -28,7 +28,7 @@ You can also contact me in Telegram: [@likid_geimfari]
 Contact me, if you want to:
 
 * Offer me a good job ([you can find my resume here])
-* Offer me any kind of partnership
+* Offer me a partnership
 * Ask something related to my activity (GitHub/Blog)
 * Report about a typo in the post or something
 
