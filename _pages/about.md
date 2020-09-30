@@ -12,8 +12,8 @@ Like any other programmer and professional, I love learning new things
 and technologies and sometimes, I write my thoughts about such things in
 this blog.
 
-Generally, I work with `Python` and `JavaScript`, but I’m also familiar with 
-`Erlang`, `Elixir`, and `Rust`, so all my posts mainly will be related to those topics.
+Generally, I work with `Python` and `JavaScript`, but I’m also familiar with `Erlang`, 
+`Elixir`, `Clojure` and `Rust`, so all my posts mainly will be related to those topics.
 
 #### Contact me
 
@@ -28,7 +28,8 @@ You can also contact me in Telegram: [@likid_geimfari]
 Contact me, if you want to:
 
 * Offer me a good job ([you can find my resume here])
-* Ask something related to my activity on GitHub
+* Offer me any kind of partnership
+* Ask something related to my activity (GitHub/Blog)
 * Report about a typo in the post or something
 
 [roskomsvoboda]: https://github.com/roskomsvoboda
