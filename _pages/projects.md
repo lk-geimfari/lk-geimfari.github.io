@@ -89,11 +89,11 @@ This allows you to quickly and easily use randomized, dummy data as part of your
   <img src="https://raw.githubusercontent.com/lk-geimfari/secrets.clj/master/.github/logo.png">
 </p>
 
-[A Clojure library](https://github.com/lk-geimfari/secrets.clj) designed to generate secure random numbers for 
-managing secrets. This project is a Python's secret module implementation for Clojure, based on Java's standard library.
-              
-The secrets module is used for generating cryptographically strong random numbers suitable for managing data such as 
-passwords, account authentication, security tokens, and related secrets.
+The [`secrets`](https://github.com/lk-geimfari/secrets.clj) is a library designed to generate cryptographically strong 
+random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets.
+
+See [the project's readme](https://github.com/lk-geimfari/secrets.clj) for usage examples.
+
 
 ## Nebula
 
