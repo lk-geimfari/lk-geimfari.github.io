@@ -9,4 +9,4 @@ comments: false
 
 ## What the heck is "homoiconicity"?
 
-Homoiconicity is a property of a programming language. We say that a language is homoiconic if a program written in it can be manipulated as data using the language, and thus the program's internal representation can be inferred just by reading the program itself. This propert of lanugage is also known as "Code as Data".
+Homoiconicity is a property of a programming language. We say that a language is homoiconic if a program written in it can be manipulated as data using the language, and thus the program's internal representation can be inferred just by reading the program itself. In fact, all the machine code languages, including Assembler are homoiconic, but the most known homoiconic language is Lisp and its dialects. In this article we are going to consider homoiconicity in [Clojure](https://clojure.org/), so let me shortly introduce it first.
