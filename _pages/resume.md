@@ -6,33 +6,38 @@ permalink: /resume/
 
 Hi, my name is Isaak.
 
-I have been working with Python for more than 5 years (more than 3 years of commercial web development 
-with Python/Django/DRF/Flask) and have been writing idiomatic code in compliance with the best practices 
-of the software development. I always take my work with great responsibility and expect the same from others. 
+I have been developing software for over 5 years, of which 4+ years have been developing web 
+applications and web APIs in Python (Django, DRF). I write reliable, maintainable code following 
+the best practices in the language I am dealing with.
+
+I am able to independently organize my time and therefore I do not need supervisors behind my back.
 
 I am an active contributor in Open Source also I maintain my own projects in various languages 
-(Python, JS, Erlang, Rust, and so on, just check out [my profile] on GitHub).
+(Python, JS, Erlang, Clojure, Rust, and so on, just check out [my profile] on GitHub).
 
 Just for the record, I note that I also know Russian, so you can write to me in Russian.
 
 #### Stack I worked with
 
 * Python (Django, DRF, Flask, Celery etc.)
-* JavaScript (ES6, jQuery, Webpack, Chrome API, etc.)
-* Containerization (Docker, Swarm)
-* SQL/NoSQL (PostgresSQL, SQLite)
+* JavaScript/HTML/CSS (ES6, jQuery, Bootstrap, Chrome API, etc.)
+* Containerization & CI/CD (Docker, Swarm, Gitlab CI)
+* Monitoring (Sentry, Prometheus, Grafana)
+* Database (PostgresSQL, SQLite)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
-* Testing (Selenium, TestCafe, unittest, hypothesis, py.test, mimesis, Jest)
+* Code Quality (pycodestyle, black, isort, mypy, eslint etc.)
+* Testing (Selenium, unittest, hypothesis, py.test, jest etc.)
+* Others (Nginx, Nginx Unit, RabbitMQ)
 * Erlang/Elixir (Beginner)
-* *nix (Linux, macOS)
+* *nix (Linux, macOS, coreutils)
 
 #### Professional
 
 * Knowledge of multiple programming languages, including strong knowledge of Python.
 * Good knowledge of basic algorithms and data structures.
 * Good knowledge of design patterns.
-* Commercial web development experience with Django (over 3 years).
+* Commercial web development experience with Django (over 4 years).
 * Real team player who can get along with people from all backgrounds.
 * Able to quickly learn new technologies.
 * Constant desire to enhance my professional skills.
@@ -44,8 +49,8 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 
 #### Professional goals 
 
-1. Senior Developer
-2. Lead Developer
+1. Senior Backend Engineer
+2. Lead Backend Engineer
 3. Software Architect
 
 #### Contact me
