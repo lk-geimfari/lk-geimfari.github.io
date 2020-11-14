@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>isaak.dev</ShortName>
   <Description>Isaak's personal blog</Description>
-  <Tags>python javascript django erlang rust clojure elixir web api</Tags>
+  <Tags>python javascript django erlang rust clojure elixir web api testing mimesis</Tags>
   <Contact>likid.geimfari@gmail.com</Contact>
   <Url type="application/atom+xml" template="https://isaak.dev/feed.xml"/>
   <LongName>Thoughts about software development</LongName>
