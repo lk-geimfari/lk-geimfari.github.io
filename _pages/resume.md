@@ -47,7 +47,7 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 #### Professional goals 
 
 1. Senior Backend Engineer
-2. Lead Backend Engineer
+2. Lead Engineer
 3. Software Architect
 
 #### Contact me
