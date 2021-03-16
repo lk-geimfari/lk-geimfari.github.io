@@ -57,8 +57,8 @@ join the community of Open Source developers, then here you might find a project
 
 [![censortracker_logo]][Censor Tracker]
 
-[Censor Tracker] is an extension for Google Chrome which helps to bypass censorship in Russian Federation 
-and helps to detect resources blocked using Deep Packet Inspection (DPI).
+[Censor Tracker] is an extension for Google Chrome and Mozilla Firefox which helps to bypass censorship in Russia 
+and helps to detect resources blocked using DPI filters.
 
 Censor Tracker provides a lot of useful features, here are most important of them:
 

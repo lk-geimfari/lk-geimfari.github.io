@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Isaak Uchakaev (Russian: Исаак Учакаев).
+Hi! I'm Isaak Uchakaev (Russian: Исаак Учакаев).
 
 Currently, I'm working as a Backend Engineer at [roskomsvoboda].
 

@@ -4,16 +4,13 @@ title: Resume
 permalink: /resume/
 ---
 
-Hi, my name is Isaak.
+Hi. I’m Isaak Uchakaev. I am a software engineer from Russia.
 
 I have been developing software for over 5 years, of which 4+ years have been developing web 
-applications and web APIs in Python (Django, DRF). I write reliable, maintainable code following 
-the best practices in the language I am dealing with.
+applications and web APIs in Python (Django, DRF).
 
-I am able to independently organize my time and therefore I do not need supervisors behind my back.
-
-I am an active contributor in Open Source also I maintain my own projects in various languages 
-(Python, JS, Erlang, Clojure, Rust, and so on, just check out [my profile] on GitHub).
+I’ve been an active open source contributor for many years, having contributed in the past to 
+many projects. Just check out [my profile] on GitHub
 
 Just for the record, I note that I also know Russian, so you can write to me in Russian.
 
@@ -22,7 +19,7 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 * Python (Django, DRF, Flask, Celery etc.)
 * JavaScript/HTML/CSS (ES6, jQuery, Bootstrap, Chrome API, etc.)
 * Containerization & CI/CD (Docker, Swarm, Gitlab CI)
-* Monitoring (Sentry, Prometheus, Grafana)
+* Monitoring (Sentry)
 * Database (PostgresSQL, SQLite)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
