@@ -104,7 +104,7 @@ See [the project's readme](https://github.com/lk-geimfari/secrets.clj) for usage
 [nebula] is a small library for colored ([ANSI]) output in `Erlang`/`Elixir`.  It's can be useful when you need 
 to create a user-friendly command-line application.
 
-[mimesis_logo_img]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/media/readme-logo.png
+[mimesis_logo_img]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/readme-logo.png
 [fastest]: https://mimesis.name/foreword.html#performance
 [simplified]: https://mimesis.name/getting_started.html#generic-provider
 [a lot of languages]: https://mimesis.name/getting_started.html#locales
