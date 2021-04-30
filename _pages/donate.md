@@ -13,4 +13,4 @@ If you're enjoying things I do and want to support me then you can send me some 
 - ZEC: ``t1LrDZM5QRTNsTtV2pFyQ52wxnvpKm35Wmj``
 
 If you’re not enjoying the things I do, you can write me an angry letter, angry tweet, 
-record a diss rap song or even stab me in the dark alley (I'm kidding, I would be thankful if you would not do that).
+record a diss rap or even stab me in the dark alley (I'm kidding, I would be thankful if you would not do that).
