@@ -142,6 +142,7 @@ a:not(.nav-link, .anchor):hover {
 .nv-item:hover {
     color: rgb(225, 83, 67);
     text-decoration: none;
+    border: 0 !important;
 }
 
 .post a:hover {
