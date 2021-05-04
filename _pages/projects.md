@@ -120,4 +120,4 @@ to create a user-friendly command-line application.
 [Awesome Cryptography]: https://github.com/sobolevn/awesome-cryptography
 [Censor Tracker]: https://github.com/roskomsvoboda/censortracker
 [secrets.clj]: https://github.com/lk-geimfari/secrets.clj
-[censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/master/.github/censortracker-popups.svg
+[censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/main/.github/censortracker-popups.svg
