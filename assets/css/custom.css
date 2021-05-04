@@ -150,9 +150,14 @@ a:not(.nav-link, .anchor):hover {
     text-decoration: none;
 }
 
-footer .username:hover {
+footer a:hover {
     color: rgb(225, 83, 67);
     text-decoration: none;
+    border: 0 !important;
+}
+
+footer p {
+    font-size: 15px;
 }
 
 #subscribe:hover {
