@@ -128,7 +128,7 @@ article a {
 
 article a:not(.anchor):hover {
     color: rgb(225, 83, 67);
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 a:not(.nav-link, .anchor):hover {
