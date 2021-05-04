@@ -9,7 +9,7 @@ This is an incomplete list of open-source projects which I maintain and where I'
 ## Mimesis
 
 <p align="center">
-  <a href="https://mimesis.name/" style="border: 0">
+  <a href="https://mimesis.name/" style="border: 0" target="_blank">
     <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/readme-logo.png">
   </a>
 </p>
@@ -35,7 +35,7 @@ The key features are:
 ## AWESOMEO
 
 <p align="center">
-  <a href="https://github.com/lk-geimfari/awesomo" style="border: 0">
+  <a href="https://github.com/lk-geimfari/awesomo" style="border: 0" target="_blank">
     <img src="https://raw.githubusercontent.com/lk-geimfari/awesomeo/master/artwork/a.w.e.s.o.m.e_o.png">
   </a>
 </p>
@@ -51,7 +51,7 @@ join the community of Open Source developers, then here you might find a project
 ## Awesome Cryptography
 
 <p align="center">
-  <a href="https://github.com/sobolevn/awesome-cryptography" style="border: 0">
+  <a href="https://github.com/sobolevn/awesome-cryptography" style="border: 0" target="_blank">
     <img src="https://github.com/sobolevn/awesome-cryptography/blob/master/awesome-crypto.png?raw=true" alt="Awesome Cryptography">
   </a>
 </p>
@@ -63,7 +63,7 @@ join the community of Open Source developers, then here you might find a project
 ## CensorTracker
 
 <p align="center">
-  <a href="https://github.com/roskomsvoboda/censortracker" style="border: 0">
+  <a href="https://github.com/roskomsvoboda/censortracker" style="border: 0" target="_blank">
     <img src="https://raw.githubusercontent.com/roskomsvoboda/censortracker/main/.github/censortracker-popups.svg" alt="Censor Tracker">
   </a>
 </p>
@@ -99,7 +99,7 @@ for [Mimesis] providers. This allows you to quickly and easily use randomized, d
 ## secrets.clj
 
 <p align="center">
-  <a href="https://github.com/lk-geimfari/secrets.clj" style="border: 0">
+  <a href="https://github.com/lk-geimfari/secrets.clj" style="border: 0" target="_blank">
     <img src="https://raw.githubusercontent.com/lk-geimfari/secrets.clj/master/.github/logo.png" alt="secrets.clj">
   </a>
 </p>
@@ -110,7 +110,7 @@ random numbers suitable for managing data such as passwords, account authenticat
 ## Nebula
 
 <p align="center">
-  <a href="https://github.com/lk-geimfari/nebula" style="border: 0">
+  <a href="https://github.com/lk-geimfari/nebula" style="border: 0" target="_blank">
     <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/media/logo.png" alt="secrets.clj">
   </a>
 </p>
