@@ -8,7 +8,11 @@ This is an incomplete list of open-source projects which I maintain and where I'
 
 ## Mimesis
 
-[![mimesis_logo_img]][Mimesis]
+<p align="center">
+  <a href="https://mimesis.name/" style="border: 0">
+    <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/readme-logo.png">
+  </a>
+</p>
 
 [Mimesis] is a high-performance fake data generator for Python, which
 provides data for a variety of purposes in a variety of languages. The
@@ -28,15 +32,16 @@ The key features are:
 
 <br>
 
-## Awesomo
+## AWESOMEO
 
 <p align="center">
+  <a href="https://github.com/lk-geimfari/awesomo" style="border: 0">
     <img src="https://raw.githubusercontent.com/lk-geimfari/awesomeo/master/artwork/a.w.e.s.o.m.e_o.png">
+  </a>
 </p>
 
 [awesomo] is an extensive list of cool open source projects written in С, C++, Clojure, Lisp, 
 Elixir, Erlang, Elm, Golang, Haskell, JavaScript, Lua, OCaml, Python, R, Ruby, Rust, Scala etc.
-          
 
 If you are interested in [Open Source] and are considering to 
 join the community of Open Source developers, then here you might find a project that will suit you.
@@ -46,19 +51,25 @@ join the community of Open Source developers, then here you might find a project
 ## Awesome Cryptography
 
 <p align="center">
-  <img src="https://github.com/sobolevn/awesome-cryptography/blob/master/awesome-crypto.png?raw=true" alt="Awesome Cryptography">
+  <a href="https://github.com/sobolevn/awesome-cryptography" style="border: 0">
+    <img src="https://github.com/sobolevn/awesome-cryptography/blob/master/awesome-crypto.png?raw=true" alt="Awesome Cryptography">
+  </a>
 </p>
 
-[Awesome Cryptography] is a curated list of cryptography resources and links.
+[Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography) is a curated list of cryptography resources and links.
 
 <br>
 
 ## CensorTracker
 
-[![censortracker_logo]][Censor Tracker]
+<p align="center">
+  <a href="https://github.com/roskomsvoboda/censortracker" style="border: 0">
+    <img src="https://raw.githubusercontent.com/roskomsvoboda/censortracker/main/.github/censortracker-popups.svg" alt="Censor Tracker">
+  </a>
+</p>
 
-[Censor Tracker] is an extension for Google Chrome and Mozilla Firefox which helps to bypass censorship in Russia 
-and helps to detect resources blocked using DPI filters.
+[Censor Tracker](https://github.com/roskomsvoboda/censortracker) is an extension for Google Chrome and Mozilla Firefox 
+which helps to bypass censorship in Russia and helps to detect resources blocked using DPI filters.
 
 Censor Tracker provides a lot of useful features, here are most important of them:
 
@@ -71,40 +82,42 @@ Censor Tracker provides a lot of useful features, here are most important of the
 
 ## Expynent
 
-[expynent] is a tiny library that provides common regular expression patterns. This can be useful if you don't want to 
-write regular expression manually. Also you can use this library as [fixture](https://docs.pytest.org/en/latest/fixture.html) for testing framework like a [py.test](https://docs.pytest.org/en/latest/).
+[expynent](https://github.com/lk-geimfari/expynent) is a tiny library that provides common regular expression patterns. 
+This can be useful if you don't want to  write regular expression manually. 
+Also you can use this library as [fixture](https://docs.pytest.org/en/latest/fixture.html) for testing framework 
+like a [py.test](https://docs.pytest.org/en/latest/).
 
 <br>
 
 ## pytest-mimesis
 
-[pytest-mimesis] is a pytest plugin that provides pytest fixtures for [Mimesis] providers. 
-This allows you to quickly and easily use randomized, dummy data as part of your test suite.
+[pytest-mimesis](https://github.com/pytest-dev/pytest-mimesis) is a pytest plugin that provides pytest fixtures 
+for [Mimesis] providers. This allows you to quickly and easily use randomized, dummy data as part of your test suite.
 
 <br>
 
 ## secrets.clj
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lk-geimfari/secrets.clj/master/.github/logo.png">
+  <a href="https://github.com/lk-geimfari/secrets.clj" style="border: 0">
+    <img src="https://raw.githubusercontent.com/lk-geimfari/secrets.clj/master/.github/logo.png" alt="secrets.clj">
+  </a>
 </p>
 
 The [`secrets`](https://github.com/lk-geimfari/secrets.clj) is a library designed to generate cryptographically strong 
 random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets.
 
-See [the project's readme](https://github.com/lk-geimfari/secrets.clj) for usage examples.
-
-
 ## Nebula
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/media/logo.png">
+  <a href="https://github.com/lk-geimfari/nebula" style="border: 0">
+    <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/media/logo.png" alt="secrets.clj">
+  </a>
 </p>
 
 [nebula] is a small library for colored ([ANSI]) output in `Erlang`/`Elixir`.  It's can be useful when you need 
 to create a user-friendly command-line application.
 
-[mimesis_logo_img]: https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/readme-logo.png
 [fastest]: https://mimesis.name/foreword.html#performance
 [simplified]: https://mimesis.name/getting_started.html#generic-provider
 [a lot of languages]: https://mimesis.name/getting_started.html#locales
@@ -114,10 +127,7 @@ to create a user-friendly command-line application.
 [awesomo]: https://github.com/lk-geimfari/awesomo
 [Open Source]: https://en.wikipedia.org/wiki/Open-source_software
 [ANSI]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
-[expynent]: https://github.com/lk-geimfari/expynent
 [nebula]: https://github.com/lk-geimfari/nebula
-[pytest-mimesis]: https://github.com/pytest-dev/pytest-mimesis
 [Awesome Cryptography]: https://github.com/sobolevn/awesome-cryptography
 [Censor Tracker]: https://github.com/roskomsvoboda/censortracker
 [secrets.clj]: https://github.com/lk-geimfari/secrets.clj
-[censortracker_logo]: https://raw.githubusercontent.com/roskomsvoboda/censortracker/main/.github/censortracker-popups.svg
