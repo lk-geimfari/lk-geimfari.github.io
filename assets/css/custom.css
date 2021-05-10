@@ -168,15 +168,15 @@ footer p {
 #post_header_title {
     font-weight: 900;
     text-rendering: optimizeLegibility;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.1;
 }
 
 #layout_header_title {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 2.8rem;
-    line-height: 4.5rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
     color: rgba(0, 0, 0, 0.9);
 }
 
