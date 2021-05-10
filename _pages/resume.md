@@ -4,29 +4,28 @@ title: Resume
 permalink: /resume/
 ---
 
-Hi. I’m Isaak Uchakaev. I am a software engineer from Russia.
+Hi. I’m Isaak Uchakaev.
 
-I have been developing software for over 5 years, of which 4+ years have been developing web 
-applications and web APIs in Python (Django, DRF).
+I am a back-end developer - I develop web applications, design APIs, fix bugs, write tests, 
+and do my best to improve the projects I work on.
 
-I’ve been an active open source contributor for many years, having contributed in the past to 
-many projects. Just check out [my profile] on GitHub
+I have been working in the field for over five years and mainly developing web applications and 
+web APIs in Python (Django, DRF).
 
-Just for the record, I note that I also know Russian, so you can write to me in Russian.
+I’m an active open source contributor for many years (just check out [my profile] on GitHub).
 
-#### Stack I worked with
+An incomplete list of things I work with most often:
 
 * Python (Django, DRF, Flask, Celery etc.)
 * JavaScript/HTML/CSS (ES6, jQuery, Bootstrap, Chrome API, etc.)
 * Containerization & CI/CD (Docker, Swarm, Gitlab CI)
 * Monitoring (Sentry)
-* Database (PostgresSQL, SQLite)
+* Database (SQL, SQLite, PostgresSQL)
 * Key/Value (Redis, Memcached)
 * VCS (Git, git-flow)
 * Code Quality (pycodestyle, black, isort, mypy, eslint etc.)
 * Testing (Selenium, unittest, hypothesis, py.test, jest etc.)
-* Others (Nginx, Nginx Unit, RabbitMQ)
-* Erlang/Elixir (Beginner)
+* Others (Nginx, Nginx Unit, RabbitMQ, AWS/S3, Heroku, IPFS)
 * *nix (Linux, macOS, coreutils)
 
 #### Professional
@@ -34,7 +33,7 @@ Just for the record, I note that I also know Russian, so you can write to me in 
 * Knowledge of multiple programming languages, including strong knowledge of Python.
 * Good knowledge of basic algorithms and data structures.
 * Good knowledge of design patterns.
-* Commercial web development experience with Django (over 4 years).
+* Commercial web development experience with Django (over 5 years).
 * Real team player who can get along with people from all backgrounds.
 * Able to quickly learn new technologies.
 * Constant desire to enhance my professional skills.
