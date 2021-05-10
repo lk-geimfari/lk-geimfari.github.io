@@ -8,9 +8,8 @@ Hi! I'm Isaak Uchakaev (Russian: Исаак Учакаев).
 
 Currently, I'm working as a Backend Engineer at [roskomsvoboda].
 
-Like any other programmer and professional, I love learning new things
-and technologies and sometimes, I write my thoughts about such things in
-this blog.
+Like any other programmer and passionate professional, I love learning new things 
+and technologies, and sometimes, I write my thoughts about such things in this blog.
 
 Generally, I work with `Python` and `JavaScript`, but I’m also familiar with `Erlang`, 
 `Elixir`, `Clojure` and `Rust`, so all my posts mainly will be related to those topics.
