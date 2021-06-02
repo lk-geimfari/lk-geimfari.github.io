@@ -21,7 +21,7 @@ code in the past (in fact, I still write the bad code sometimes, though refactor
 This is nothing terrible as long as we understand that we need to work on it.
 
 This article is a translated version of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
-if you know Russian then you can read the origin version.
+if you know Russian then you can read the original version.
 
 Let's start.
 
