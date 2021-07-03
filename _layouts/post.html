@@ -5,7 +5,7 @@
 <main>
     {% include post_header.html %}
     {% include navigation.html %}
-    <article style="margin-top:2.8rem!important">
+    <article style="margin-top:2rem!important">
         <div class="meta">
             <h1 class="title">
                 {{ page.title }}
@@ -26,7 +26,9 @@
                     </small>
                 {% endif %}
                 <small>
-                    <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">edit this page</a>
+                    <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">
+                        edit
+                    </a>
                 </small>
             </div>
 

@@ -19,7 +19,7 @@ google_analytics_id: UA-170154050-1
 baseurl: ""
 url: "https://isaak.dev"
 rss_url: "https://isaak.dev/feed.xml"
-github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/blob/master"
+github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/edit/master"
 default_preview_image: https://isaak.dev/assets/images/other/preview.png
 
 include: [_pages]
