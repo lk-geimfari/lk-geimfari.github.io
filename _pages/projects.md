@@ -10,7 +10,7 @@ This is an incomplete list of open-source projects which I maintain and where I'
 
 <p align="center">
   <a href="https://mimesis.name/" style="border: 0" target="_blank">
-    <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/readme-logo.png">
+    <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/octopus-no-retina-sm.png">
   </a>
 </p>
 
@@ -40,7 +40,7 @@ The key features are:
   </a>
 </p>
 
-[awesomo] is an extensive list of cool open source projects written in С, C++, Clojure, Lisp, 
+[AWESOMEO] is an extensive list of cool open source projects written in С, C++, Clojure, Lisp, 
 Elixir, Erlang, Elm, Golang, Haskell, JavaScript, Lua, OCaml, Python, R, Ruby, Rust, Scala etc.
 
 If you are interested in [Open Source] and are considering to 
@@ -60,23 +60,21 @@ join the community of Open Source developers, then here you might find a project
 
 <br>
 
-## CensorTracker
+## Censor Tracker
 
 <p align="center">
   <a href="https://github.com/roskomsvoboda/censortracker" style="border: 0" target="_blank">
-    <img src="https://raw.githubusercontent.com/roskomsvoboda/censortracker/main/.github/censortracker-popups.svg" alt="Censor Tracker">
+    <img src="https://raw.githubusercontent.com/roskomsvoboda/censortracker/ad0c428717b22de3f4b6f00f2b2ec1b457cc16f3/.github/media/popup_ru.png" alt="Censor Tracker">
   </a>
 </p>
 
-[Censor Tracker](https://github.com/roskomsvoboda/censortracker) is an extension for Google Chrome and Mozilla Firefox 
-which helps to bypass censorship in Russia and helps to detect resources blocked using DPI filters.
+[Censor Tracker](https://github.com/roskomsvoboda/censortracker) is an open-source extension for Chromium and Mozilla Firefox that allows you to bypass Internet censorship, warn about sites that cooperate with third parties, as well as to detect new blockings and other acts of censorship (DPI filters, Traffic shaping).
 
-Censor Tracker provides a lot of useful features, here are most important of them:
+Censor Tracker provides a lot of useful features, here are most important:
 
--   Detects DPI locks
--   Bypass DPI locks
--   Bypass [registry](https://eais.rkn.gov.ru/) locks
--   Warns if a user visits a website that can merge or modify https traffic (site in [ORI](https://97-fz.rkn.gov.ru/))
+- Detects DPI-based banns
+- Bypass DPI-based banns
+- Bypass registry-based banns
 
 <br>
 
@@ -124,7 +122,7 @@ to create a user-friendly command-line application.
 [a lot of data providers]: https://mimesis.name/api.html
 [some countries]: https://mimesis.name/api.html#builtin-data-providers
 [Mimesis]: https://github.com/lk-geimfari/mimesis
-[awesomo]: https://github.com/lk-geimfari/awesomo
+[AWESOMEO]: https://github.com/lk-geimfari/awesomo
 [Open Source]: https://en.wikipedia.org/wiki/Open-source_software
 [ANSI]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
 [nebula]: https://github.com/lk-geimfari/nebula
