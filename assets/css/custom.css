@@ -233,6 +233,10 @@ article .title {
     color: grey;
 }
 
+.star {
+    color: #ffc107;
+}
+
 .content p {
     padding: 0;
     margin: 0 0 0.85rem;

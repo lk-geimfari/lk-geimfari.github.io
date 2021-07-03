@@ -19,6 +19,9 @@
                         <h3>{{ post.title }}</h3>
                     </a>
                     <div id="smalls" class="justify-content-between">
+                        {% if post.starred %}
+                            <small class="star">★</small>
+                        {% endif %}
                         <small class="grey">{{ post.date|date_to_string }}</small>
                         <small class="grey">
                             {% assign words = post.content | number_of_words %}

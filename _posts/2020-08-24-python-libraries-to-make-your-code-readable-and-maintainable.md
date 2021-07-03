@@ -7,6 +7,7 @@ description: Experienced programmers understand perfectly well that in developme
 preview_img: rrm-post.png
 published: true
 comments: true
+starred: true
 ---
 
 Experienced programmers understand perfectly well that in development they spend most of the time reading code 
