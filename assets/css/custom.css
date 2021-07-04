@@ -180,11 +180,11 @@ footer p {
     color: rgba(0, 0, 0, 0.9);
 }
 
-#layout_header_title:hover .dot {
+#layout_header_title .dot {
     color: rgb(225, 83, 67);
 }
 
-#post_header_title:hover .dot {
+#post_header_title .dot {
     color: rgb(225, 83, 67);
 }
 
@@ -234,7 +234,7 @@ article .title {
 }
 
 .starred {
-    color: grey;
+    color: rgb(225, 83, 67);
 }
 
 .content p {
