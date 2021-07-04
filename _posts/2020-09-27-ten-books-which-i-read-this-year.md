@@ -4,7 +4,7 @@ title: Ten books which I read this year
 date: 2020-09-27
 description: I've read many interesting books during quarantine this year and in this article, I'm going to tell you about them.
 published: true
-comments: true
+comments: false
 ---
 
 No doubt this was a pretty strange year with a bunch of free time. Everyone tried to kill the time as they can — 
