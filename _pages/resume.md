@@ -10,7 +10,7 @@ Hi! My name is Isaak Uchakaev.
 
 I am a Backend Engineer with multiple years of experience in designing web applications and APIs. 
 As a back-end engineer, my objective is to positively impact the project I work on using my skills 
-and experience in designing highly available, scalable, and maintainable APIs.
+and experience in designing scalable, reliable, and maintainable APIs.
 
 I'm an avid open source contributor for many years (just check out [my profile] on GitHub, so you can 
 see how passionate I am about my work).
