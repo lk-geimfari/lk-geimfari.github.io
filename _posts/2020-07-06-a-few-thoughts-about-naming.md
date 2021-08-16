@@ -10,16 +10,9 @@ published: true
 comments: true
 starred: true
 ---
+The proper naming of variables, functions, methods, and classes is one of the most important attributes of elegant and clean code, which clearly reflects the programmer's intentions, without assumptions about what was meant.
 
-The proper naming of variables, functions, methods, and classes is one of the most important 
-attributes of elegant and clean code, that clearly reflects the intentions of the programmer, 
-without assumptions about what was meant.
-
-In this article, we will talk about code that is the exact opposite of the one described
-above - about code that was written carelessly or thoughtlessly.
-This article is a small confession, because I, like any other programmer, have also written such 
-code in the past (in fact, I still write the bad code sometimes, though refactoring makes it much better).
-This is nothing terrible as long as we understand that we need to work on it.
+In this article, we will talk about code that is the exact opposite of the one described above - about code that was written carelessly or thoughtlessly. This article is a small confession, because I, like any other programmer, have also written such code in the past (in fact, I still write the bad code sometimes, though refactoring makes it much better). This is nothing terrible as long as we understand that we need to work on it.
 
 This article is a translated version of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
 if you know Russian then you can read the original version.
