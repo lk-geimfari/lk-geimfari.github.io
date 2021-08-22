@@ -29,6 +29,7 @@ More information on experience, references, and skills are available upon reques
 * Aptitude for learning new things quickly and effectively.
 
 #### Technical Summary
+
 * Python (Django, DRF, Flask, Celery etc.)
 * JavaScript/TypeScript/HTML/CSS (ES6, jQuery, Bootstrap, Chrome API, etc.)
 * Erlang/Elixir/Clojure
