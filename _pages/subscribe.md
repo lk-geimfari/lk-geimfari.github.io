@@ -15,7 +15,7 @@ I cross-post links to all articles from this blog on my Twitter account, so [fol
 ## Telegram
 
 I have a Telegram channel where I cross-post articles from my blog and post all 
-the open-source goodies I found: [@the_art_of_development].
+the open-source goodies I found: [@software_dev_channel].
 
 ## GitHub
 
@@ -26,6 +26,6 @@ If you're interested only in activity related to this blog, then you can [watch 
 
 [RSS]: https://isaak.dev/feed.xml
 [follow me]: https://twitter.com/likid_geimfari
-[@the_art_of_development]: https://t.me/the_art_of_development
+[@the_art_of_development]: https://t.me/software_dev_channel
 [Github subscription]: https://github.com/lk-geimfari
 [watch it on GitHub]: https://github.com/lk-geimfari/lk-geimfari.github.io
