@@ -4,8 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
-#### EN: [Isaak Uchakaev, Backend Engineer (pdf)]({{ site.resume.en }}).
-#### RU: [Исаак Учакаев, Backend Engineer (pdf)]({{ site.resume.ru }}).
+## Files
+- EN: [Isaak Uchakaev, Backend Engineer (pdf)]({{ site.resume.en }}).
+- RU: [Исаак Учакаев, Backend Engineer (pdf)]({{ site.resume.ru }}).
 
 ## Contact me
 

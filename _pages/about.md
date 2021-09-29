@@ -16,10 +16,10 @@ Generally, I work with `Python` and `JavaScript`, but I’m also familiar with `
 
 #### Reach me
 
-My PGP key: [43D7 CF7A BD04 B917 8443 CF8A 778A 732D 7666 A23A]
+My PGP key: [{{ site.pgp.fingerprint }}]({{ site.pgp.key }})
 
 The most preferable way to contact me is emailing me, so there is my
-email: <a href="mailto:likid.geimfari@gmail.com">likid.geimfari@gmail.com</a>
+email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
 This probably will not work, but please, don’t contact me if you’re a
 Nigerian prince who wants to share 1 million dollars with me.
@@ -33,4 +33,3 @@ Contact me, if you want to:
 
 [roskomsvoboda]: https://github.com/roskomsvoboda
 [resume here]: {{ "/resume/" | prepend: site.baseurl }}
-[43D7 CF7A BD04 B917 8443 CF8A 778A 732D 7666 A23A]: https://keys.openpgp.org/vks/v1/by-fingerprint/43D7CF7ABD04B9178443CF8A778A732D7666A23A

@@ -21,8 +21,12 @@ rss_url: "https://isaak.dev/feed.xml"
 github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/edit/master"
 default_preview_image: https://isaak.dev/assets/images/other/preview.png
 resume:
-  ru: https://isaak.dev/assets/files/Исаак_Учакаев_-_Backend_Engineer.pdf
-  en: https://isaak.dev/assets/files/Isaak_Uchakaev_-_Backend_Engineer.pdf
+  ru: "https://isaak.dev/assets/files/Исаак_Учакаев_-_Backend_Engineer.pdf"
+  en: "https://isaak.dev/assets/files/Isaak_Uchakaev_-_Backend_Engineer.pdf"
+
+pgp:
+  key: "https://keys.openpgp.org/vks/v1/by-fingerprint/43D7CF7ABD04B9178443CF8A778A732D7666A23A"
+  fingerprint: "43D7 CF7A BD04 B917 8443 CF8A 778A 732D 7666 A23A"
 
 include: [_pages]
 markdown: kramdown
