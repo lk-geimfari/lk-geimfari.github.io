@@ -20,6 +20,18 @@ url: "https://isaak.dev"
 rss_url: "https://isaak.dev/feed.xml"
 github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/edit/master"
 default_preview_image: https://isaak.dev/assets/images/other/preview.png
+
+projects:
+  mimesis: "https://github.com/lk-geimfari/mimesis"
+  awesomo: "https://github.com/lk-geimfari/awesomo"
+  secrets: "https://github.com/lk-geimfari/secrets.clj"
+  nebula: "https://github.com/lk-geimfari/nebula"
+  mimety: "https://github.com/lk-geimfari/mimety"
+  expynent: "https://github.com/lk-geimfari/expynent"
+  mimesis_factory: "https://github.com/lk-geimfari/mimesis-factory"
+  pytest_mimesis: "https://github.com/pytest-dev/pytest-mimesis"
+  censortracker: "https://github.com/roskomsvoboda/censortracker"
+
 resume:
   ru: "https://isaak.dev/assets/files/Исаак_Учакаев_-_Backend_Engineer.pdf"
   en: "https://isaak.dev/assets/files/Isaak_Uchakaev_-_Backend_Engineer.pdf"
