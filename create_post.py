@@ -15,7 +15,7 @@ comments: false
 """
 
 
-def validate_file_name(string):
+def validate_file_name(string: str) -> str:
     if len(string) < 5:
         print('Filename must be longer than 5 symbols')
         return False
