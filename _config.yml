@@ -20,8 +20,9 @@ url: "https://isaak.dev"
 rss_url: "https://isaak.dev/feed.xml"
 github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/edit/master"
 default_preview_image: https://isaak.dev/assets/images/other/preview.png
-resume_ru: https://isaak.dev/assets/files/Исаак_Учакаев_-_Backend_Engineer.pdf
-resume_en: https://isaak.dev/assets/files/Isaak_Uchakaev_-_Backend_Engineer.pdf
+resume:
+  ru: https://isaak.dev/assets/files/Исаак_Учакаев_-_Backend_Engineer.pdf
+  en: https://isaak.dev/assets/files/Isaak_Uchakaev_-_Backend_Engineer.pdf
 
 include: [_pages]
 markdown: kramdown

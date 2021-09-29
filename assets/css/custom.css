@@ -234,7 +234,8 @@ article .title {
 }
 
 .starred {
-    color: grey;
+    font-size: 80% !important;
+    color: rgb(225, 83, 67);
 }
 
 .content p {
