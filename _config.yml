@@ -11,6 +11,7 @@ telegram_url: https://t.me/likid_geimfari
 wallets:
   btc: "1Eg75hne97eU55VQPMVh8BE8qHxPicLYKF"
   eth: "0xc305b8cd8169448ce624df6c83462d599998e3ab"
+  xmr: "882GVN7iowS2YJbt6Lt9HaLE5oSn7RXaPdXY8rURkx5FL6PM8jfa367MEExUFULfHX9C9zVFVGN4qbavfdRxfFYtRKEqTb3"
 
 disqus_id: isaak-dev-1
 google_analytics_id: UA-170154050-1
