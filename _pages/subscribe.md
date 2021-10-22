@@ -26,6 +26,6 @@ If you're interested only in activity related to this blog, then you can [watch 
 
 [RSS]: https://isaak.dev/feed.xml
 [follow me]: https://twitter.com/likid_geimfari
-[@the_art_of_development]: https://t.me/software_dev_channel
+[@software_dev_channel]: https://t.me/software_dev_channel
 [Github subscription]: https://github.com/lk-geimfari
 [watch it on GitHub]: https://github.com/lk-geimfari/lk-geimfari.github.io
