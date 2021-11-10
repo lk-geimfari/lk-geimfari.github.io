@@ -82,23 +82,9 @@ I’ve read 2 books about Erlang before this one («Erlang Programming» by Fran
 and «Learn You Some Erlang for Great Good!» by Fred Hebert), but I’ve still learned new things about Erlang in general 
 and OTP namely (there are few really interesting chapters about supervisors and applications).
 
-## Clean Code: A Handbook of Agile Software Craftsmanship
-
-<p align="center">
-   <a href="#">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/51b7XbfMIIL.jpg" width="350"/>
-  </a>
-</p>
-
-**Link**: [Buy](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)<br>
-**Author**: [Robert Cecil Martin](https://twitter.com/unclebobmartin)
-
-Well, the author of this book is a Robert Martin aka «Uncle Bob» and that’s the only thing you need to know about this 
-book to buy it right now.
-
 ## The Clean Coder: A Code of Conduct for Professional Programmers
 This book is pretty similar to «97 Things Every Programmer Should Know» but this one is written by Robert Martin based 
-on his own damn rich experience of software development.
+on his own experience of software development.
 
 **Link**: [Buy](https://www.oreilly.com/library/view/the-clean-coder/9780132542913/)<br>
 **Author**: [Robert Cecil Martin](https://twitter.com/unclebobmartin)
