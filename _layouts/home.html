@@ -31,14 +31,6 @@
                             {{ words | divided_by:180 }} mins
                             {% endif %} read
                         </small>
-                        <small>
-                            {% if post.comments != false %}
-                                <a data-disqus-identifier="{{ post.id }}"
-                                   href="{{ post.url | prepend: site.baseurl }}#discussion">
-                                    0 comments
-                                </a>
-                            {% endif %}
-                        </small>
                     </div>
                     <div class="mt-2">
                         {{ post.description }}

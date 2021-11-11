@@ -20,11 +20,6 @@
                     {{ words | divided_by:180 }} mins
                     {% endif %} read
                 </small>
-                {% if page.comments != false %}
-                    <small>
-                        <a href="#discussion">start a discussion</a>
-                    </small>
-                {% endif %}
                 <small>
                     <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">
                         edit
