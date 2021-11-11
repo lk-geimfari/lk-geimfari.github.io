@@ -45,13 +45,6 @@
         </a>
     </div>
 
-    <!-- Disqus comments view -->
-    {% if page.comments != false and site.disqus_id %}
-    <div class="post-disqus" id="discussion">
-        {% include disqus.html %}
-    </div>
-    {% endif %}
-
     {% include footer.html %}
 </main>
 <script src="{{ "/assets/js/vanilla-back-to-top.min.js" | prepend: site.baseurl }}"></script>
