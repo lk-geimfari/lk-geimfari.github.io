@@ -11,16 +11,16 @@ me then you can send me some crypto.
 
 ``{{ site.wallets.btc }}``
 
-<img width="105" src="/assets/images/donate/btc.png" alt="{{ site.wallets.btc }}">
+<img width="150" src="/assets/images/donate/btc.png" alt="{{ site.wallets.btc }}">
 
 #### Ethereum:
 
 ``{{ site.wallets.eth }}``
 
-<img width="105" src="/assets/images/donate/eth.png" alt="{{ site.wallets.eth }}">
+<img width="150" src="/assets/images/donate/eth.png" alt="{{ site.wallets.eth }}">
 
 #### Monero:
 
 `{{ site.wallets.xmr }}`
 
-<img width="105" src="/assets/images/donate/xmr.png" alt="{{ site.wallets.xmr }}">
+<img width="150" src="/assets/images/donate/xmr.png" alt="{{ site.wallets.xmr }}">
