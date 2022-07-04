@@ -17,5 +17,11 @@
     "hostname": "https://isaak.dev/",
     "port": 33333,
     "protocol": "trace:udp"
+  },
+  {
+    "task_id": "a71194bb-eec3-4b6d-9059-94cf35be42ed",
+    "hostname": "google.com",
+    "port": 443,
+    "protocol": "dns"
   }
 ]
