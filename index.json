@@ -1,19 +1,19 @@
 [
   {
-    "uuid": "2f1a645c-1525-4807-9469-c768dc464a7e",
+    "task_id": "2f1a645c-1525-4807-9469-c768dc464a7e",
     "hostname": "p1.censortracker.org",
     "port": 33333,
     "protocol": "tcp",
     "knock": ""
   },
   {
-    "uuid": "26b224b1-9b37-4671-b9ad-9fbf07a21272",
+    "task_id": "26b224b1-9b37-4671-b9ad-9fbf07a21272",
     "hostname": "i1.censortracker.org",
     "port": 33333,
     "protocol": "ping"
   },
   {
-    "uuid": "a71191bb-eec3-4b6d-9059-94cf35be42ed",
+    "task_id": "a71191bb-eec3-4b6d-9059-94cf35be42ed",
     "hostname": "x1.censortracker.org",
     "port": 33333,
     "protocol": "trace:udp"
