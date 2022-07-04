@@ -1,8 +1,8 @@
 [
   {
     "task_id": "2f1a645c-1525-4807-9469-c768dc464a7e",
-    "hostname": "https://censortracker.org",
-    "port": 33333,
+    "hostname": "google.com",
+    "port": 443,
     "protocol": "tcp",
     "knock": ""
   },
