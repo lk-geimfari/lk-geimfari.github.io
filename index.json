@@ -3,25 +3,24 @@
     "task_id": "2f1a645c-1525-4807-9469-c768dc464a7e",
     "hostname": "google.com",
     "port": 443,
-    "protocol": "tcp",
-    "knock": ""
+    "task_type": "tcp",
   },
   {
     "task_id": "26b224b1-9b37-4671-b9ad-9fbf07a21272",
     "hostname": "https://mullvad.net/",
     "port": 33333,
-    "protocol": "http"
+    "task_type": "http"
   },
   {
     "task_id": "a71191bb-eec3-4b6d-9059-94cf35be42ed",
-    "hostname": "https://isaak.dev/",
+    "hostname": "isaak.dev",
     "port": 33333,
-    "protocol": "ping"
+    "task_type": "icmp"
   },
   {
     "task_id": "a71194bb-eec3-4b6d-9059-94cf35be42ed",
     "hostname": "google.com",
     "port": 443,
-    "protocol": "dns"
+    "task_type": "resolve"
   }
 ]
