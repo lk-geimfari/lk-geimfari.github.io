@@ -13,14 +13,14 @@
   },
   {
     "task_id": "a71191bb-eec3-4b6d-9059-94cf35be42ed",
-    "hostname": "isaak.dev",
-    "port": 33333,
-    "task_type": "icmp"
+    "hostname": "google.com",
+    "port": 443,
+    "task_type": "udp"
   },
   {
     "task_id": "26b224b1-9b37-4671-b9ad-9fbf07a21272",
     "hostname": "https://mullvad.net/",
-    "port": 33333,
+    "port": 443,
     "task_type": "http"
   }
 ]
