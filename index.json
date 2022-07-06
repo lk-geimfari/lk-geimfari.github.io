@@ -22,5 +22,11 @@
     "hostname": "https://mullvad.net/",
     "port": 443,
     "task_type": "http"
+  },
+  {
+    "task_id": "26b224b1-9b37-4671-b9ad-9fbf07a21272",
+    "hostname": "github.com",
+    "port": 443,
+    "task_type": "icmp"
   }
 ]
