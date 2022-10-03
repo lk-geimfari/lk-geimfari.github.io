@@ -3,7 +3,7 @@ layout: post
 title: Generating secrets in Clojure.
 date: 2022-10-03
 preview_img: clojure-secrets.png
-description: Let's talk about how to generate cryptographically strong secrets in Clojure.
+description: Generating secrets is a very important part of any application. In this article, I'm going to tell you about secrets in Clojure.
 published: true
 comments: false
 ---
