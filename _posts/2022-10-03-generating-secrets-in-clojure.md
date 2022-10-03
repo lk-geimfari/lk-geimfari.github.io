@@ -24,6 +24,14 @@ Add `secrets.clj` to your `project.clj` file:
 
 then run `lein deps` to install it. That's it, you're ready to go.
 
+after that, you can use it in your namespace:
+
+```clojure
+(ns example.core
+  (:require [secrets.core]
+            [secrets.tools]
+            [secrets.constants]))
+```
 
 ## Usage
 
