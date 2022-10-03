@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating secrets in Clojure.
-date: 2022-10-05
+date: 2022-10-03
 preview_img: clojure-secrets.png
 description: Let's talk about how to generate cryptographically strong secrets in Clojure.
 published: true
