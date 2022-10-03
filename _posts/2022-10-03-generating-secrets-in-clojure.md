@@ -39,7 +39,7 @@ and useful in security-sensitive applications.
 Typical use cases are:
 
 - Generating random numbers
-- Creating passwords and OTP
+- Creating passwords, SMS-codes and OTP
 - Generating random tokens
 - Generating password recovery URLs and session keys
 
