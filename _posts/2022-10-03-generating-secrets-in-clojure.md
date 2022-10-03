@@ -38,8 +38,6 @@ after that, you can use it in your namespace:
 [secrets.clj](https://github.com/lk-geimfari/secrets.clj) is used to produce CSPRNG i.e, cryptographically strong pseudo-random numbers that are secure 
 and useful in security-sensitive applications. 
 
-It uses the `java.security.SecureRandom` under the hood to generate cryptographically strong random numbers.
-
 Typical use cases are:
 
 - Generating random numbers
