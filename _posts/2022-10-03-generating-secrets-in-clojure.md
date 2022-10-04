@@ -100,7 +100,7 @@ Generates a secure random string in bytes format.
 #object["[B" 0x3b2454e9 "[B@3b2454e9"]
 ```
 
-##### How many bytes should tokens use?
+## How many bytes should tokens use?
 
 To be secure against brute-force attacks, tokens need to have sufficient randomness.
 The number of random bits needed for a token depends on the application, but 256 bits 
