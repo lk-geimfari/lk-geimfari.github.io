@@ -20,9 +20,9 @@ Add `secrets.clj` to your `project.clj` file:
 [likid_geimfari/secrets "1.1.1"]
 ````
 
-then run `lein deps` to install it. That's it, you're ready to go.
+then run `lein deps` to install it. 
 
-after that, you can use it in your namespace:
+That's it, you're ready to go:
 
 ```clojure
 (ns example.core
