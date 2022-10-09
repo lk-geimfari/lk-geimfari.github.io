@@ -42,6 +42,17 @@ Typical use cases are:
 - Generating random tokens
 - Generating password recovery URLs and session keys
 
+##### secrets.core/randbits k
+
+Generates a random integer with `k` random bits.
+
+Example: 
+
+```clojure
+user=> (secrets.core/randbits 32)
+1530556122
+```
+
 ##### secrets.core/randbelow n
 
 This function generates a secure random integer in the range `[0, n)`, where `n` is the exclusive upper bound.
@@ -62,7 +73,7 @@ user=> (secrets.core/choice ["bob" "alice" "eve"])
 "eve"
 ```
 
-##### secrets.core/choices
+##### secrets.core/choices seq
 
 Just like `secrets.core/choice`, but this function returns a list of random elements picked from the sequence:
 
