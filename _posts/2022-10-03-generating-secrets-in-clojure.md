@@ -109,7 +109,7 @@ Generates a secure random string in URL-safe format.
 Generates a secure random string in bytes format.
 
 ```clojure
-(secrets.core/ttoken-bytes 16)
+(secrets.core/token-bytes 16)
 #object["[B" 0x3b2454e9 "[B@3b2454e9"]
 ```
 
