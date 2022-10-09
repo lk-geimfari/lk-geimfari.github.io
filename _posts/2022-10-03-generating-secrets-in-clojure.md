@@ -101,7 +101,7 @@ Generates a secure random string in URL-safe format.
   (str "https://mydomain.com/reset=" (secrets.core/token-urlsafe n)))
 
 (generate-password-recovery-url 64)
-"TItm04q8by00MRMcNBt7I3Yx-wSxyUa79isRLNyQJCd8K75RnqUahwcWA_rURBt1clknJiRGrubapGaUrEUnSw"
+"https://mydomain.com/reset=TItm04q8by00MRMcNBt7I3Yx-wSxyUa79isRLNyQJCd8K75RnqUahwcWA_rURBt1clknJiRGrubapGaUrEUnSw"
 ```
 
 ##### secrets.core/token-bytes nbytes
