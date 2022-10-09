@@ -19,7 +19,7 @@ Well, the [secrets.clj](https://github.com/lk-geimfari/secrets.clj) is just like
 Add `secrets.clj` to your `project.clj` file:
 
 ```clojure
-[likid_geimfari/secrets "1.1.1"]
+[likid_geimfari/secrets "2.1.0"]
 ````
 
 then run `lein deps` to install it. 
@@ -42,7 +42,7 @@ Typical use cases are:
 - Generating random tokens
 - Generating password recovery URLs and session keys
 
-##### secrets.core/randbelow(n)
+##### secrets.core/randbelow n
 
 This function generates a secure random integer in the range `[0, n)`, where `n` is the exclusive upper bound.
 
@@ -53,7 +53,7 @@ user=> (secrets.core/randbelow 9999)
 34
 ```
 
-##### secrets.core/choice(seq)
+##### secrets.core/choice seq
 
 This function returns a random element from a non-empty sequence or throws an exception if the sequence is empty.
 
@@ -62,7 +62,7 @@ user=> (secrets.core/choice ["bob" "alice" "eve"])
 "eve"
 ```
 
-##### secrets.core/choices(seq)
+##### secrets.core/choices
 
 Just like `secrets.core/choice`, but this function returns a list of random elements picked from the sequence:
 
@@ -71,17 +71,17 @@ Just like `secrets.core/choice`, but this function returns a list of random elem
 ("eve" "alice")
 ```
 
-##### secrets.core/token-hex(nbytes)
+##### secrets.core/token-hex nbytes
 
 Generates a secure random string in hexadecimal format. The string has `nbytes` random bytes, and each byte is converted to two hex digits. 
 If n-bytes are not supplied, a reasonable default gets used, which is 32.
 
 ```clojure
-user=> (secrets.core/token-hex(64))
+user=> (secrets.core/token-hex 64)
 "3a3e8e6636000dd3b7d39aa4316935f27c2f013d768f0c00f309efb453f34dbc673060db2cd8af288494892848"
 ```
 
-##### secrets.core/token-urlsafe(nbytes)
+##### secrets.core/token-urlsafe nbytes
 
 Generates a secure random string in URL-safe format.
 
@@ -93,7 +93,7 @@ Generates a secure random string in URL-safe format.
 "TItm04q8by00MRMcNBt7I3Yx-wSxyUa79isRLNyQJCd8K75RnqUahwcWA_rURBt1clknJiRGrubapGaUrEUnSw"
 ```
 
-##### secrets.core/token-bytes(nbytes)
+##### secrets.core/token-bytes nbytes
 
 Generates a secure random string in bytes format.
 
