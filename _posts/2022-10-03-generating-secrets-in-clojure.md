@@ -120,3 +120,10 @@ The number of random bits needed for a token depends on the application, but 256
 is considered to be cryptographically strong.
 
 Personally, I would recommend using 64 bytes (`512 bits`).
+
+## Links
+
+- Repository: https://github.com/lk-geimfari/secrets.clj
+- Documentation: https://cljdoc.org/d/likid_geimfari/secrets/2.1.0/doc/readme
+- Clojars: https://clojars.org/likid_geimfari/secrets
+
