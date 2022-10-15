@@ -19,7 +19,7 @@ Well, the [secrets.clj](https://github.com/lk-geimfari/secrets.clj) is just like
 Add `secrets.clj` to your `project.clj` file:
 
 ```clojure
-[likid_geimfari/secrets "2.1.0"]
+[likid_geimfari/secrets "2.1.1"]
 ````
 
 then run `lein deps` to install it. 
