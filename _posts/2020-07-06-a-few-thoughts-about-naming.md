@@ -127,7 +127,7 @@ You shouldn't! Better to spend time thinking of a good variable name than trying
 variables do not behave as you expect.
 
 In the example above, the choice of the name of a variable is rather bad, and you could give a 
-name that more accurately expresses the context (no need to be afraid to use names related to the subject area),
+name that more accurately expresses the context (no need to be afraid to use the domain-specific names),
 but even in this case, you could make this code better:
 
 ```python
