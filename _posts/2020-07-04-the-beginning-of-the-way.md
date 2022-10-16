@@ -15,7 +15,7 @@ I will mainly write on this blog about software development in terms of my
 main programming languages, i.e `Python` and `JavaScript`.
 
 Also, I'm going to write here about the programming languages and technologies I learn.
-At this moment my main interest is `Rust`, `Erlang/Elixir` and `ML`/`DL`/`NLP`.
+At this moment my main interest is `Rust`, `Erlang/Elixir` and `Clojure`.
 
 So, that's it.
 
