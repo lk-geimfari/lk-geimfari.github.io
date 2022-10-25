@@ -32,9 +32,3 @@ description: Short description of the post
 preview_img: file_name.png (name of the image from the directory `/assets/images/posts/`)
 ---
 ```
-
-To add a new post, simply run this script:
-
-```
-~ python create_post.py
-```
