@@ -2,17 +2,11 @@ title: "Isaak's Blog"
 description: Thoughts about software development.
 
 author: Isaak Uchakaev
-email: likid.geimfari@gmail.com
+email: me@isaak.dev
 username: likid_geimfari
 twitter_url: https://twitter.com/likid_geimfari
 github_url: https://github.com/lk-geimfari
 telegram_url: https://t.me/software_dev_channel
-
-wallets:
-  btc: "1Eg75hne97eU55VQPMVh8BE8qHxPicLYKF"
-  eth: "0xc305b8cd8169448ce624df6c83462d599998e3ab"
-  xmr: "882GVN7iowS2YJbt6Lt9HaLE5oSn7RXaPdXY8rURkx5FL6PM8jfa367MEExUFULfHX9C9zVFVGN4qbavfdRxfFYtRKEqTb3"
-
 google_analytics_id: UA-170154050-1
 
 baseurl: ""
