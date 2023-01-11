@@ -12,11 +12,6 @@ You can subscribe to my blog posts with [RSS].
 
 I cross-post links to all articles from this blog on my Twitter account, so [follow me].
 
-## Telegram
-
-I have a Telegram channel where I cross-post articles from my blog and post all 
-the open-source goodies I found: [@software_dev_channel].
-
 ## GitHub
 
 If you don’t know what RSS is or prefer another way to follow my activity and don't use Twitter or 
