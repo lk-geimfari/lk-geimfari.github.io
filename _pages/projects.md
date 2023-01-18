@@ -10,7 +10,7 @@ This is an incomplete list of open-source projects which I maintain and where I'
 
 <p align="center">
   <a href="https://mimesis.name/" style="border: 0" target="_blank">
-    <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/octopus-no-retina-sm.png">
+    <img src="https://raw.githubusercontent.com/lk-geimfari/mimesis/master/.github/images/logo-white-bg.png">
   </a>
 </p>
 
