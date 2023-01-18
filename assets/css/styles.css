@@ -17,13 +17,6 @@ html, body {
     line-height: 1.75;
 }
 
-body p {
-    font-size: 18px;
-    line-height: 28px;
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Merriweather, serif;
-}
-
 main {
     margin-left: auto;
     margin-right: auto;
@@ -31,12 +24,14 @@ main {
     padding: 2.625rem 1.3125rem;
 }
 
-#close {
-    position: absolute;
-    top: 30px;
-    right: 50px;
-    width: 20px;
-    height: auto;
+body {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Merriweather, serif;
+}
+
+.post-description {
+    font-size: 16px;
 }
 
 header h1 {
@@ -44,7 +39,6 @@ header h1 {
     font-weight: 900;
     font-size: 2.4rem;
     line-height: 3rem;
-    color: rgba(0, 0, 0, 0.9);
 }
 
 .navigation * {
@@ -77,16 +71,11 @@ section img {
     margin: 0.5rem 1rem 0 0;
 }
 
-a {
-    color: rgba(0, 0, 0, 0.9);
-}
-
-.anchor, .anchor:hover {
-    color: rgba(0, 0, 0, 0.9);
-    text-decoration: none;
-}
-
 article a {
+    color: rgb(225, 83, 67);
+}
+
+footer a {
     color: rgb(225, 83, 67);
 }
 
@@ -133,6 +122,7 @@ footer p {
     color: rgb(225, 83, 67);
 }
 
+
 .posts h3 {
     font-family: "Merriweather", "Georgia", serif;
     font-weight: 900;
@@ -151,14 +141,6 @@ footer p {
 #smalls small {
     display: inline;
     margin-right: .6rem !important
-}
-
-#smalls {
-    color: grey;
-}
-
-#smalls a {
-    color: rgba(0, 0, 0, 0.9);
 }
 
 #smalls a:hover {
@@ -230,4 +212,77 @@ footer p {
 .content img {
     max-width: 100%;
     margin: 1rem 0;
+}
+
+@media (prefers-color-scheme: light) {
+    html, body {
+        background-color: #ffffff;
+    }
+
+    .nv-item {
+        color: #000000;
+    }
+
+    body {
+        color: #000000;
+    }
+
+    .post h3 {
+        color: #000000 !important;
+    }
+
+    header h1 {
+        color: #000000;
+    }
+
+    .title {
+        color: #000000;
+    }
+
+
+    .anchor, .anchor:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    a {
+        color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #1B2128;
+    }
+
+    .nv-item {
+        color: #acb3be;
+    }
+
+    body {
+        color: #acb3be;
+    }
+
+    .post h3 {
+        color: #ffffff !important;
+    }
+
+    header h1 {
+        color: #ffffff;
+    }
+
+    .title {
+        color: #ffffff;
+    }
+
+
+    .anchor, .anchor:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    a {
+        color: rgba(0, 0, 0, 0.9);
+    }
 }
