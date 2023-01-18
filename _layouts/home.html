@@ -3,45 +3,76 @@
 {% include head.html %}
 <body>
 <main>
-    <header>
-        <a href="{{site.baseurl}}/">
-            <h1 id="layout_header_title">
-                isaak<span class="dot">.</span>dev
-            </h1>
-        </a>
-        {% include navigation.html %}
-    </header>
-    <section class="posts">
-        {% for post in site.posts %}
-            {% if post.published != false %}
-                <div class="post">
-                    <a class="post-title" href="{{site.baseurl}}{{post.url}}">
-                        <h3>{{ post.title }}</h3>
-                    </a>
-                    <div id="smalls" class="justify-content-between">
-                        {% if post.starred %}
-                            <small class="starred">★</small>
-                        {% endif %}
-                        <small class="grey">{{ post.date|date_to_string }}</small>
-                        <small class="grey">
-                            {% assign words = post.content | number_of_words %}
-                            {% if words < 360 %}
-                            1 min
-                            {% else %}
-                            {{ words | divided_by:180 }} mins
-                            {% endif %} read
-                        </small>
-                    </div>
-                    <div class="mt-2 post-description">
-                        {{ post.description }}
-                    </div>
-                </div>
-                {% if forloop.last == false %}<hr>{% endif %}
-            {% endif %}
-        {% endfor %}
-    </section>
-    {% include footer.html %}
+  <header>
+    <a href="{{ site.baseurl }}/">
+      <h1 id="layout_header_title">
+        isaak<span class="dot">.</span>dev
+      </h1>
+    </a>
+    {% include navigation.html %}
+  </header>
+  <section class="posts">
+    {% for post in site.posts %}
+    {% if post.published != false %}
+    <div class="post">
+      <a style="text-transform: capitalize;" href="{{site.baseurl}}{{post.url}}">
+        <h3>{{ post.title }}</h3>
+      </a>
+      <div id="smalls" class="justify-content-between">
+        {% if post.starred %}
+        <small class="starred">★</small>
+        {% endif %}
+        <small class="grey">{{ post.date|date_to_string }}</small>
+        <small class="grey">
+          {% assign words = post.content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </small>
+      </div>
+      <div class="mt-2 post-description">
+        {{ post.description }}
+      </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </section>
+  <footer style="margin-top: 50px" class="text-center">
+    <div class="row justify-content-center mb-2 mt-2">
+      <div class="col-auto">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="mailto:likid.geimfari@gmail.com" class="nav-link">
+              <i class="fas fa-2x fa-envelope"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://github.com/lk-geimfari" target="_blank" class="nav-link">
+              <i class="fab fa-2x fa-github"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://twitter.com/likid_geimfari" target="_blank" class="nav-link">
+              <i class="fab fa-2x fa-twitter"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="{{ site.rss_url }}" target="_blank" class="nav-link">
+              <i class="fas fa-2x fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </main>
-<script id="dsq-count-scr" src="//{{ site.disqus_id }}.disqus.com/count.js" async></script>
 </body>
 </html>

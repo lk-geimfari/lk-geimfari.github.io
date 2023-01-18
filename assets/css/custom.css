@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&Merriweather:ital,wght@0,400;0,900;1,400&family=Montserrat:wght@900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Montserrat:wght@900&display=swap" rel="stylesheet');
 
 * {
     padding: 0;
@@ -17,51 +17,6 @@ html, body {
     line-height: 1.75;
 }
 
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(45deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(45deg);
-    }
-}
-
-@keyframes spin {
-    100% {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-    }
-}
-
-.post-title {
-    text-transform: capitalize;
-}
-
-.content code {
-    margin: 0 2px;
-    padding: 3px 0;
-    color: #97e1ff;
-    border-radius: 2px;
-    white-space: pre;
-    background-color: #00110d;
-    font-size: 14px;
-    font-family: 'Fira Code', monospace !important;
-}
-
-.content code.highlighter-rouge {
-    padding: 2px 5px;
-    margin: 0 2px;
-    color: white;
-    border-radius: 2px;
-    white-space: pre;
-    background-color: rgba(0, 0, 0, 0.9);
-    font-size: 14px;
-    font-family: 'Fira Code', monospace !important;
-}
-
 body p {
     font-size: 18px;
     line-height: 28px;
@@ -76,22 +31,36 @@ main {
     padding: 2.625rem 1.3125rem;
 }
 
-footer {
-    margin-top: 2rem;
-}
-
-header * {
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+#close {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 20px;
+    height: auto;
 }
 
 header h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 3.4rem;
-    line-height: 4.5rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
     color: rgba(0, 0, 0, 0.9);
+}
+
+.navigation * {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 2.3rem;
+    line-height: 1.1;
 }
 
 header section {
@@ -160,26 +129,7 @@ footer p {
     text-decoration: none;
 }
 
-#post_header_title {
-    font-weight: 900;
-    text-rendering: optimizeLegibility;
-    font-size: 1.8rem;
-    line-height: 1.1;
-}
-
-#layout_header_title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 2.4rem;
-    line-height: 3rem;
-    color: rgba(0, 0, 0, 0.9);
-}
-
-#layout_header_title .dot {
-    color: rgb(225, 83, 67);
-}
-
-#post_header_title .dot {
+.dot {
     color: rgb(225, 83, 67);
 }
 
@@ -198,22 +148,13 @@ footer p {
     display: block;
 }
 
-article .title {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding: 0;
-    color: inherit;
-    font-family: Montserrat, sans-serif;
-    font-weight: 900;
-    text-rendering: optimizeLegibility;
-    font-size: 2.4rem;
-    line-height: 1.1;
-}
-
 #smalls small {
     display: inline;
     margin-right: .6rem !important
+}
+
+#smalls {
+    color: grey;
 }
 
 #smalls a {
@@ -222,10 +163,6 @@ article .title {
 
 #smalls a:hover {
     color: rgb(225, 83, 67);
-}
-
-.grey {
-    color: grey;
 }
 
 .starred {
@@ -276,37 +213,6 @@ article .title {
     line-height: 1.1;
 }
 
-.markdown-body .highlighter-rouge {
-    width: calc(50px + 50vw);
-    max-width: 500px;
-}
-
-.highlighter-rouge .highlight {
-    margin-top: 5px;
-}
-
-.highlighter-rouge .highlight .highlight {
-    overflow-x: auto;
-}
-
-.content pre {
-    background: #00110d !important;
-    padding: 12px 13px;
-    margin-bottom: 1.75rem;
-}
-
-.content blockquote,
-.content blockquote p {
-    margin-left: -1.75rem;
-    padding-left: 1.42188rem;
-    margin-bottom: 1.75rem;
-    font-size: 1.20112rem;
-    line-height: 1.75rem;
-    color: hsla(0, 0%, 0%, 0.59);
-    font-style: italic;
-    border-left: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
-}
-
 .content strong {
     font-weight: bold;
 }
@@ -319,22 +225,6 @@ article .title {
 
 .content li {
     font-size: 18px;
-}
-
-.content table {
-    width: 100%;
-    margin: 1rem 0;
-    border-collapse: collapse;
-}
-
-.content table th {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #fff;
-}
-
-.content table * {
-    border: 1px solid rgba(0, 0, 0, 0.9);
-    padding: 0.2rem;
 }
 
 .content img {
