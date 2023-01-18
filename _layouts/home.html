@@ -3,45 +3,45 @@
 {% include head.html %}
 <body>
 <main>
-    <header>
-        <a href="{{site.baseurl}}/">
-            <h1 id="layout_header_title">
-                isaak<span class="dot">.</span>dev
-            </h1>
-        </a>
-        {% include navigation.html %}
-    </header>
-    <section class="posts">
-        {% for post in site.posts %}
-            {% if post.published != false %}
-                <div class="post">
-                    <a class="post-title" href="{{site.baseurl}}{{post.url}}">
-                        <h3>{{ post.title }}</h3>
-                    </a>
-                    <div id="smalls" class="justify-content-between">
-                        {% if post.starred %}
-                            <small class="starred">★</small>
-                        {% endif %}
-                        <small class="grey">{{ post.date|date_to_string }}</small>
-                        <small class="grey">
-                            {% assign words = post.content | number_of_words %}
-                            {% if words < 360 %}
-                            1 min
-                            {% else %}
-                            {{ words | divided_by:180 }} mins
-                            {% endif %} read
-                        </small>
-                    </div>
-                    <div class="mt-2 post-description">
-                        {{ post.description }}
-                    </div>
-                </div>
-                {% if forloop.last == false %}<hr>{% endif %}
-            {% endif %}
-        {% endfor %}
-    </section>
-    {% include footer.html %}
+  <header>
+    <a href="{{ site.baseurl }}/">
+      <h1 id="layout_header_title">
+        isaak<span class="dot">.</span>dev
+      </h1>
+    </a>
+    {% include navigation.html %}
+  </header>
+  <section class="posts">
+    {% for post in site.posts %}
+    {% if post.published != false %}
+    <div class="post">
+      <a style="text-transform: capitalize;" href="{{site.baseurl}}{{post.url}}">
+        <h3>{{ post.title }}</h3>
+      </a>
+      <div id="smalls" class="justify-content-between">
+        {% if post.starred %}
+        <small class="starred">★</small>
+        {% endif %}
+        <small class="grey">{{ post.date|date_to_string }}</small>
+        <small class="grey">
+          {% assign words = post.content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </small>
+      </div>
+      <div class="mt-2 post-description">
+        {{ post.description }}
+      </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </section>
 </main>
-<script id="dsq-count-scr" src="//{{ site.disqus_id }}.disqus.com/count.js" async></script>
 </body>
 </html>

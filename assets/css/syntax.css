@@ -1,4 +1,57 @@
-/* Syntax Highlight */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.content code {
+    margin: 0 2px;
+    padding: 3px 0;
+    color: #97e1ff;
+    border-radius: 2px;
+    white-space: pre;
+    background-color: #00110d;
+    font-size: 14px;
+    font-family: 'Fira Code', monospace !important;
+}
+
+.content code.highlighter-rouge {
+    padding: 2px 5px;
+    margin: 0 2px;
+    color: white;
+    border-radius: 2px;
+    white-space: pre;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+    font-family: 'Fira Code', monospace !important;
+}
+
+.markdown-body .highlighter-rouge {
+    width: calc(50px + 50vw);
+    max-width: 500px;
+}
+
+.highlighter-rouge .highlight {
+    margin-top: 5px;
+}
+
+.highlighter-rouge .highlight .highlight {
+    overflow-x: auto;
+}
+
+.content pre {
+    background: #00110d !important;
+    padding: 12px 13px;
+    margin-bottom: 1.75rem;
+}
+
+.content blockquote,
+.content blockquote p {
+    margin-left: -1.75rem;
+    padding-left: 1.42188rem;
+    margin-bottom: 1.75rem;
+    font-size: 1.20112rem;
+    line-height: 1.75rem;
+    color: hsla(0, 0%, 0%, 0.59);
+    font-style: italic;
+    border-left: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
+}
 
 .highlight .hll {
     background-color: #333333;

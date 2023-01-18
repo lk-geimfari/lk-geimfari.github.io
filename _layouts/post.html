@@ -2,49 +2,45 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<main>
-    {% include post_header.html %}
-    {% include navigation.html %}
-    <article style="margin-top:2rem!important">
-        <div class="meta">
-            <h1 class="title">
-                {{ page.title }}
-            </h1>
-            <div id="smalls" class="justify-content-between mb-3">
-                <small class="grey">{{ page.date|date_to_string }}</small>
-                <small class="grey">
-                    {% assign words = content | number_of_words %}
-                    {% if words < 360 %}
-                    1 min
-                    {% else %}
-                    {{ words | divided_by:180 }} mins
-                    {% endif %} read
-                </small>
-                <small>
-                    <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">
-                        edit
-                    </a>
-                </small>
-            </div>
-
-        </div>
-        <div class="content">
-            {% include anchors.html html=content %}
-        </div>
-    </article>
-
-    <div class="text-center mt-5 mb-5">
-        <hr class="mb-4">
-        <a id="subscribe" href="/subscribe">
-            <h4>Subscribe to my blog if you want more</h4>
-        </a>
+<main style="padding: 1.625rem 1.3125rem;">
+  <header class="mb-3">
+    <a href="{{site.baseurl}}/" class="mb-0">
+      <h1 style="font-size: 1.5rem;line-height: 1.1;">
+        isaak<span class="dot">.</span>dev
+      </h1>
+    </a>
+  </header>
+  <article>
+    <div class="meta">
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+      <div id="smalls" class="justify-content-between mb-3">
+        <small class="grey">{{ page.date|date_to_string }}</small>
+        <small class="grey">
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </small>
+        <small>
+          <a target="_blank" href="{{ site.github_edit_url }}/{{ page.path }}">
+            edit
+          </a>
+        </small>
+      </div>
     </div>
-
-    {% include footer.html %}
+    <div class="content">
+      {% include anchors.html html=content %}
+    </div>
+  </article>
+  {% include footer.html %}
 </main>
-<script src="{{ "/assets/js/vanilla-back-to-top.min.js" | prepend: site.baseurl }}"></script>
+<script src="/assets/js/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
-  diameter: 56,
+  diameter: 55,
   backgroundColor: 'rgb(225, 83, 67)',
   textColor: '#fff'
 })</script>
