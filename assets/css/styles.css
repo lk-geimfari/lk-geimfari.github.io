@@ -25,9 +25,12 @@ main {
 }
 
 body {
-    font-size: 18px;
     line-height: 28px;
     font-family: Merriweather, serif;
+}
+
+article {
+    font-size: 18px;
 }
 
 .post-description {
