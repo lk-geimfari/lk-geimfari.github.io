@@ -265,20 +265,20 @@ footer p {
     }
 
     .post h3 {
-        color: #ffffff !important;
+        color: rgb(228, 228, 228); !important;
     }
 
     header h1 {
-        color: #ffffff;
+        color: rgb(228, 228, 228);;
     }
 
     .title {
-        color: #ffffff;
+        color: rgb(228, 228, 228);;
     }
 
 
     .anchor, .anchor:hover {
-        color: #ffffff;
+        color: rgb(228, 228, 228);
         text-decoration: none;
     }
 
