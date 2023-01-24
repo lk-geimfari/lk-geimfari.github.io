@@ -36,10 +36,10 @@ Table of content:
 
 Features
 
-- Detailed info on failing assert statements (no need to remember self.assert* names);
+- Detailed info on failing assert statements;
 - Auto-discovery of test modules and functions;
 - Modular fixtures for managing small or parametrized long-lived test resources;
-- Can run `unittest` (including trial) and nose test suites out of the box;
+- Can run `unittest` and nose test suites out of the box;
 - Python 3.5+ and PyPy 3;
 - Rich plugin architecture, with over 315+ external plugins and thriving community;
 
@@ -163,30 +163,6 @@ Common use cases:
 - Test-driven development of API integrations
 - Fake responses of external APIs
 - Record and playback HTTP requests
-
-<br>
-
-[**responses**](https://github.com/getsentry/responses) is a utility library for mocking out the requests Python library.
-
-Example of usage:
-
-```python
-import responses
-import requests
-
-@responses.activate
-def test_simple():
-    responses.add(responses.GET, 'http://twitter.com/api/1/foobar',
-                  json={'error': 'not found'}, status=404)
-
-    resp = requests.get('http://twitter.com/api/1/foobar')
-
-    assert resp.json() == {"error": "not found"}
-
-    assert len(responses.calls) == 1
-    assert responses.calls[0].request.url == 'http://twitter.com/api/1/foobar'
-    assert responses.calls[0].response.text == '{"error": "not found"}'
-```
 
 <br>
 
