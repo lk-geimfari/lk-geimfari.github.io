@@ -40,7 +40,7 @@ Features
 - Auto-discovery of test modules and functions;
 - Modular fixtures for managing small or parametrized long-lived test resources;
 - Can run `unittest` and nose test suites out of the box;
-- Python 3.5+ and PyPy 3;
+- `Python 3.5+` and `PyPy 3`;
 - Rich plugin architecture, with over 315+ external plugins and thriving community;
 
 <br>
