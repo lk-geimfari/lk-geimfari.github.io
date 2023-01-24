@@ -20,7 +20,6 @@ projects:
   awesomo: "https://github.com/lk-geimfari/awesomo"
   secrets: "https://github.com/lk-geimfari/secrets.clj"
   nebula: "https://github.com/lk-geimfari/nebula"
-  mimety: "https://github.com/lk-geimfari/mimety"
   expynent: "https://github.com/lk-geimfari/expynent"
   mimesis_factory: "https://github.com/lk-geimfari/mimesis-factory"
   pytest_mimesis: "https://github.com/pytest-dev/pytest-mimesis"
