@@ -6,7 +6,6 @@ description: Experienced programmers understand perfectly well that in developme
              and therefore they treat the process of writing code with the deepest trepidation.
 preview_img: rrm-post.png
 published: true
-comments: true
 starred: true
 ---
 
@@ -69,11 +68,16 @@ and independence of the tests from the reporting framework.
 
 ## Test Runners
 
-[**tox**](https://github.com/tox-dev/tox) is a command-line driven CI frontend and development task automation tool.
+[**tox**](https://github.com/tox-dev/tox) is aims to automate and standardize testing in Python. 
+It is part of a larger vision of easing the packaging, testing and release process of Python software.
 
-tox creates virtual environments for all configured so-called `testenvs`, it then installs the project and other necessary dependencies and runs the configured set of commands:
+tox is a generic virtual environment management and test command line tool you can use for:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598270513268/Q1-E6b6nw.png)
+- checking your package builds and installs correctly under different environments (such as different Python
+  implementations, versions or installation dependencies),
+- running your tests in each of the environments with the test tool of choice,
+- acting as a frontend to continuous integration servers, greatly reducing boilerplate and merging CI and shell-based
+  testing.
 
 <br>
 
@@ -94,13 +98,9 @@ specification — a platform and language-neutral coding interface compatible wi
 [**TestCafe**](https://github.com/DevExpress/testcafe) is a Node.js tool to automate end-to-end web testing. Write 
 tests in JS or TypeScript, run them, and view results.
 
-* **Works on all popular environments**: TestCafe runs on Windows, MacOS, and Linux. It supports desktop, mobile, remote and cloud [browsers](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/browsers/browser-support.html) (UI or headless).
-* **1 minute to set up**: You [do not need WebDriver](https://devexpress.github.io/testcafe/faq/#i-have-heard-that-testcafe-does-not-use-selenium-how-does-it-operate) or any other testing software. Install TestCafe with one command, and you are ready to test: `npm install -g testcafe`
-* **Free and open source**: TestCafe is free to use under the [MIT license](https://github.com/DevExpress/testcafe/blob/master/LICENSE). [Plugins](#plugins) provide custom reports, integration with other tools, launching tests from IDE, etc. You can use the plugins made by the GitHub community or make your own.
-
-Usage example:
-
-![Install TestCafe and Run a Test](https://raw.githubusercontent.com/DevExpress/testcafe/master/media/install-and-run-test.gif)
+- **Works on all popular environments**: TestCafe runs on Windows, MacOS, and Linux. It supports desktop, mobile, remote and cloud [browsers](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/browsers/browser-support.html) (UI or headless).
+- **1 minute to set up**: You [do not need WebDriver](https://devexpress.github.io/testcafe/faq/#i-have-heard-that-testcafe-does-not-use-selenium-how-does-it-operate) or any other testing software. Install TestCafe with one command, and you are ready to test: `npm install -g testcafe`
+- **Free and open source**: TestCafe is free to use under the [MIT license](https://github.com/DevExpress/testcafe/blob/master/LICENSE). [Plugins](#plugins) provide custom reports, integration with other tools, launching tests from IDE, etc. You can use the plugins made by the GitHub community or make your own.
 
 <br>
 
