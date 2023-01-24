@@ -6,7 +6,7 @@
     color: #97e1ff;
     border-radius: 2px;
     white-space: pre;
-    background-color: #00110d;
+    background-color: #122126;
     font-size: 14px;
     font-family: 'Fira Code', monospace !important;
 }
@@ -17,7 +17,7 @@
     color: white;
     border-radius: 2px;
     white-space: pre;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #122126;
     font-size: 14px;
     font-family: 'Fira Code', monospace !important;
 }
@@ -31,12 +31,16 @@
     margin-top: 5px;
 }
 
+div.highlight {
+    border-radius: 10px;
+}
+
 .highlighter-rouge .highlight .highlight {
     overflow-x: auto;
 }
 
 .content pre {
-    background: #00110d !important;
+    background: #122126 !important;
     padding: 12px 13px;
     margin-bottom: 1.75rem;
 }
@@ -120,21 +124,16 @@
     color: #ff0007;
     font-weight: bold;
     font-style: italic;
-    background-color: #0f140f;
 }
 
 /* Comment.Preproc */
 .highlight .c1 {
-    color: #008800;
     font-style: italic;
-    background-color: #0f140f;
 }
 
 /* Comment.Single */
 .highlight .cs {
-    color: #008800;
     font-style: italic;
-    background-color: #0f140f;
 }
 
 /* Comment.Special */
@@ -166,7 +165,6 @@
 /* Generic.Inserted */
 .highlight .go {
     color: #444444;
-    background-color: #222222;
 }
 
 /* Generic.Output */
@@ -427,4 +425,12 @@
 .highlight .il {
     color: #0086f7;
     font-weight: bold;
+}
+
+pre.highlight {
+    padding: 30px 30px 30px 30px;
+}
+
+.highlight{
+    border-radius: calc(1.5rem);
 }
