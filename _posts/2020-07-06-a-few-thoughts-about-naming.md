@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts about naming variables and methods
+title: Thoughts on naming
 date: 2020-07-06
 description: The proper naming of variables, functions, methods, and classes is one of the most important 
     attributes of elegant and clean code, that clearly reflects the intentions of the programmer,
