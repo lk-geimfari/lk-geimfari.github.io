@@ -9,9 +9,10 @@ preview_img: caspar-david-friedrich-der-einsame-baum.jpg
 published: true
 starred: true
 ---
-The proper naming of variables, functions, methods, and classes is one of the most important attributes of elegant and clean code, which clearly reflects the programmer's intentions, without assumptions about what was meant.
 
-In this article, we will talk about code that is the exact opposite of the one described above - about code that was written carelessly or thoughtlessly. This article is a small confession, because I, like any other programmer, have also written such code in the past (in fact, I still write the bad code sometimes, though refactoring makes it much better). This is nothing terrible as long as we understand that we need to work on it.
+Properly naming variables, functions, methods, and classes is one of the most important attributes of elegant and clean code. It reflects the programmer’s intentions clearly, without leaving room for assumptions about what was meant.
+
+In this article, we will discuss code that is the exact opposite of what we just described - code that was written carelessly or thoughtlessly. This article is a small confession, because like any other programmer, I have also written such code in the past (in fact, I still write bad code sometimes, although refactoring makes it much better). This is nothing terrible as long as we understand that we need to work on it.
 
 This article is a translated version of my article from [harb.com](https://habr.com/ru/post/508238/) so, 
 if you know Russian then you can read the original version.
@@ -20,11 +21,10 @@ Let's start.
 
 ## Variables
 
-One of the most annoying kinds of variables is variables that give a false impression 
-of the nature of the data they store.
+One of the most annoying types of variables are those that give a false impression of the nature of the data they store.
 
-The `requests` library is extremely popular among Python developers, and if you have ever been 
-looking for something related to `requests`, you must have come across with something like this:
+The `requests` library is extremely popular among Python developers, and if you have ever looked for anything 
+related to `requests`, you must have come across something like this:
 
 ```python
 import requests
@@ -33,8 +33,8 @@ req = requests.get('https://api.example.org/endpoint')
 req.json()
 ```
 
-Whenever I see this, I feel annoyed and even not because of the shortened name, but because 
-the name of the variable does not match what is stored in this variable.
+Whenever I see this, I feel annoyed, not only because of the shortened name but also because the variable's 
+name does not match what is stored in it.
 
 When you make a request (`requests.Request`), you get a response (`requests.Response`), 
 so reflect this in your code:
