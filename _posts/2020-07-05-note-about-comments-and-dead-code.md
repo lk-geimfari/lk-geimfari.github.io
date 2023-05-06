@@ -6,6 +6,7 @@ description: A good comment takes time to think and write, and therefore most of
              disgusting comments that are nothing but a piece of visual garbage.
 preview_img: caspar-the-stages-of-life.jpg
 published: true
+redirect_from: /2020/07/note-about-comments-and-dead-code
 ---
 
 Comments are something that can both: ruin your code and make it better. 

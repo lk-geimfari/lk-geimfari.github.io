@@ -5,6 +5,9 @@ date: 2023-05-06
 preview_img: solid.png
 description: In this article, we'll learn about SOLID principles and how to apply them in Python to write more flexible maintainable, and scalable code.
 published: true
+starred: true
+redirect_from: 
+  - /2023/05/solid-python/
 ---
 
 Let me guess, you were browsing jobs on Linkedin and saw a requirement to understand **SOLID** principles and decided

@@ -5,6 +5,7 @@ date: 2020-07-04
 description: As we all know, the best way to learn new things is by teaching others 
              and this blog is my way to learn new things.
 published: true
+redirect_from: /2020/07/the-beginning-of-the-way
 ---
 
 As we all know, the best way to learn new things is by teaching others 

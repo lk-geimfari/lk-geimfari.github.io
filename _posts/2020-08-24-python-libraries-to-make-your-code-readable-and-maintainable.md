@@ -7,6 +7,7 @@ description: Experienced programmers understand perfectly well that in developme
 preview_img: rrm-post.png
 published: true
 starred: true
+redirect_from: /2020/08/python-libraries-to-make-your-code-readable-and-maintainable
 ---
 
 Experienced programmers understand perfectly well that in development they spend most of the time reading code 

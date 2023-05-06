@@ -4,10 +4,9 @@ description: Thoughts about software development.
 author: Isaak Uchakaev
 email: me@isaak.dev
 username: likid_geimfari
+
 twitter_url: https://twitter.com/likid_geimfari
 github_url: https://github.com/lk-geimfari
-telegram_url: https://t.me/software_dev_channel
-google_analytics_id: UA-170154050-1
 
 baseurl: ""
 url: "https://isaak.dev"
@@ -41,10 +40,13 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-permalink: /:year/:month/:title
+permalink: /:title
 
 plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+whitelist:
+  - jekyll-redirect-from
