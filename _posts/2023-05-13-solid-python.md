@@ -7,8 +7,6 @@ description: SOLID is a set of principles of object-oriented design focused at m
 published: true
 ---
 
-## Preface
-
 Let me guess, you were browsing jobs on Linkedin and saw a requirement to understand **SOLID** principles and decided
 to google what the fuck SOLID is? Either way, you've come to the right place.
 
