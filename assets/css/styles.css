@@ -74,6 +74,29 @@ section img {
     margin: 0.5rem 1rem 0 0;
 }
 
+#twitter-share-button {
+    cursor: pointer;
+    color: #1DA1F2;
+    display: inline;
+}
+
+#twitter-share-button:hover {
+    color: #1DA1F2;
+    opacity: 0.8;
+}
+
+#edit-page {
+    cursor: pointer;
+    display: inline;
+    color: rgb(225, 83, 67);
+}
+
+#edit-page:hover {
+    text-decoration: none !important;
+    display: inline;
+    opacity: 0.8;
+}
+
 article a {
     color: rgb(225, 83, 67);
 }
