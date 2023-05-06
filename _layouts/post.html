@@ -26,12 +26,12 @@
           {% endif %} read
         </small>
         <small>
-          <div id="twitter-share-button">
+          <div id="twitter-share-button" class="clickable">
             <i class="fab fa-twitter"></i> tweet
           </div>
         </small>
         <small>
-          <div id="edit-page">
+          <div id="edit-page" class="clickable">
             <i class="fas fa-edit"></i> edit
           </div>
         </small>
@@ -45,31 +45,32 @@
 </main>
 <script src="/assets/js/vanilla-back-to-top.min.js"></script>
 <script>
-  (() => {
+  (async () => {
     addBackToTop({
       diameter: 55,
       backgroundColor: 'rgb(225, 83, 67)',
       textColor: '#fff'
     })
 
-    const shareButton = document.getElementById('twitter-share-button')
+    const editUrl = "{{ site.github_edit_url }}/{{ page.path }}"
+    const currentUrl = "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    const twitterShareUrl = `https://twitter.com/intent/tweet?text={{ page.title }}&url=${currentUrl}`
+
     const editButton = document.getElementById('edit-page')
+    const shareButton = document.getElementById('twitter-share-button')
 
     if (editButton) {
       editButton.addEventListener('click', () => {
-        const editUrl = "{{ site.github_edit_url }}/{{ page.path }}"
         window.open(editUrl, '_blank')
       })
     }
 
     if (shareButton) {
       shareButton.addEventListener('click', () => {
-        const shareUrl = "https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-        window.open(shareUrl, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
+        window.open(twitterShareUrl, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
         return false
       })
     }
-
   })()
 </script>
 </body>
