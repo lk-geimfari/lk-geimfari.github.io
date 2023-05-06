@@ -313,7 +313,7 @@ class Civilian(ICharacter):
 
     def pull_out_rpg(self):
         # Jesus Christ, what kind of civilian is this?
-        print("Pulling out RPG-7")
+        print("Pulling out motherfucking RPG-7")
 
     def attack(self):
         # Why the hell would a civilian attack?
