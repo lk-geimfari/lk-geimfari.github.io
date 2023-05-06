@@ -3,7 +3,8 @@ layout: post
 title: SOLID Principles for solid developers.
 date: 2023-05-06
 preview_img: solid.png
-description: In this article, we'll learn about SOLID principles and how to apply them in Python.
+description: In this article, we'll learn about SOLID principles and how to apply them in Python to write more flexible
+  maintainable, and scalable code.
 published: true
 ---
 
@@ -501,3 +502,7 @@ We have also examined the LSP to achieve more flexible code, the ISP for maintai
 disarming civilians. Finally, we have explored how the *DIP* can increase code reusability.
 
 That's all for today. See you next time!
+
+## Further Reading
+
+- [SOLID Principles in Python](https://realpython.com/python-solid-principles/)
