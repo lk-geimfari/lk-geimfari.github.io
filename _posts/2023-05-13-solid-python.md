@@ -1,9 +1,9 @@
 ---
 layout: post
-title: SOLID Principles for solid Python Developers.
+title: SOLID Principles for solid developers.
 date: 2023-05-06
 preview_img:
-description: SOLID is a set of principles of object-oriented design focused at making software more modular, maintainable, and scalable.
+description: In this article, we'll learn about SOLID principles and how to apply them in Python.
 published: true
 ---
 
