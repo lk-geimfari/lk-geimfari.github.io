@@ -246,6 +246,7 @@ In this example, the `German` class is a subclass of ``Human``. However, it viol
 changes the behavior of the `German`. The `Human` class can greet, but the `German` class cannot. This means
 that code that expects a `Human` instance may behave unexpectedly or fail when given a `German` instance.
 
+
 Let's refactor code to make it follow *LSP*:
 
 ```python
