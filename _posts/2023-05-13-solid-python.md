@@ -123,8 +123,10 @@ if __name__ == "__main__":
     auth.logout(user)
 
     # Notification
-    sender = NotificationSender()
-    sender.send_notification(user, "Beware of the German U-boats!")
+    notification_sender = NotificationSender()
+    notification_sender.send_notification(
+        user, "Beware of the German U-boats!",
+    )
 
     # Serialization
     user_serializer = UserSerializer(user)
@@ -215,12 +217,16 @@ still behave correctly.
 Let's take a look at the following example which violates the *LSP*:
 
 ```python
-class Character:
+import abc
+
+
+class ICharacter(abc.ABC):
+    @abc.abstractmethod
     def greet(self):
-        print("Hello, I am a character")
+        raise NotImplementedError
 
 
-class Human(Character):
+class Human(ICharacter):
     def greet(self):
         print("Hello, I am a human")
 
@@ -244,16 +250,19 @@ In this example, the `German` class is a subclass of ``Human``. However, it viol
 changes the behavior of the `German`. The `Human` class can greet, but the `German` class cannot. This means
 that code that expects a `Human` instance may behave unexpectedly or fail when given a `German` instance.
 
-
 Let's refactor code to make it follow *LSP*:
 
 ```python
-class Character:
+import abc
+
+
+class ICharacter(abc.ABC):
+    @abc.abstractmethod
     def greet(self):
-        print("Hello, I am a character")
+        raise NotImplementedError
 
 
-class Human(Character):
+class Human(ICharacter):
     def greet(self):
         print("Hello, I am a human")
 
@@ -324,7 +333,7 @@ class Civilian(ICharacter):
 
 ```
 
-In this example, we define an `ICharacter` interface that has four methods:
+In this example, we define an `ICharacter` interface that has three methods:
 
 - ``attack``
 - ``walk``
@@ -382,15 +391,15 @@ class Civilian(ICharacter):
         print("Civilian is walking")
 ```
 
-Now we no longer arm civilians with hand-held anti-tank grenade launchers and the world is a little safer.
+Now we no longer arm civilians with hand-held anti-tank grenade launchers and the world is a little safer place to live.
 
 ## Dependency Inversion Principle
 
 The Dependency Inversion Principle (DIP) states that high-level classes should not depend on low-level classes. Instead,
-they should both depend on abstractions. Abstractions should not depend on details. Details should depend on
+they should both depend on abstractions. Abstractions should not depend on details, but details should depend on
 abstractions.
 
-Let's examine DIP violation:
+Let's examine *DIP* violation:
 
 ```python
 class StripePaymentGateway:
