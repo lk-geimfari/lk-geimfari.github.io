@@ -8,7 +8,7 @@ published: true
 ---
 
 Let me guess, you were browsing jobs on Linkedin and saw a requirement to understand **SOLID** principles and decided
-to google what the fuck SOLID is? Either way, you've come to the right place.
+to google what the heck SOLID is? Either way, you've come to the right place.
 
 This article is not meant to be a SOLID-propaganda, and I'm not going to convince you that you are obligated to adhere
 to SOLID principles. My purpose is simple — to tell you what SOLID is and how it works. It's up to you to apply these
