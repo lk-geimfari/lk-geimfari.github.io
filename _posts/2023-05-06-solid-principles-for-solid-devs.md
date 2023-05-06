@@ -6,7 +6,7 @@ preview_img: solid.png
 description: In this article, we'll learn about SOLID principles and how to apply them in Python to write more flexible, maintainable, and scalable code.
 published: true
 starred: true
-redirect_from: 
+redirect_from:
   - /2023/05/solid-python/
 ---
 
@@ -507,4 +507,5 @@ That's all for today. See you next time!
 
 ## Further Reading
 
-- [SOLID Principles in Python](https://realpython.com/python-solid-principles/)
+- Robert C. Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design.
+
