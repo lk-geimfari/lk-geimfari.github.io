@@ -489,6 +489,6 @@ can add as many payment gateways as we want without modifying the `PaymentProces
 In this article, we have explored the SOLID principles and their implementation in Python. We have discussed how the
 *SRP* can help in creating more organized and manageable classes, and how the *OCP* can make our code more extensible.
 We have also examined the LSP to achieve more flexible code, the ISP for maintainable code, and even had a bit of fun
-disarming civilians. Finally, we have explored how the *DIP* can increase code reusability and ensure its robustness.
+disarming civilians. Finally, we have explored how the *DIP* can increase code reusability.
 
 That's all for today. See you next time!
