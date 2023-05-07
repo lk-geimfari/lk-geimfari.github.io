@@ -160,7 +160,8 @@ footer p {
 
 #smalls small {
     display: inline;
-    margin-right: .6rem !important
+    margin-right: .6rem !important;
+    font-size: 13px;
 }
 
 #smalls a:hover {
