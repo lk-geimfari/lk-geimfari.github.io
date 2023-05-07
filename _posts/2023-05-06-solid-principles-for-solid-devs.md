@@ -10,6 +10,7 @@ redirect_from:
   - /2023/05/solid-python/
 ---
 
+
 Let me guess, you were browsing jobs on Linkedin and saw a requirement to understand **SOLID** principles and decided
 to google what the heck SOLID is? Either way, you've come to the right place.
 
