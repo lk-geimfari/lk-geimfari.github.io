@@ -442,7 +442,7 @@ if __name__ == "__main__":
     payment_processor.process_payment('bitpay')
 ```
 
-In this example, we have a `PaymentProcessor` class has a hard dependencies on concrete implementations of payment
+In this example, we have a `PaymentProcessor` class which has a hard dependencies on concrete implementations of payment
 gateways. This is a violation of the *DIP* because the `PaymentProcessor` class is a high-level class that depends on
 low-level classes. This means that if we want to add a new payment gateway, we'll have to modify the `PaymentProcessor`
 class which potentially can break the code.
@@ -494,7 +494,7 @@ if __name__ == "__main__":
 ```
 
 In this example, we have a `PaymentProcessor` class that depends on an abstraction `PaymentGateway`. This means that we
-can add as many payment gateways as we want without modifying the `PaymentProcessor` class.
+can add as many payment gateways as we want without modifying the `PaymentProcessor` class itself.
 
 ## Conclusion
 
