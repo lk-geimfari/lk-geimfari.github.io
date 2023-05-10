@@ -43,21 +43,21 @@ First, let's look at code which violates *SRP*:
 
 ```python
 class User:
-    def __init__(self, name, email, password):
+    def __init__(self, name: str, email: str, password: str) -> None:
         self.name = name
         self.email = email
         self.password = password
 
-    def login(self):
+    def login(self) -> None:
         print(f"Logging in user: {self}")
 
-    def logout(self):
+    def logout(self) -> None:
         print(f"Logging out user: {self}")
 
-    def send_notification(self, message):
+    def send_notification(self, message) -> None:
         print(f"Sending notification to {self}: {message}")
 
-    def serialize(self):
+    def serialize(self) -> None:
         print(f"Serializing user: {self}")
 ```
 
@@ -146,10 +146,10 @@ Let's examine the code that violates the *OCP*:
 
 ```python
 class NotificationService:
-    def __init__(self, notification):
+    def __init__(self, notification: str) -> None:
         self.notification = notification
 
-    def send_notification(self, message):
+    def send_notification(self, message: str) -> None:
         if self.notification == "email":
             print(f"Sending email with message: {message}")
         elif self.notification == "push":
@@ -175,30 +175,30 @@ import abc
 class Notification(abc.ABC):
 
     @abc.abstractmethod
-    def send(self, message):
+    def send(self, message: str) -> None:
         raise NotImplementedError
 
 
 class PushNotification(Notification):
-    def send(self, message):
+    def send(self, message: str) -> None:
         print("Sending push notification...")
 
 
 class EmailNotification(Notification):
-    def send(self, message):
+    def send(self, message: str) -> None:
         print("Sending email notification...")
 
 
 class SlackNotification(Notification):
-    def send(self, message):
+    def send(self, message: str) -> None:
         print("Sending slack notification...")
 
 
 class NotificationService:
-    def __init__(self, notification: Notification):
+    def __init__(self, notification: Notification) -> None:
         self.notification = notification
 
-    def send_notification(self, message):
+    def send_notification(self, message: str) -> None:
         self.notification.send(message)
 
 
@@ -226,27 +226,27 @@ import abc
 
 class ICharacter(abc.ABC):
     @abc.abstractmethod
-    def greet(self):
+    def greet(self) -> None:
         raise NotImplementedError
 
 
 class Human(ICharacter):
-    def greet(self):
+    def greet(self) -> None:
         print("Hello, I am a human")
 
 
 class Kazakh(Human):
-    def greet(self):
+    def greet(self) -> None:
         print("Здарова, заебал.")
 
 
 class French(Human):
-    def greet(self):
+    def greet(self) -> None:
         print("Bonjour!")
 
 
 class German(Human):
-    def greet(self):
+    def greet(self) -> None:
         raise RuntimeError("Nien!")
 ```
 
@@ -262,27 +262,27 @@ import abc
 
 class ICharacter(abc.ABC):
     @abc.abstractmethod
-    def greet(self):
+    def greet(self) -> None:
         raise NotImplementedError
 
 
 class Human(ICharacter):
-    def greet(self):
+    def greet(self) -> None:
         print("Hello, I am a human")
 
 
 class Kazakh(Human):
-    def greet(self):
+    def greet(self) -> None:
         print("Здорова, заебал.")
 
 
 class French(Human):
-    def greet(self):
+    def greet(self) -> None:
         print("Bonjour!")
 
 
 class German(Human):
-    def greet(self):
+    def greet(self) -> None:
         print("Hallo!")
 ```
 
@@ -299,40 +299,40 @@ import abc
 
 class ICharacter(abc.ABC):
     @abc.abstractmethod
-    def attack(self):
+    def attack(self) -> None:
         raise NotImplementedError
 
     @abc.abstractmethod
-    def walk(self):
+    def walk(self) -> None:
         raise NotImplementedError
 
     @abc.abstractmethod
-    def pull_out_rpg(self):
+    def pull_out_rpg(self) -> None:
         raise NotImplementedError
 
 
 class Warrior(ICharacter):
-    def attack(self):
+    def attack(self) -> None:
         print("Warrior is attacking")
 
-    def walk(self):
+    def walk(self) -> None:
         print("Warrior is walking")
 
-    def pull_out_rpg(self):
+    def pull_out_rpg(self) -> None:
         print("Pulling out motherfucking RPG-7")
 
 
 class Civilian(ICharacter):
 
-    def pull_out_rpg(self):
+    def pull_out_rpg(self) -> None:
         # Jesus Christ, what kind of civilian is this?
         print("Pulling out motherfucking RPG-7")
 
-    def attack(self):
+    def attack(self) -> None:
         # Why the hell would a civilian attack?
         print("Civilian is attacking")
 
-    def walk(self):
+    def walk(self) -> None:
         print("Civilian is walking")
 
 ```
@@ -363,35 +363,35 @@ import abc
 class ICharacter(abc.ABC):
 
     @abc.abstractmethod
-    def walk(self):
+    def walk(self) -> None:
         raise NotImplementedError
 
 
 class IWarrior(ICharacter):
 
     @abc.abstractmethod
-    def attack(self):
+    def attack(self) -> None:
         raise NotImplementedError
 
     @abc.abstractmethod
-    def pull_out_rpg(self):
+    def pull_out_rpg(self) -> None:
         raise NotImplementedError
 
 
 class Warrior(IWarrior):
-    def attack(self):
+    def attack(self) -> None:
         print("Warrior is attacking")
 
-    def walk(self):
+    def walk(self) -> None:
         print("Warrior is walking")
 
-    def pull_out_rpg(self):
+    def pull_out_rpg(self) -> None:
         print("Pulling out motherfucking RPG-7")
 
 
 class Civilian(ICharacter):
 
-    def walk(self):
+    def walk(self) -> None:
         print("Civilian is walking")
 ```
 
@@ -407,27 +407,27 @@ Let's examine *DIP* violation:
 
 ```python
 class StripePaymentGateway:
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with Stripe")
 
 
 class KlarnaPaymentGateway:
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with Klarna")
 
 
 class BitPayPaymentGateway:
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with BitPay")
 
 
 class PaymentProcessor:
-    def __init__(self):
+    def __init__(self) -> None:
         self.stripe = StripePaymentGateway()
         self.klarna = KlarnaPaymentGateway()
         self.bitpay = BitPayPaymentGateway()
 
-    def process_payment(self, payment_gateway: str):
+    def process_payment(self, payment_gateway: str) -> None:
         if payment_gateway == "stripe":
             self.stripe.pay()
         elif payment_gateway == "klarna":
@@ -456,30 +456,30 @@ import abc
 
 class PaymentGateway(abc.ABC):
     @abc.abstractmethod
-    def pay(self):
-        return NotImplemented
+    def pay(self) -> None:
+        raise NotImplementedError
 
 
 class StripePaymentGateway(PaymentGateway):
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with Stripe")
 
 
 class KlarnaPaymentGateway(PaymentGateway):
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with Klarna")
 
 
 class BitPayPaymentGateway(PaymentGateway):
-    def pay(self):
+    def pay(self) -> None:
         print("Paying with BitPay")
 
 
 class PaymentProcessor:
-    def __init__(self, payment_gateway: PaymentGateway):
+    def __init__(self, payment_gateway: PaymentGateway) -> None:
         self.payment_gateway = payment_gateway
 
-    def pay(self):
+    def pay(self) -> None:
         self.payment_gateway.pay()
 
 
