@@ -235,7 +235,5 @@ However, if you write not readable code, and then justify it with “creativity�
 I'm leaving this  list of outstanding relevant literature written by well-known 
 professionals in the field for further study of the issue:
 
-1. Robert Martin — [Clean Code](https://amzn.to/3e1K2iX)
-2. Robert Martin — [Clean Architecture](https://amzn.to/2VLWw7S)
-3. Robert Martin — [The Clean Coder: A Code of Conduct for Professional Programmers](https://amzn.to/3e2iSZg)
-4. Martin Fowler — [Refactoring: Improving the Design of Existing Code](https://bit.ly/2NTEaOa)
+1. Robert Martin — [Clean Architecture](https://amzn.to/2VLWw7S)
+2. Martin Fowler — [Refactoring: Improving the Design of Existing Code](https://bit.ly/2NTEaOa)
