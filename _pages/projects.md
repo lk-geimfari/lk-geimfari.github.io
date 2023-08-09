@@ -36,7 +36,7 @@ The key features are:
 
 <p align="center">
   <a href="https://github.com/lk-geimfari/awesomo" style="border: 0" target="_blank">
-    <img src="https://raw.githubusercontent.com/lk-geimfari/awesomeo/master/artwork/a.w.e.s.o.m.e_o.png">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/15812620/239215449-48c05000-9898-4603-882d-a143399f18cc.svg">
   </a>
 </p>
 
