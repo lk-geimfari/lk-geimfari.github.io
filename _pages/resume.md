@@ -11,4 +11,4 @@ permalink: /resume/
 ## Contact me
 
 The most preferable way to contact me is emailing me, so there is my
-email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+email: <a href="mailto:{{ site.offer_email }}">{{ site.offer_email }}</a>
