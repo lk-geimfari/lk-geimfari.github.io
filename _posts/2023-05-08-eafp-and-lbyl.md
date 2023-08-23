@@ -51,9 +51,7 @@ accessing dictionary keys, or object attributes).
 Just like this:
 
 ```python
-from typing import Optional
-
-def get_user_email(response: dict) -> Optional[str]:
+def get_user_email(response: dict) -> str | None:
     data = response.get('data')
     if data:
         recipient = data.get('recipient')
@@ -76,9 +74,7 @@ conditions beforehand.
 Example:
 
 ```python
-from typing import Optional
-
-def get_user_email(response: dict) -> Optional[str]:
+def get_user_email(response: dict) -> str | None:
     try:
         return response['data']['recipient']['email']
     except KeyError:
