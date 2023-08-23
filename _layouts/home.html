@@ -42,6 +42,24 @@
     {% endif %}
     {% endfor %}
   </section>
+  <div hidden>
+    <a id="resume-en" href="{{ site.resume.en }}"></a>
+    <a id="resume-ru" href="{{ site.resume.ru }}"></a>
+  </div>
 </main>
+<script type="application/ecmascript">
+  (() => {
+    try {
+      const url = new URL(window.location.href.toLowerCase())
+      const resumeLang = url.searchParams.get('resume') || url.searchParams.get('cv') || 'en'
+      const downloadButton = document.querySelector(`#resume-${resumeLang}`)
+      if (downloadButton) {
+        downloadButton.click()
+      }
+    } catch (error) {
+      // We don't care about errors here.
+    }
+  })()
+</script>
 </body>
 </html>
