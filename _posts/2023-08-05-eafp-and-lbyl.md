@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "EAFP, LBYL... WTF?"
-date: 2023-05-08
+date: 2023-08-05
 preview_img: eafp-lbyl.png
 description: "The purpose of this article is to discuss two opposing approaches to writing code: EAFP and LBYL."
 published: true
