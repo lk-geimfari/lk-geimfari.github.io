@@ -21,7 +21,7 @@ and writing about technical topics.
 - Queues: RabbitMQ, Redis
 - Frontend: HTML, CSS, Vanilla JS, Bootstrap, Browser APIs
 - Other: Docker, Git, Linux, AWS, GCP, coreutils etc.
-- Communication: English (B2), Russian (native)
+- Communication: English (B2), Russian (native), Dargwa (native)
 
 ## Files
 
