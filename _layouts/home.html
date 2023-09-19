@@ -15,8 +15,8 @@
     {% for post in site.posts %}
     {% if post.published != false %}
     <div class="post">
-      <a style="text-transform: capitalize;" href="{{site.baseurl}}{{post.url}}">
-        <h3>{{ post.title }}</h3>
+      <a href="{{site.baseurl}}{{post.url}}">
+        <h3 class="article-title">{{ post.title }}</h3>
       </a>
       <div id="smalls" class="justify-content-between">
         {% if post.starred %}

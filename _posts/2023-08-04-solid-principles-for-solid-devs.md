@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SOLID Principles for solid developers.
+title: "The SOLID Principles for Solid Developers."
 date: 2023-08-04
 preview_img: solid.png
 description: In this article, we'll learn about SOLID principles and how to apply them in Python to write more flexible, maintainable, and scalable code.

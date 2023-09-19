@@ -1,11 +1,9 @@
 ---
 layout: post
-title: The idiomatic comparison in Python
+title: "The Idiomatic Comparison in Python"
 date: 2020-07-08
 preview_img: comparison_preview.jpg
-description: Some beginners in Python often improperly use the comparison operators 
-    without knowing how exactly they work. Let's talk about the fundamental 
-    difference between these operators.
+description: "Let's talk about the fundamental difference between comparison operators."
 published: true
 redirect_from: /2020/07/08/the-idiomatic-comparison-in-python/
 ---

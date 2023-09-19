@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Easier to Ask Forgiveness than Permission vs. Look Before You Leap"
+title: "EAFP, LBYL, WTF?"
 date: 2023-08-06
 preview_img: eafp-lbyl.png
-description: "The purpose of this article is to discuss two opposing approaches to writing code: EAFP and LBYL."
+description: "Easier to Ask Forgiveness than Permission vs. Look Before You Leap."
 published: true
 starred: false
 ---
@@ -61,10 +61,8 @@ def get_user_email(response: dict) -> str | None:
 ```
 
 This approach is the most commonly used in programming, but it can also result in a lot of repetitive and unnecessary
-code, which can be challenging to maintain.
-
-So, why not attempt to access the key and handle the exception if it doesn't exist? This is precisely where *EAFP* comes
-into play.
+code, which can be challenging to maintain. So, why not attempt to access the key and handle the exception if it doesn't exist? 
+This is precisely where *EAFP* comes into play.
 
 ## Easier to Ask Forgiveness than Permission
 

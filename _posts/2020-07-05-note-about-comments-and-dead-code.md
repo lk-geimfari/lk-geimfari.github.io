@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A teeny-tiny note about comments and dead code
+title: "A Teeny-Tiny Note About Comments and Dead Code"
 date: 2020-07-05
 description: A good comment takes time to think and write, and therefore most often we all come across 
              disgusting comments that are nothing but a piece of visual garbage.

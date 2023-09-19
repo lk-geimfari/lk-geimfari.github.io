@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Generating secrets in Clojure
+title: "Generating Secrets in Clojure"
 date: 2022-10-03
 preview_img: clojure-secrets.png
-description: Generating secrets is a very important part of any security-sensitive application. In this article, I'm going to tell you about a low-level library that helps to generate secrets in Clojure.
+description: "Generating secrets is a very important part of any security-sensitive application. 
+              In this article, I'm going to tell you about a low-level library that helps to generate secrets in Clojure."
 published: true
 redirect_from: /2022/10/generating-secrets-in-clojure
 ---
 
 Generating secrets is a very important part of any security-sensitive application. In this article, I'm going to tell you about a low-level library that helps to generate secrets in Clojure.
 
-If you're familiar with Python, you might have heard of [secrets](https://docs.python.org/3/library/secrets.html) module from Python's standard library. 
-
-Well, the [secrets.clj](https://github.com/lk-geimfari/secrets.clj) is just like Python's secrets, but for Clojure — it's a library designed to generate cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets. 
+If you're familiar with Python, you might have heard of [secrets](https://docs.python.org/3/library/secrets.html) module from Python's standard library. Basically, 
+the [secrets.clj](https://github.com/lk-geimfari/secrets.clj) is just like Python's secrets, but for Clojure — it's a library designed to generate cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets. 
 
 ## Installation
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Thoughts on naming
+title: "Thoughts on naming variables, functions and methods"
 date: 2020-07-06
-description: Properly naming variables, functions, methods, and classes is one of the most important attributes of elegant and clean code. It reflects the programmer’s intentions clearly, without leaving room for assumptions about what was meant.
+description: "Properly naming variables, functions, methods, and classes is one of the most important attributes of elegant and clean code."
 preview_img: caspar-david-friedrich-der-einsame-baum.jpg
 published: true
 starred: true

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Python libraries to make your code readable, reliable and maintainable
+title: "Python Libraries to Make Your Code Readable, Reliable and Maintainable"
 date: 2020-08-24
-description: Experienced programmers understand perfectly well that in development they spend most of the time reading code 
-             and therefore they treat the process of writing code with the deepest trepidation.
+description: "Experienced programmers understand perfectly well that in development they spend most of the time reading code 
+             and therefore they treat the process of writing code with the deepest trepidation."
 preview_img: rrm-post.png
 published: true
 starred: true
