@@ -22,7 +22,7 @@
         {% if post.starred %}
         <small class="starred">★</small>
         {% endif %}
-        <small class="grey">{{ post.date|date_to_string }}</small>
+        <small class="grey">{{ post.date| date: "%d.%m.%Y"  }}</small>
         <small class="grey">
           {% assign words = post.content | number_of_words %}
           {% if words < 360 %}

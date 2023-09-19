@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "EAFP, LBYL, WTF?"
+title: "Easier to Ask Forgiveness than Permission vs. Look Before You Leap."
 date: 2023-08-06
 preview_img: eafp-lbyl.png
-description: "Easier to Ask Forgiveness than Permission vs. Look Before You Leap."
+description: "The aim of this article is to explore two contrasting approaches to code writing: EAFP and LBYL."
 published: true
 starred: false
 ---
