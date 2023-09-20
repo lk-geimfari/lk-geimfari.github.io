@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Isaak.
+Hey! I'm Isaak 👋
 
 At the moment, I work as a Backend Engineer at [roskomsvoboda], where I'm deeply involved in my role.
 
