@@ -339,9 +339,9 @@ class Civilian(ICharacter):
 
 In this example, we define an `ICharacter` interface that has three methods:
 
-- ``attack``
-- ``walk``
-- ``pull_out_rpg``
+- ``attack()``
+- ``walk()``
+- ``pull_out_rpg()``
 
 We have a violation of the *ISP* in the implementation of the `ICharacter` interface, where we
 define two concrete classes `Warrior` and `Civilian`. The problem is that `Civilian` is forced to implement the `attack`

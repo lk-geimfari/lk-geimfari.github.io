@@ -18,7 +18,7 @@
     font-size: 14px;
     font-weight: 400;
     white-space: pre;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: rgba(175, 184, 193, 0.2);
     font-family: 'Fira Code', monospace !important;
 }
