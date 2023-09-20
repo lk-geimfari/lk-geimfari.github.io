@@ -28,7 +28,7 @@ body {
     font-weight: 300;
 }
 
-article {
+article .content {
     text-align: justify;
 }
 
