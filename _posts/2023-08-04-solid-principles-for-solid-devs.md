@@ -138,6 +138,8 @@ if __name__ == "__main__":
     user_serializer.serialize()
 ```
 
+As you can see, it's pretty clear and I have nothing more to add here.
+
 ## Open/Closed Principle
 
 The Open/Closed Principle (OCP) states that a class should be open for extension but closed for modification. This means
@@ -210,14 +212,14 @@ if __name__ == "__main__":
 
 In this example, the `NotificationService` class is closed for modification because we can add new notification
 methods without changing the existing code. For instance, if we want to add a new `SMSNotification` class, we can
-simply create a new class that extends the `Notification` class and implement the `send` method. Such design
+simply create a new class that extends the `Notification` class and implement the `send` method. Such a design
 allows us to add new notification methods without changing the existing code.
 
 ## Liskov Substitution Principle
 
 The LSP states that a subclass should be substitutable for its superclass without changing the correctness of the
 program. In other words, if we replace an instance of a superclass with an instance of its subclass, the program should
-still behave correctly.
+still behave as expected.
 
 Let's take a look at the following example which violates the *LSP*:
 
