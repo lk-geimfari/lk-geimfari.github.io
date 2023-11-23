@@ -329,7 +329,7 @@ class Civilian(ICharacter):
 
     def pull_out_rpg(self) -> None:
         # Jesus Christ, what kind of civilian is this? 
-        # Where the hell did he get a thermoboric shell?
+        # Where the hell did this bastard get a thermoboric RPG shell?
         print("Pulling out motherfucking RPG-7 with thermobaric shell")
 
     def attack(self) -> None:
