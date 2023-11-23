@@ -238,9 +238,9 @@ class Human(ICharacter):
         print("Hello, I am a human")
 
 
-class Kazakh(Human):
+class Polish(Human):
     def greet(self) -> None:
-        print("Здарова, заебал.")
+        print("Dzień dobry, kurwa!")
 
 
 class French(Human):
@@ -274,9 +274,9 @@ class Human(ICharacter):
         print("Hello, I am a human")
 
 
-class Kazakh(Human):
+class Polish(Human):
     def greet(self) -> None:
-        print("Здорова, заебал.")
+        print("Dzień dobry, kurwa!")
 
 
 class French(Human):
