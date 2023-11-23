@@ -21,7 +21,7 @@ a frothing at the mouth.
 
 ## Definition
 
-In short, **SOLID** is a set of five principles of object-oriented design focused at making software more modular,
+In short, **SOLID** is a set of five principles of object-oriented design focused on making software more modular,
 maintainable, and scalable.
 
 The acronym **SOLID** stands for:
