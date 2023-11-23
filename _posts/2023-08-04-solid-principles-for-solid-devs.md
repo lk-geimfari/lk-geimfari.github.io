@@ -14,9 +14,10 @@ redirect_from:
 Let me guess, you were browsing jobs on LinkedIn and saw a requirement to understand **SOLID** principles and decided
 to google what the heck SOLID is? Either way, you've come to the right place.
 
-This article is not meant to be a SOLID-propaganda, and I'm not going to convince you that you are obligated to adhere
+This article is not meant to be SOLID-propaganda, and I'm not going to convince you that you are obligated to adhere
 to SOLID principles. My purpose is simple — to tell you what SOLID is and how it works. It's up to you to apply these
-principles in your work or not.
+principles in your work or not. Anyway, after reading this article, you will be able to defend/hate SOLID with 
+a frothing at the mouth.
 
 ## Definition
 
@@ -325,8 +326,9 @@ class Warrior(ICharacter):
 class Civilian(ICharacter):
 
     def pull_out_rpg(self) -> None:
-        # Jesus Christ, what kind of civilian is this?
-        print("Pulling out motherfucking RPG-7")
+        # Jesus Christ, what kind of civilian is this? 
+        # Where the hell did he get a thermoboric shell?
+        print("Pulling out motherfucking RPG-7 with thermobaric shell")
 
     def attack(self) -> None:
         # Why the hell would a civilian attack?
@@ -353,7 +355,7 @@ If we don't implement these methods in the `Civilian` class, we'll get an error:
 TypeError: Can't instantiate abstract class Civilian with abstract methods attack, pull_out_rpg
 ```
 
-To avoid this kind of problems, it's highly recommendable to break down large interfaces into smaller ones, more focused
+To avoid such problems, it's highly recommendable to break down large interfaces into smaller ones, more focused
 on the needs of each class. Let's refactor the code to make it follow *ISP*:
 
 ```python
@@ -395,7 +397,7 @@ class Civilian(ICharacter):
         print("Civilian is walking")
 ```
 
-Now we no longer arm civilians with hand-held anti-tank grenade launchers and the world is a little safer place to live.
+Now we no longer arm civilians with hand-held anti-tank grenade launchers, and the world is a little safer.
 
 ## Dependency Inversion Principle
 
