@@ -6,7 +6,7 @@
     color: #97e1ff;
     border-radius: 2px;
     white-space: pre;
-    background-color: #122126;
+    background-color: #1d1f21;
     font-size: 14px;
     font-family: 'Fira Code', monospace !important;
 }
@@ -41,7 +41,7 @@ div.highlight {
 }
 
 .content pre {
-    background: #122126 !important;
+    background: #1d1f21 !important;
     padding: 12px 13px;
     margin-bottom: 1.75rem;
 }
@@ -130,6 +130,7 @@ div.highlight {
 /* Comment.Preproc */
 .highlight .c1 {
     font-style: italic;
+    color: #717a7d !important;
 }
 
 /* Comment.Single */
@@ -237,7 +238,7 @@ div.highlight {
 
 /* Literal.Number */
 .highlight .s {
-    color: #0086d2;
+    color: #2b79a2;
 }
 
 /* Literal.String */
@@ -438,7 +439,8 @@ pre.highlight {
 
 @media (prefers-color-scheme: dark) {
     .content code.highlighter-rouge {
-        color: #adbac7;
-        background-color: rgba(99, 110, 123, 0.4)
+        color: #98a3ad;
+        background-color: rgba(99, 110, 123, 0.4);
+        background-color: #1d1f21;
     }
 }
