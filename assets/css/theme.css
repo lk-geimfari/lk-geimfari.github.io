@@ -78,7 +78,7 @@
     }
 
     hr {
-        border-top: 0.5px solid rgba(29, 51, 58, 0.71);
+        border-top: 0.5px solid #242323;
     }
 
     .dot, .starred {
