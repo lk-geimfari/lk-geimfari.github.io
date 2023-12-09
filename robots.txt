@@ -4,3 +4,6 @@ User-agent: *
 Disallow: /404.html
 Disallow: /resume.html
 Disallow: /resume.html
+Disallow: /k/ed.pub
+Disallow: /k/rsa.pub
+Disallow: /k/pgp.pub
