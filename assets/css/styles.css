@@ -91,48 +91,44 @@ section img {
     opacity: 0.8;
 }
 
-#twitter-share-button {
-    color: #1DA1F2;
-}
-
 #edit-page {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
 }
 
 article a {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
 }
 
 footer a {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
 }
 
 article a:not(.anchor):hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
     text-decoration: none !important;
 }
 
 a:not(.nav-link, .anchor):hover {
-    border-bottom: 1px solid rgb(225, 83, 67);
+    border-bottom: 1px solid #ed704a;
 }
 
 .nav .nav-link:hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
 }
 
 .nv-item:hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
     text-decoration: none;
     border: 0 !important;
 }
 
 .post a:hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
     text-decoration: none;
     border: 0 !important;
 }
@@ -142,19 +138,28 @@ footer p {
 }
 
 #subscribe:hover {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
     text-decoration: none;
 }
 
 .dot {
-    color: rgb(225, 83, 67);
+    color: #ed704a;
+}
+
+#smalls a:hover {
+    color: #ed704a;
+}
+
+.starred {
+    font-size: .9rem !important;
+    color: #ed704a;
 }
 
 .posts h3 {
     font-family: 'Crimson Pro', serif;
-    font-weight: 400;
+    font-weight: 500;
     text-rendering: optimizeLegibility;
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-top: 25px;
 }
 
@@ -169,15 +174,6 @@ footer p {
     margin-right: 5px !important;
     font-size: 16px;
     margin-bottom: 15px;
-}
-
-#smalls a:hover {
-    color: rgb(225, 83, 67);
-}
-
-.starred {
-    font-size: .9rem !important;
-    color: rgb(225, 83, 67);
 }
 
 .content p {

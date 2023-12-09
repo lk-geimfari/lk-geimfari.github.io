@@ -6,7 +6,7 @@
     color: #97e1ff;
     border-radius: 2px;
     white-space: pre;
-    background-color: #1d1f21;
+    background-color: #1a1a1a;
     font-size: 14px;
     font-family: 'Fira Code', monospace !important;
 }
@@ -41,7 +41,7 @@ div.highlight {
 }
 
 .content pre {
-    background: #1d1f21 !important;
+    background: #1a1a1a !important;
     padding: 12px 13px;
     margin-bottom: 1.75rem;
 }

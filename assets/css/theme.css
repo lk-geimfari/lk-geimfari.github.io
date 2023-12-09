@@ -43,7 +43,7 @@
 
 @media (prefers-color-scheme: dark) {
     html, body {
-        background-color: #141617;
+        background-color: #171717;
     }
 
     .nv-item {
@@ -80,4 +80,77 @@
     hr {
         border-top: 0.5px solid rgba(29, 51, 58, 0.71);
     }
+
+    .dot, .starred {
+        color: #ed704a;
+    }
+
+    .nv-item:hover {
+        color: #ed704a !important;
+    }
+
+    #edit-page {
+        color: #ed704a;
+    }
+
+    article a {
+        color: #ed704a;
+    }
+
+    footer a {
+        color: #ed704a;
+    }
+
+    article a:not(.anchor):hover {
+        color: #ed704a;
+        text-decoration: none !important;
+    }
+
+    a:not(.nav-link, .anchor):hover {
+        border-bottom: 1px solid #ed704a;
+    }
+
+    .nav .nav-link:hover {
+        color: #ed704a;
+    }
+
+    .nv-item:hover {
+        color: #ed704a;
+        text-decoration: none;
+        border: 0 !important;
+    }
+
+    .post a:hover {
+        color: #ed704a;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #ed704a;
+        text-decoration: none;
+        border: 0 !important;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    #subscribe:hover {
+        color: #ed704a;
+        text-decoration: none;
+    }
+
+    .dot {
+        color: #ed704a;
+    }
+
+    #smalls a:hover {
+        color: #ed704a;
+    }
+
+    .starred {
+        font-size: .9rem !important;
+        color: #ed704a;
+    }
+
 }
