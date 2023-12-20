@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey! I'm Isaak 👋
 
-At the moment, I work as a Backend Engineer at [roskomsvoboda], where I'm deeply involved in my role.
+At the moment, I work as a Lead Engineer at [roskomsvoboda], where I'm deeply involved in my role.
 
 I have a strong enthusiasm for acquiring new knowledge and mastering emerging technologies. I often take the time 
 to articulate my thoughts about these subjects in my personal blog.
