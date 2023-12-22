@@ -7,4 +7,13 @@
       CC BY-NC
     </a>
   </p>
+  <script>
+    (() => {
+      const navItem = document.querySelector(`[data-slug="${window.location.pathname}"]`)
+      if (navItem) {
+        navItem.classList.add('nav-item-active')
+      }
+
+    })()
+  </script>
 </footer>

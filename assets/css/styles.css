@@ -21,6 +21,10 @@ body {
     font-weight: 200;
 }
 
+.nav-item-active {
+    color: #ed704a !important;
+}
+
 main {
     margin-left: auto;
     margin-right: auto;
