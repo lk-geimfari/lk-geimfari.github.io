@@ -6,32 +6,32 @@ permalink: /about/
 
 Hey! I'm Isaak 👋
 
-At the moment, I work as a Lead Engineer at [roskomsvoboda], where I'm deeply involved in my role.
+At the moment, I work as a Lead Engineer at [roskomsvoboda].
 
 I have a strong enthusiasm for acquiring new knowledge and mastering emerging technologies. I often take the time 
-to articulate my thoughts about these subjects in my personal blog.
+to articulate my thoughts about these subjects in my personal blog.  In my day-to-day, I primarily engage with 
+`Python` and `JavaScript`. 
 
-In my day-to-day, I primarily engage with `Python` and `JavaScript`. However, I also possess a 
-solid grasp of languages such as `Erlang`, `Elixir` and `Clojure`. As a result, the majority 
-of my blog posts will revolve around these topics.
+However, I also possess a solid grasp of languages such as `Erlang`, `Elixir` and `Clojure`. As a result, 
+the majority of my blog posts will revolve around these topics.
 
 #### Reach me
 
+You can best reach me by dropping an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a> — it's my
+preferred method of contact.
+
 My PGP key: [{{ site.pgp.fingerprint }}]({{ site.pgp.key }})
 
-The most preferable way to contact me is emailing me, so there is my
-email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+You can reach out if:
 
-This probably will not work, but please, don’t contact me if you’re a Nigerian prince who 
-wants to share 1 million dollars with me. Keep it, because you need it more than I do, mf.
+* You're interested in a potential partnership
+* You have an enticing job opportunity (my [resume is available here])
+* You'd like to inquire about my GitHub or Blog activities
+* You spot a typo or have feedback on a post
+* You'd like to request a specific post on a particular topic
 
-Contact me, if you want to:
 
-* Offer me a partnership
-* Offer me a dream job (you can find my [resume here])
-* Ask something related to my activity (GitHub/Blog)
-* Report about a typo in the post or something
-* Ask me to write a post about something
+Slim chance, but if you're a Nigerian prince with a million to spare, hang onto it! You've got more use for it than I do, pal.
 
 [roskomsvoboda]: https://github.com/roskomsvoboda
-[resume here]: {{ "/resume/" | prepend: site.baseurl }}
+[resume is available here]: {{ "/resume/" | prepend: site.baseurl }}
