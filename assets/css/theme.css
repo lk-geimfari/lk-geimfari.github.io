@@ -1,0 +1,151 @@
+@media (prefers-color-scheme: light) {
+    html, body {
+        background-color: #ffffff;
+    }
+
+    .nv-item {
+        color: #000000;
+    }
+
+    body {
+        color: #000000;
+    }
+
+    .post h3 {
+        color: #000000 !important;
+    }
+
+    header h1 {
+        color: #000000;
+    }
+
+    .title {
+        color: #000000;
+    }
+
+
+    .anchor, .anchor:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    a {
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    hr {
+        border: 0;
+        height: .5px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #171717;
+    }
+
+    .nv-item {
+        color: #98a3ad;
+    }
+
+    body {
+        color: #98a3ad;
+    }
+
+    .post h3 {
+        color: rgb(228, 228, 228);
+    !important;
+    }
+
+    header h1 {
+        color: rgb(228, 228, 228);
+    }
+
+    .title {
+        color: rgb(228, 228, 228);
+    }
+
+
+    .anchor, .anchor:hover {
+        color: rgb(228, 228, 228);
+        text-decoration: none;
+    }
+
+    a {
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    hr {
+        border-top: 0.5px solid #242323;
+    }
+
+    .dot, .starred {
+        color: #ed704a;
+    }
+
+    .nv-item:hover {
+        color: #ed704a !important;
+    }
+
+    article a {
+        color: #ed704a;
+    }
+
+    footer a {
+        color: #ed704a;
+    }
+
+    article a:not(.anchor):hover {
+        color: #ed704a;
+        text-decoration: none !important;
+    }
+
+    a:not(.nav-link, .anchor):hover {
+        border-bottom: 1px solid #ed704a;
+    }
+
+    .nav .nav-link:hover {
+        color: #ed704a;
+    }
+
+    .nv-item:hover {
+        color: #ed704a;
+        text-decoration: none;
+        border: 0 !important;
+    }
+
+    .post a:hover {
+        color: #ed704a;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #ed704a;
+        text-decoration: none;
+        border: 0 !important;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    #subscribe:hover {
+        color: #ed704a;
+        text-decoration: none;
+    }
+
+    .dot {
+        color: #ed704a;
+    }
+
+    #smalls a:hover {
+        color: #ed704a;
+    }
+
+    .starred {
+        font-size: .9rem !important;
+        color: #ed704a;
+    }
+}

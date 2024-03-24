@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Jekyll Seo Plugin -->
+  {% seo %}
+  {% if page.preview_img %}
+  <meta property="og:image" content="https://isaak.dev/assets/images/posts/{{ page.preview_img }}" />
+  <meta name="twitter:image" content="https://isaak.dev/assets/images/posts/{{ page.preview_img }}" />
+  {% else %}
+  <meta property="og:image" content="{{ site.default_preview_image }}" />
+  <meta name="twitter:image" content="{{ site.default_preview_image }}" />
+  {% endif %}
+  <meta name="twitter:title" content="Isaak's Blog" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicons -->
+  {% include favicons.html %}
+
+  <!-- Custom fonts and styles -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,900|Roboto+Mono:400,400i|Montserrat:400,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | prepend: site.baseurl }}" />
+</head>
+

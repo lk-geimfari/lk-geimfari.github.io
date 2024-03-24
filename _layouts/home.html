@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main>
+  <header>
+    <a href="{{ site.baseurl }}/">
+      <h1 id="layout_header_title">
+        isaak<span class="dot">.dev</span>
+      </h1>
+    </a>
+    {% include navigation.html %}
+  </header>
+  <section class="posts">
+    {% for post in site.posts %}
+    {% if post.published != false %}
+    <div class="post">
+      <a href="{{site.baseurl}}{{post.url}}">
+        <h3 class="article-title">{{ post.title }}</h3>
+      </a>
+      <div id="smalls" class="justify-content-between">
+        {% if post.starred %}
+        <small class="starred">★</small>
+        {% endif %}
+        <small class="grey">{{ post.date| date: "%d.%m.%Y"  }}</small>
+        <small class="grey">
+          {% assign words = post.content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </small>
+      </div>
+      <div class="mt-2 post-description">
+        {{ post.description }}
+      </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </section>
+  {% include footer.html %}
+</main>
+</body>
+</html>

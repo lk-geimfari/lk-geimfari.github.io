@@ -1,0 +1,48 @@
+title: "Isaak's Blog"
+description: Thoughts about software development.
+
+author: Isaak Uchakaev
+email: hey@isaak.dev
+offer_email: offer@isaak.dev
+username: likid_geimfari
+
+twitter_url: https://twitter.com/likid_geimfari
+github_url: https://github.com/lk-geimfari
+
+baseurl: ""
+url: "https://isaak.dev"
+rss_url: "https://isaak.dev/feed.xml"
+github_edit_url: "https://github.com/lk-geimfari/lk-geimfari.github.io/edit/master"
+default_preview_image: https://isaak.dev/assets/images/other/preview.png
+
+projects:
+  mimesis: "https://github.com/lk-geimfari/mimesis"
+  awesomo: "https://github.com/lk-geimfari/awesomo"
+  secrets: "https://github.com/lk-geimfari/secrets.clj"
+  nebula: "https://github.com/lk-geimfari/nebula"
+  expynent: "https://github.com/lk-geimfari/expynent"
+  mimesis_factory: "https://github.com/lk-geimfari/mimesis-factory"
+  pytest_mimesis: "https://github.com/pytest-dev/pytest-mimesis"
+
+pgp:
+  key: "https://keys.openpgp.org/vks/v1/by-fingerprint/43D7CF7ABD04B9178443CF8A778A732D7666A23A"
+  fingerprint: "43D7 CF7A BD04 B917 8443 CF8A 778A 732D 7666 A23A"
+
+include: [_pages]
+markdown: kramdown
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+permalink: /:title
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+whitelist:
+  - jekyll-redirect-from

@@ -1,0 +1,19 @@
+<footer style="margin-top: 50px" class="text-center">
+  <p>
+    &copy; <a class="username" href="https://isaak.dev/about/">{{ site.username }}</a>
+    {{ 'now' | date: '%Y' }},
+    content licensed
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+      CC BY-NC
+    </a>
+  </p>
+  <script>
+    (() => {
+      const navItem = document.querySelector(`[data-slug="${window.location.pathname}"]`)
+      if (navItem) {
+        navItem.classList.add('nav-item-active')
+      }
+
+    })()
+  </script>
+</footer>

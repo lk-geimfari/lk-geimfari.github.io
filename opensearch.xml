@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>isaak.dev</ShortName>
+  <Description>Isaak's personal blog</Description>
+  <Tags>python javascript django erlang rust clojure elixir web api testing mimesis</Tags>
+  <Contact>likid.geimfari@gmail.com</Contact>
+  <Url type="application/atom+xml" template="https://isaak.dev/feed.xml"/>
+  <LongName>Thoughts about software development</LongName>
+  <Developer>Isaak Uchakaev</Developer>
+  <Attribution>Copyright 2020, Isaak Uchakaev, All Rights Reserved</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

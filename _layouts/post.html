@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main style="padding: 1.625rem 1.3125rem; max-width: 50rem;">
+  <header class="mb-3">
+    <a href="{{site.baseurl}}/" class="mb-0">
+      <h1 style="font-size: 1.5rem">
+        isaak<span class="dot">.dev</span>
+      </h1>
+    </a>
+  </header>
+  <article>
+    <div class="meta">
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+      <div id="smalls" class="justify-content-between mb-2">
+        <small class="grey">{{ page.date|date_to_string }}</small>
+        <small class="grey">
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </small>
+        <small>
+          <div id="edit-page" class="clickable grey">
+            edit
+          </div>
+        </small>
+      </div>
+    </div>
+    <div class="content">
+      {% include anchors.html html=content %}
+    </div>
+  </article>
+  {% include footer.html %}
+</main>
+<script src="/assets/js/vanilla-back-to-top.min.js"></script>
+<script>
+  (async () => {
+    addBackToTop({
+      diameter: 48,
+      backgroundColor: '#ed704a',
+      textColor: '#fff'
+    })
+
+    const editUrl = "{{ site.github_edit_url }}/{{ page.path }}"
+    const editButton = document.getElementById('edit-page')
+
+    if (editButton) {
+      editButton.addEventListener('click', () => {
+        window.open(editUrl, '_blank')
+      })
+    }
+  })()
+</script>
+</body>
+</html>
