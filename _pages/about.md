@@ -8,9 +8,9 @@ Hey! I'm Isaak 👋
 
 I have a strong enthusiasm for acquiring new knowledge and mastering emerging technologies. I often take the time 
 to articulate my thoughts about these subjects in my personal blog.  In my day-to-day, I primarily engage with 
-`Python` and `JavaScript`. 
+`Python`, `Go` and `JavaScript`. 
 
-However, I also possess a solid grasp of languages such as `Erlang`, `Elixir` and `Clojure`. As a result, 
+However, I also possess a solid grasp of languages such as `Erlang` and `Clojure`. As a result, 
 the majority of my blog posts will revolve around these topics.
 
 #### Reach me
